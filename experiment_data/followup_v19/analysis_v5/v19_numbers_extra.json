@@ -1,0 +1,198 @@
+{
+ "sft-73-512": {
+  "identity": {
+   "n": 128,
+   "correct": 83,
+   "absent": 43,
+   "other_record_value": 2,
+   "absent_gold_matches": 1.813953488372093,
+   "absent_other_matches": 0.4752275025278059
+  },
+  "transformed": {
+   "n": 2176,
+   "correct": 304,
+   "absent": 1083,
+   "other_record_value": 138,
+   "same_row_substitution": 651,
+   "absent_gold_matches": 1.0304709141274238,
+   "absent_other_matches": 0.5243887751415152
+  }
+ },
+ "balanced-73-512": {
+  "identity": {
+   "n": 128,
+   "correct": 70,
+   "absent": 50,
+   "other_record_value": 6,
+   "same_row_substitution": 2,
+   "absent_gold_matches": 1.58,
+   "absent_other_matches": 0.48173913043478267
+  },
+  "transformed": {
+   "n": 2176,
+   "absent": 1450,
+   "correct": 551,
+   "other_record_value": 86,
+   "same_row_substitution": 89,
+   "absent_gold_matches": 1.5,
+   "absent_other_matches": 0.5062968515742129
+  }
+ },
+ "sft-73-1024": {
+  "identity": {
+   "n": 128,
+   "correct": 90,
+   "absent": 37,
+   "other_record_value": 1,
+   "absent_gold_matches": 2.0,
+   "absent_other_matches": 0.4817861339600471
+  },
+  "transformed": {
+   "n": 2176,
+   "correct": 297,
+   "absent": 1093,
+   "other_record_value": 136,
+   "same_row_substitution": 650,
+   "absent_gold_matches": 1.0384263494967978,
+   "absent_other_matches": 0.5174827956561517
+  }
+ },
+ "balanced-73-1024": {
+  "identity": {
+   "n": 128,
+   "correct": 69,
+   "absent": 53,
+   "other_record_value": 4,
+   "same_row_substitution": 2,
+   "absent_gold_matches": 1.8113207547169812,
+   "absent_other_matches": 0.4864643150123052
+  },
+  "transformed": {
+   "n": 2176,
+   "absent": 1404,
+   "correct": 617,
+   "other_record_value": 72,
+   "same_row_substitution": 81,
+   "malformed": 2,
+   "absent_gold_matches": 1.542022792022792,
+   "absent_other_matches": 0.5000929022668154
+  }
+ },
+ "new-compressed-73": {
+  "identity": {
+   "n": 128,
+   "absent": 74,
+   "correct": 53,
+   "other_record_value": 1,
+   "absent_gold_matches": 2.081081081081081,
+   "absent_other_matches": 0.4947121034077556
+  },
+  "transformed": {
+   "n": 2176,
+   "absent": 1393,
+   "correct": 276,
+   "same_row_substitution": 405,
+   "other_record_value": 102,
+   "absent_gold_matches": 1.1722900215362526,
+   "absent_other_matches": 0.49851743187989633
+  }
+ },
+ "sft-97-512": {
+  "identity": {
+   "n": 128,
+   "correct": 80,
+   "absent": 46,
+   "other_record_value": 2,
+   "absent_gold_matches": 1.891304347826087,
+   "absent_other_matches": 0.4810964083175803
+  },
+  "transformed": {
+   "n": 2176,
+   "correct": 289,
+   "absent": 1149,
+   "other_record_value": 115,
+   "same_row_substitution": 622,
+   "malformed": 1,
+   "absent_gold_matches": 1.030461270670148,
+   "absent_other_matches": 0.5229500132440307
+  }
+ },
+ "balanced-97-512": {
+  "identity": {
+   "n": 128,
+   "correct": 66,
+   "absent": 57,
+   "other_record_value": 2,
+   "same_row_substitution": 3,
+   "absent_gold_matches": 1.5964912280701755,
+   "absent_other_matches": 0.475209763539283
+  },
+  "transformed": {
+   "n": 2176,
+   "correct": 541,
+   "absent": 1432,
+   "other_record_value": 78,
+   "same_row_substitution": 125,
+   "absent_gold_matches": 1.473463687150838,
+   "absent_other_matches": 0.5034005343696867
+  }
+ },
+ "sft-97-1024": {
+  "identity": {
+   "n": 128,
+   "correct": 81,
+   "absent": 45,
+   "other_record_value": 2,
+   "absent_gold_matches": 2.0,
+   "absent_other_matches": 0.4792270531400966
+  },
+  "transformed": {
+   "n": 2176,
+   "correct": 288,
+   "absent": 1124,
+   "other_record_value": 121,
+   "same_row_substitution": 643,
+   "absent_gold_matches": 1.0462633451957295,
+   "absent_other_matches": 0.516168961782454
+  }
+ },
+ "balanced-97-1024": {
+  "identity": {
+   "n": 128,
+   "correct": 72,
+   "absent": 53,
+   "other_record_value": 2,
+   "same_row_substitution": 1,
+   "absent_gold_matches": 1.679245283018868,
+   "absent_other_matches": 0.4864643150123052
+  },
+  "transformed": {
+   "n": 2176,
+   "absent": 1378,
+   "correct": 622,
+   "other_record_value": 84,
+   "same_row_substitution": 92,
+   "absent_gold_matches": 1.542089985486212,
+   "absent_other_matches": 0.5007887928314507
+  }
+ },
+ "new-compressed-97": {
+  "identity": {
+   "n": 128,
+   "absent": 71,
+   "correct": 55,
+   "other_record_value": 2,
+   "absent_gold_matches": 2.295774647887324,
+   "absent_other_matches": 0.47030006123698714
+  },
+  "transformed": {
+   "n": 2176,
+   "absent": 1388,
+   "same_row_substitution": 400,
+   "correct": 294,
+   "other_record_value": 94,
+   "absent_gold_matches": 1.2312680115273775,
+   "absent_other_matches": 0.49398571607567976
+  }
+ }
+}

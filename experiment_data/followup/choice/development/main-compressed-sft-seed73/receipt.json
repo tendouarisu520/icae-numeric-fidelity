@@ -1,0 +1,19 @@
+{
+  "job": "main-compressed-sft-seed73",
+  "split": "development",
+  "rows": 768,
+  "choice_correct": 750,
+  "greedy_correct": 607,
+  "ties": 0,
+  "wrong_generation_correct_choice": 143,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 92,
+  "greedy_target_joint": 54,
+  "groups": 96,
+  "exact_replay_rows": 4,
+  "wall_seconds": 57.78841429995373,
+  "scores_sha256": "bfca78186ba99abeacd66464257f6c4a5fb33601cda9486aa708b2e50d0f2bb4",
+  "raw_predictions_sha256": "f7863f3456317358afcb8419071f2a51c02262c85d34eaccd1c010605efeef88",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "81457e39f358aaf7b144a479e0117379a3fd2addf5fe2e1c499c05eb41ecd3e4"
+}

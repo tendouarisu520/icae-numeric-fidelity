@@ -1,0 +1,206 @@
+{
+  "status": "success",
+  "phase": "smoke",
+  "arm": "compressed",
+  "method": "bottleneck",
+  "seed": 73,
+  "optimizer_steps": 2,
+  "overfit_pass": true,
+  "evaluations": {
+    "2": {
+      "natural": {
+        "family": "natural",
+        "counts": {
+          "known_exact": [
+            6,
+            14
+          ],
+          "target_joint": [
+            0,
+            2
+          ],
+          "locality_joint": [
+            1,
+            2
+          ],
+          "irrelevant_target_joint": [
+            1,
+            2
+          ],
+          "reorder_target_joint": [
+            0,
+            0
+          ],
+          "candidate_misbinding": [
+            1,
+            6
+          ]
+        },
+        "rates": {
+          "known_exact": 0.42857142857142855,
+          "target_joint": 0.0,
+          "locality_joint": 0.5,
+          "irrelevant_target_joint": 0.5,
+          "reorder_target_joint": null,
+          "candidate_misbinding": 0.16666666666666666
+        },
+        "known_f1": 0.5170068027210885,
+        "units": 2,
+        "sources": 2,
+        "articles": 2,
+        "rows": 14
+      },
+      "probe": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            0,
+            32
+          ],
+          "target_joint": [
+            0,
+            2
+          ],
+          "locality_joint": [
+            0,
+            2
+          ],
+          "irrelevant_target_joint": [
+            0,
+            2
+          ],
+          "reorder_target_joint": [
+            0,
+            2
+          ],
+          "candidate_misbinding": [
+            0,
+            16
+          ]
+        },
+        "rates": {
+          "known_exact": 0.0,
+          "target_joint": 0.0,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.0,
+          "reorder_target_joint": 0.0,
+          "candidate_misbinding": 0.0
+        },
+        "known_f1": 0.015625,
+        "units": 2,
+        "sources": 2,
+        "articles": 2,
+        "rows": 32
+      },
+      "probe_by_level": {
+        "3": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              0,
+              16
+            ],
+            "target_joint": [
+              0,
+              1
+            ],
+            "locality_joint": [
+              0,
+              1
+            ],
+            "irrelevant_target_joint": [
+              0,
+              1
+            ],
+            "reorder_target_joint": [
+              0,
+              1
+            ],
+            "candidate_misbinding": [
+              0,
+              8
+            ]
+          },
+          "rates": {
+            "known_exact": 0.0,
+            "target_joint": 0.0,
+            "locality_joint": 0.0,
+            "irrelevant_target_joint": 0.0,
+            "reorder_target_joint": 0.0,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.03125,
+          "units": 1,
+          "sources": 1,
+          "articles": 1,
+          "rows": 16
+        },
+        "4": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              0,
+              16
+            ],
+            "target_joint": [
+              0,
+              1
+            ],
+            "locality_joint": [
+              0,
+              1
+            ],
+            "irrelevant_target_joint": [
+              0,
+              1
+            ],
+            "reorder_target_joint": [
+              0,
+              1
+            ],
+            "candidate_misbinding": [
+              0,
+              8
+            ]
+          },
+          "rates": {
+            "known_exact": 0.0,
+            "target_joint": 0.0,
+            "locality_joint": 0.0,
+            "irrelevant_target_joint": 0.0,
+            "reorder_target_joint": 0.0,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.0,
+          "units": 1,
+          "sources": 1,
+          "articles": 1,
+          "rows": 16
+        }
+      },
+      "wall_seconds": 13.111025499994867,
+      "predictions_sha256": "f87d97f811f4fccdcd48381ebc3a43692a97fa4c2db5e6181f875d4d873fa921",
+      "generation_without_eos": [
+        0,
+        46
+      ]
+    }
+  },
+  "initial_reader_identity": "765bfbd4839587d17d8862bd478a71fe0c934cf3aa4c2c2c253016eb6e396449",
+  "final_reader_identity": "ba84b8966310681d709491dc0b27993ba283da331420cd280bb7af83708bbe60",
+  "final_checkpoint_sha256": "4d9e863cd1aa92e7f56453d034a1fbeba1ead01eb91bed42dd7d4549b23ea749",
+  "best_development_step": 2,
+  "best_checkpoint_sha256": "4d9e863cd1aa92e7f56453d034a1fbeba1ead01eb91bed42dd7d4549b23ea749",
+  "best_selection_rule": "0.5 macro-level target-joint +0.5 natural knownF1; earlier on ties",
+  "cache_sha256": "f5039664d85da32f54f4c03847f6f5c8ffd21388d3f2e04ef1f29a79d9e64a52",
+  "cache_unchanged": true,
+  "frozen_parameters_unchanged": true,
+  "reload_exact": true,
+  "source_replay_exact": 2,
+  "cumulative_training_seconds": 8.439900899888016,
+  "peak_allocated_mib": 15032.53369140625,
+  "writer_cache_peak_mib": 14737.904296875,
+  "wall_seconds": 38.51428849995136,
+  "confirmation_evaluated": false,
+  "reserved_test_accessed": false
+}

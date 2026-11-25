@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "status": "fixed_before_gpu",
+  "plan": "docs/superpowers/plans/2026-11-13-seed-extension-crossed-choice.md",
+  "files": {
+    "temp/v20/common.py": "bfc8fcab88bf10b0434946e5c7e928b7e13938eef08648e6f988ac7effbbd482",
+    "temp/v20/preflight.py": "f1f8168f33e94233cbb483d9d442d2b174af7ce0f9b58c933caee4b8ae28e7d6",
+    "temp/v20/evaluate.py": "f3e061c391ec9c3f02a57835be3fada50f48071ddb4fb332508d5c1324e0f865",
+    "temp/v20/seed_train.py": "e3fa0737835be3e1185621b3e84335db801b1c522bf10a44742ed576d86cc841",
+    "temp/v20/run_queue.py": "ac2466b2bd004b6197f5bddde30a3561997a604b42429ba8cf764144b98124e2",
+    "temp/v20/collect.py": "0c5decf9f580424fbefc30d114dfc57bd07ebfa7c013f46a9706896a64d7264f",
+    "temp/v20/analysis.py": "2f7db0638c5f53f2e64a9b9e704293abead218bdee9c7f8bf510ced4c438e84c",
+    "temp/v20/peek.py": "98896550a973b2a2e5f42b1ccf597bace5e23063b5abceec51902f36604bef8e",
+    "docs/superpowers/plans/2026-11-13-seed-extension-crossed-choice.md": "23f20bf7204704ea37d84ee7b4e76b633d41188fd106136ac8aed6c58903b8c1",
+    "src/binding/v13_training.py": "8d1111761b7020f5848ecfa8a52adc8e133ee26b7ef88907a32f581f83b85085",
+    "src/binding/v14_training.py": "82edee23ba44c2cab0e7b4ad6da16722684f4e094f9baf975369b9bba8ea9504",
+    "src/binding/v13_data.py": "147d62c2823fbd005c34b48501ac5a8c0dd32f43814879ebac2f6f887db8455b",
+    "src/binding/v13_protocol.py": "9a652066c7aa16c0442898dd9a7c41ed1c54144079577396d08b4817385caf6c",
+    "src/binding/v13_objectives.py": "159c7e6788a9a968263753d510a1f81aaab2e85ccad63b09e3e6c0a2b853ca4d",
+    "src/binding/v14_objectives.py": "3ca169780e71c66f32ece131e06b28f46d836feb693e183cd1d8a2adb25ef6d2",
+    "src/binding/v12_reader.py": "0077c058f420c4e17b827fdb333b6bb790b2571e0e799f48f7d9153fcb525ddf",
+    "src/binding/v12_protocol.py": "6b5aab8d0c1e5a0d6e669595b5a11a230e63337d9a5961da6d78b8d13910665b",
+    "src/binding/v11_training.py": "ea4d5aef2a8978a144a325fa4ca7e5699734a183697117f58ac3947309481ace",
+    "src/binding/v11_pipeline.py": "6ee90f64a0cc13de60f347d763bf0ad8a51c5a9061ea09a33ba789beb838e07d",
+    "src/binding/v11_model.py": "32cb05510ff84f4e191bc79af017bedc4cfecae65daebf10da462f5d1a805f42",
+    "src/binding/v11_error_analysis.py": "1d475fc955ed00c19ea6c5b086ebc1f4b683d91d313c7dbc11f354ddf17977e3",
+    "src/binding/v4_model.py": "f6ff5b9aa45ae4707fa44bc8a2b3183a5e275cda237169460ec62800cb576774",
+    "src/binding/v9_model.py": "c337c8e78611cdaeefdb522dfbed8ded871f1b928142c6e6f9db406517a669b3",
+    "src/binding/model.py": "cac6d00ca6a0e3aec2295341e69cc2b50b34db4edfb0fa23a2c922360c43d64b",
+    "src/binding/benchmark.py": "65af34266f6a90a1dae06e1c2b14eeee6a11f12127beff6cb1f1c01e2d72a21c",
+    "src/binding/repro_probe.py": "64eb7ca62779ab797d336189ace2ddc3d12a709379e00d758b369c9b42c90284",
+    "src/binding/v16_code_fidelity.py": "6b0447328641bf0b9773861a14be1245e4efda07f253c91b88353e83698b9f03"
+  },
+  "data_sha256": {
+    "development_crossed": "78d33ebfe1a8a198fae74d832d4b44e59a511b49505e31b13a03b519bf4a663b",
+    "new_scene_crossed": "25b274ffc21ed444177920a3925d9855078218838075266094c966d303bacca8",
+    "new_scene_original": "66265c6c003519f656759783e666c25d0a5f84152dd4afb1929da1897dfa3caa",
+    "development_original": "c1873f26379b65a6ed4b236b73f95236e663d7e5eff58aa04221ceac5a906c2a"
+  },
+  "data_paths": {
+    "development_crossed": "data/v16-role-balance-20261106/development.jsonl",
+    "new_scene_crossed": "data/v19-prospective-20261108/crossed.jsonl",
+    "new_scene_original": "data/v19-prospective-20261108/original.jsonl",
+    "development_original": "data/v13-answerable-relations-20261026/development.jsonl"
+  },
+  "original_protocol_sha256": "85ad32bfcb7b5645689f29e4c606415f2b78701c3d299228237efac78a709abb",
+  "v19_prospective_protocol_sha256": "6ccdd65c57d15d5d6052f1c241355d06c2f5387b0d4e0edcc6146c210c3b7172",
+  "new_seeds": [
+    101,
+    131,
+    151
+  ],
+  "updates": 512,
+  "replay_updates": 32,
+  "test_accessed": false,
+  "confirmation_used": false,
+  "created": 1794536179.0597446
+}

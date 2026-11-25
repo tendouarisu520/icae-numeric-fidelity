@@ -1,0 +1,1870 @@
+{
+  "status": "complete",
+  "endpoint": 512,
+  "cells": [
+    {
+      "arm": "compressed",
+      "method": "sft",
+      "seed": 73,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              161,
+              224
+            ],
+            "target_joint": [
+              26,
+              32
+            ],
+            "locality_joint": [
+              18,
+              32
+            ],
+            "irrelevant_target_joint": [
+              24,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.71875,
+            "target_joint": 0.8125,
+            "locality_joint": 0.5625,
+            "irrelevant_target_joint": 0.75,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.7999827931571353,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1067,
+              1536
+            ],
+            "target_joint": [
+              54,
+              96
+            ],
+            "locality_joint": [
+              9,
+              96
+            ],
+            "irrelevant_target_joint": [
+              65,
+              96
+            ],
+            "reorder_target_joint": [
+              39,
+              96
+            ],
+            "candidate_misbinding": [
+              6,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 0.6946614583333334,
+            "target_joint": 0.5625,
+            "locality_joint": 0.09375,
+            "irrelevant_target_joint": 0.6770833333333334,
+            "reorder_target_joint": 0.40625,
+            "candidate_misbinding": 0.0078125
+          },
+          "known_f1": 0.6946614583333334,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                405,
+                512
+              ],
+              "target_joint": [
+                22,
+                32
+              ],
+              "locality_joint": [
+                7,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                14,
+                32
+              ],
+              "candidate_misbinding": [
+                3,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.791015625,
+              "target_joint": 0.6875,
+              "locality_joint": 0.21875,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.4375,
+              "candidate_misbinding": 0.01171875
+            },
+            "known_f1": 0.791015625,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                360,
+                512
+              ],
+              "target_joint": [
+                19,
+                32
+              ],
+              "locality_joint": [
+                2,
+                32
+              ],
+              "irrelevant_target_joint": [
+                23,
+                32
+              ],
+              "reorder_target_joint": [
+                16,
+                32
+              ],
+              "candidate_misbinding": [
+                3,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.703125,
+              "target_joint": 0.59375,
+              "locality_joint": 0.0625,
+              "irrelevant_target_joint": 0.71875,
+              "reorder_target_joint": 0.5,
+              "candidate_misbinding": 0.01171875
+            },
+            "known_f1": 0.703125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                302,
+                512
+              ],
+              "target_joint": [
+                13,
+                32
+              ],
+              "locality_joint": [
+                0,
+                32
+              ],
+              "irrelevant_target_joint": [
+                16,
+                32
+              ],
+              "reorder_target_joint": [
+                9,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.58984375,
+              "target_joint": 0.40625,
+              "locality_joint": 0.0,
+              "irrelevant_target_joint": 0.5,
+              "reorder_target_joint": 0.28125,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.58984375,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 337.58825510001043,
+        "predictions_sha256": "f7863f3456317358afcb8419071f2a51c02262c85d34eaccd1c010605efeef88",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 1066.551346199296,
+      "peak_allocated_mib": 15163.1923828125,
+      "summary_sha256": "d2b129fb4c1a22607c559b25f75f1bc82c02a530da0e671778bce2ee928963af"
+    },
+    {
+      "arm": "compressed",
+      "method": "assignment",
+      "seed": 73,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              159,
+              224
+            ],
+            "target_joint": [
+              26,
+              32
+            ],
+            "locality_joint": [
+              17,
+              32
+            ],
+            "irrelevant_target_joint": [
+              24,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.7098214285714286,
+            "target_joint": 0.8125,
+            "locality_joint": 0.53125,
+            "irrelevant_target_joint": 0.75,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.7987035533910534,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1072,
+              1536
+            ],
+            "target_joint": [
+              53,
+              96
+            ],
+            "locality_joint": [
+              8,
+              96
+            ],
+            "irrelevant_target_joint": [
+              62,
+              96
+            ],
+            "reorder_target_joint": [
+              39,
+              96
+            ],
+            "candidate_misbinding": [
+              4,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 0.6979166666666666,
+            "target_joint": 0.5520833333333334,
+            "locality_joint": 0.08333333333333333,
+            "irrelevant_target_joint": 0.6458333333333334,
+            "reorder_target_joint": 0.40625,
+            "candidate_misbinding": 0.005208333333333333
+          },
+          "known_f1": 0.6979166666666666,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                413,
+                512
+              ],
+              "target_joint": [
+                23,
+                32
+              ],
+              "locality_joint": [
+                5,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                16,
+                32
+              ],
+              "candidate_misbinding": [
+                3,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.806640625,
+              "target_joint": 0.71875,
+              "locality_joint": 0.15625,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.5,
+              "candidate_misbinding": 0.01171875
+            },
+            "known_f1": 0.806640625,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                363,
+                512
+              ],
+              "target_joint": [
+                18,
+                32
+              ],
+              "locality_joint": [
+                3,
+                32
+              ],
+              "irrelevant_target_joint": [
+                23,
+                32
+              ],
+              "reorder_target_joint": [
+                15,
+                32
+              ],
+              "candidate_misbinding": [
+                1,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.708984375,
+              "target_joint": 0.5625,
+              "locality_joint": 0.09375,
+              "irrelevant_target_joint": 0.71875,
+              "reorder_target_joint": 0.46875,
+              "candidate_misbinding": 0.00390625
+            },
+            "known_f1": 0.708984375,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                296,
+                512
+              ],
+              "target_joint": [
+                12,
+                32
+              ],
+              "locality_joint": [
+                0,
+                32
+              ],
+              "irrelevant_target_joint": [
+                13,
+                32
+              ],
+              "reorder_target_joint": [
+                8,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.578125,
+              "target_joint": 0.375,
+              "locality_joint": 0.0,
+              "irrelevant_target_joint": 0.40625,
+              "reorder_target_joint": 0.25,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.578125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 336.7632003000472,
+        "predictions_sha256": "e9e9b78f010b0a49aed7fab54c5d94ab9ddf8d158afa756f38e9d315d08fcd7a",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 2117.396716000221,
+      "peak_allocated_mib": 15163.1923828125,
+      "summary_sha256": "429c8939d9e0c984cff6930f30371eccf9fed8a9620130928e042739cd912863"
+    },
+    {
+      "arm": "compressed",
+      "method": "relation",
+      "seed": 73,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              158,
+              224
+            ],
+            "target_joint": [
+              26,
+              32
+            ],
+            "locality_joint": [
+              17,
+              32
+            ],
+            "irrelevant_target_joint": [
+              24,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.7053571428571429,
+            "target_joint": 0.8125,
+            "locality_joint": 0.53125,
+            "irrelevant_target_joint": 0.75,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.7946256502999924,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1063,
+              1536
+            ],
+            "target_joint": [
+              50,
+              96
+            ],
+            "locality_joint": [
+              9,
+              96
+            ],
+            "irrelevant_target_joint": [
+              62,
+              96
+            ],
+            "reorder_target_joint": [
+              38,
+              96
+            ],
+            "candidate_misbinding": [
+              4,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 0.6920572916666666,
+            "target_joint": 0.5208333333333334,
+            "locality_joint": 0.09375,
+            "irrelevant_target_joint": 0.6458333333333334,
+            "reorder_target_joint": 0.3958333333333333,
+            "candidate_misbinding": 0.005208333333333333
+          },
+          "known_f1": 0.6920572916666666,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                410,
+                512
+              ],
+              "target_joint": [
+                23,
+                32
+              ],
+              "locality_joint": [
+                6,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                17,
+                32
+              ],
+              "candidate_misbinding": [
+                3,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.80078125,
+              "target_joint": 0.71875,
+              "locality_joint": 0.1875,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.53125,
+              "candidate_misbinding": 0.01171875
+            },
+            "known_f1": 0.80078125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                360,
+                512
+              ],
+              "target_joint": [
+                18,
+                32
+              ],
+              "locality_joint": [
+                3,
+                32
+              ],
+              "irrelevant_target_joint": [
+                24,
+                32
+              ],
+              "reorder_target_joint": [
+                14,
+                32
+              ],
+              "candidate_misbinding": [
+                1,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.703125,
+              "target_joint": 0.5625,
+              "locality_joint": 0.09375,
+              "irrelevant_target_joint": 0.75,
+              "reorder_target_joint": 0.4375,
+              "candidate_misbinding": 0.00390625
+            },
+            "known_f1": 0.703125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                293,
+                512
+              ],
+              "target_joint": [
+                9,
+                32
+              ],
+              "locality_joint": [
+                0,
+                32
+              ],
+              "irrelevant_target_joint": [
+                12,
+                32
+              ],
+              "reorder_target_joint": [
+                7,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.572265625,
+              "target_joint": 0.28125,
+              "locality_joint": 0.0,
+              "irrelevant_target_joint": 0.375,
+              "reorder_target_joint": 0.21875,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.572265625,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 337.0458623000304,
+        "predictions_sha256": "9b9821c2285effedb4b95b932ed1116cd0a395fcef3c3029b5c81b36e23e21bb",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 2120.82092119928,
+      "peak_allocated_mib": 15164.16943359375,
+      "summary_sha256": "76994b9f9fbe274fbb77be79eb59d24dece31b4865e066ea978ee58e4e61759c"
+    },
+    {
+      "arm": "full",
+      "method": "sft",
+      "seed": 73,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              184,
+              224
+            ],
+            "target_joint": [
+              30,
+              32
+            ],
+            "locality_joint": [
+              22,
+              32
+            ],
+            "irrelevant_target_joint": [
+              30,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.8214285714285714,
+            "target_joint": 0.9375,
+            "locality_joint": 0.6875,
+            "irrelevant_target_joint": 0.9375,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.9187021937961788,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1536,
+              1536
+            ],
+            "target_joint": [
+              96,
+              96
+            ],
+            "locality_joint": [
+              96,
+              96
+            ],
+            "irrelevant_target_joint": [
+              96,
+              96
+            ],
+            "reorder_target_joint": [
+              96,
+              96
+            ],
+            "candidate_misbinding": [
+              0,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 1.0,
+            "target_joint": 1.0,
+            "locality_joint": 1.0,
+            "irrelevant_target_joint": 1.0,
+            "reorder_target_joint": 1.0,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 1.0,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                512,
+                512
+              ],
+              "target_joint": [
+                32,
+                32
+              ],
+              "locality_joint": [
+                32,
+                32
+              ],
+              "irrelevant_target_joint": [
+                32,
+                32
+              ],
+              "reorder_target_joint": [
+                32,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 1.0,
+              "target_joint": 1.0,
+              "locality_joint": 1.0,
+              "irrelevant_target_joint": 1.0,
+              "reorder_target_joint": 1.0,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 1.0,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                512,
+                512
+              ],
+              "target_joint": [
+                32,
+                32
+              ],
+              "locality_joint": [
+                32,
+                32
+              ],
+              "irrelevant_target_joint": [
+                32,
+                32
+              ],
+              "reorder_target_joint": [
+                32,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 1.0,
+              "target_joint": 1.0,
+              "locality_joint": 1.0,
+              "irrelevant_target_joint": 1.0,
+              "reorder_target_joint": 1.0,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 1.0,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                512,
+                512
+              ],
+              "target_joint": [
+                32,
+                32
+              ],
+              "locality_joint": [
+                32,
+                32
+              ],
+              "irrelevant_target_joint": [
+                32,
+                32
+              ],
+              "reorder_target_joint": [
+                32,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 1.0,
+              "target_joint": 1.0,
+              "locality_joint": 1.0,
+              "irrelevant_target_joint": 1.0,
+              "reorder_target_joint": 1.0,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 1.0,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 356.44983880000655,
+        "predictions_sha256": "ee43d921ae5f6930ee6780b0b0bff7ebdf6f7ff75ad82b12195e406d4fff1536",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 1248.5334805994644,
+      "peak_allocated_mib": 16993.072265625,
+      "summary_sha256": "3b4782b6cc9cee0f09ab1e42104f894293646f53940c007ea52cf52cb7e50a69"
+    },
+    {
+      "arm": "compressed",
+      "method": "sft",
+      "seed": 97,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              158,
+              224
+            ],
+            "target_joint": [
+              26,
+              32
+            ],
+            "locality_joint": [
+              17,
+              32
+            ],
+            "irrelevant_target_joint": [
+              23,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.7053571428571429,
+            "target_joint": 0.8125,
+            "locality_joint": 0.53125,
+            "irrelevant_target_joint": 0.71875,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.7867648355195348,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1060,
+              1536
+            ],
+            "target_joint": [
+              63,
+              96
+            ],
+            "locality_joint": [
+              6,
+              96
+            ],
+            "irrelevant_target_joint": [
+              69,
+              96
+            ],
+            "reorder_target_joint": [
+              39,
+              96
+            ],
+            "candidate_misbinding": [
+              4,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 0.6901041666666666,
+            "target_joint": 0.65625,
+            "locality_joint": 0.0625,
+            "irrelevant_target_joint": 0.71875,
+            "reorder_target_joint": 0.40625,
+            "candidate_misbinding": 0.005208333333333333
+          },
+          "known_f1": 0.6901041666666666,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                410,
+                512
+              ],
+              "target_joint": [
+                28,
+                32
+              ],
+              "locality_joint": [
+                5,
+                32
+              ],
+              "irrelevant_target_joint": [
+                28,
+                32
+              ],
+              "reorder_target_joint": [
+                18,
+                32
+              ],
+              "candidate_misbinding": [
+                1,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.80078125,
+              "target_joint": 0.875,
+              "locality_joint": 0.15625,
+              "irrelevant_target_joint": 0.875,
+              "reorder_target_joint": 0.5625,
+              "candidate_misbinding": 0.00390625
+            },
+            "known_f1": 0.80078125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                363,
+                512
+              ],
+              "target_joint": [
+                21,
+                32
+              ],
+              "locality_joint": [
+                1,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                14,
+                32
+              ],
+              "candidate_misbinding": [
+                2,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.708984375,
+              "target_joint": 0.65625,
+              "locality_joint": 0.03125,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.4375,
+              "candidate_misbinding": 0.0078125
+            },
+            "known_f1": 0.708984375,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                287,
+                512
+              ],
+              "target_joint": [
+                14,
+                32
+              ],
+              "locality_joint": [
+                0,
+                32
+              ],
+              "irrelevant_target_joint": [
+                15,
+                32
+              ],
+              "reorder_target_joint": [
+                7,
+                32
+              ],
+              "candidate_misbinding": [
+                1,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.560546875,
+              "target_joint": 0.4375,
+              "locality_joint": 0.0,
+              "irrelevant_target_joint": 0.46875,
+              "reorder_target_joint": 0.21875,
+              "candidate_misbinding": 0.00390625
+            },
+            "known_f1": 0.560546875,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 336.89875120000215,
+        "predictions_sha256": "6e174ce8eaaf168486faad1a4fe26b25319894ecf35500a82c9d12bc54e6401b",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 1067.1092585992883,
+      "peak_allocated_mib": 15163.1923828125,
+      "summary_sha256": "b80852cdb9edad92016237b9878979f0404b7163192f5fb05e9d60a87746f72a"
+    },
+    {
+      "arm": "compressed",
+      "method": "assignment",
+      "seed": 97,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              159,
+              224
+            ],
+            "target_joint": [
+              26,
+              32
+            ],
+            "locality_joint": [
+              17,
+              32
+            ],
+            "irrelevant_target_joint": [
+              23,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.7098214285714286,
+            "target_joint": 0.8125,
+            "locality_joint": 0.53125,
+            "irrelevant_target_joint": 0.71875,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.7827348742527314,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1066,
+              1536
+            ],
+            "target_joint": [
+              58,
+              96
+            ],
+            "locality_joint": [
+              7,
+              96
+            ],
+            "irrelevant_target_joint": [
+              68,
+              96
+            ],
+            "reorder_target_joint": [
+              42,
+              96
+            ],
+            "candidate_misbinding": [
+              2,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 0.6940104166666666,
+            "target_joint": 0.6041666666666666,
+            "locality_joint": 0.07291666666666667,
+            "irrelevant_target_joint": 0.7083333333333334,
+            "reorder_target_joint": 0.4375,
+            "candidate_misbinding": 0.0026041666666666665
+          },
+          "known_f1": 0.6940104166666666,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                405,
+                512
+              ],
+              "target_joint": [
+                26,
+                32
+              ],
+              "locality_joint": [
+                6,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                17,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.791015625,
+              "target_joint": 0.8125,
+              "locality_joint": 0.1875,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.53125,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.791015625,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                361,
+                512
+              ],
+              "target_joint": [
+                21,
+                32
+              ],
+              "locality_joint": [
+                1,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                15,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.705078125,
+              "target_joint": 0.65625,
+              "locality_joint": 0.03125,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.46875,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.705078125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                300,
+                512
+              ],
+              "target_joint": [
+                11,
+                32
+              ],
+              "locality_joint": [
+                0,
+                32
+              ],
+              "irrelevant_target_joint": [
+                16,
+                32
+              ],
+              "reorder_target_joint": [
+                10,
+                32
+              ],
+              "candidate_misbinding": [
+                2,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.5859375,
+              "target_joint": 0.34375,
+              "locality_joint": 0.0,
+              "irrelevant_target_joint": 0.5,
+              "reorder_target_joint": 0.3125,
+              "candidate_misbinding": 0.0078125
+            },
+            "known_f1": 0.5859375,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 339.29880630003754,
+        "predictions_sha256": "7c38b360112d60786b377ce76076674410455ff77f7df7bd9c92a78f408edfad",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 2130.3694057995453,
+      "peak_allocated_mib": 15163.1923828125,
+      "summary_sha256": "1208ebf0849d9e0b0c4fb65291a6a28ef7188b89fb8a32249844dd5fef059f9f"
+    },
+    {
+      "arm": "compressed",
+      "method": "relation",
+      "seed": 97,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              158,
+              224
+            ],
+            "target_joint": [
+              26,
+              32
+            ],
+            "locality_joint": [
+              16,
+              32
+            ],
+            "irrelevant_target_joint": [
+              23,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.7053571428571429,
+            "target_joint": 0.8125,
+            "locality_joint": 0.5,
+            "irrelevant_target_joint": 0.71875,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.779758683776541,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1055,
+              1536
+            ],
+            "target_joint": [
+              56,
+              96
+            ],
+            "locality_joint": [
+              9,
+              96
+            ],
+            "irrelevant_target_joint": [
+              66,
+              96
+            ],
+            "reorder_target_joint": [
+              39,
+              96
+            ],
+            "candidate_misbinding": [
+              1,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 0.6868489583333334,
+            "target_joint": 0.5833333333333334,
+            "locality_joint": 0.09375,
+            "irrelevant_target_joint": 0.6875,
+            "reorder_target_joint": 0.40625,
+            "candidate_misbinding": 0.0013020833333333333
+          },
+          "known_f1": 0.6868489583333334,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                415,
+                512
+              ],
+              "target_joint": [
+                27,
+                32
+              ],
+              "locality_joint": [
+                8,
+                32
+              ],
+              "irrelevant_target_joint": [
+                26,
+                32
+              ],
+              "reorder_target_joint": [
+                19,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.810546875,
+              "target_joint": 0.84375,
+              "locality_joint": 0.25,
+              "irrelevant_target_joint": 0.8125,
+              "reorder_target_joint": 0.59375,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.810546875,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                348,
+                512
+              ],
+              "target_joint": [
+                18,
+                32
+              ],
+              "locality_joint": [
+                1,
+                32
+              ],
+              "irrelevant_target_joint": [
+                24,
+                32
+              ],
+              "reorder_target_joint": [
+                11,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.6796875,
+              "target_joint": 0.5625,
+              "locality_joint": 0.03125,
+              "irrelevant_target_joint": 0.75,
+              "reorder_target_joint": 0.34375,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 0.6796875,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                292,
+                512
+              ],
+              "target_joint": [
+                11,
+                32
+              ],
+              "locality_joint": [
+                0,
+                32
+              ],
+              "irrelevant_target_joint": [
+                16,
+                32
+              ],
+              "reorder_target_joint": [
+                9,
+                32
+              ],
+              "candidate_misbinding": [
+                1,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 0.5703125,
+              "target_joint": 0.34375,
+              "locality_joint": 0.0,
+              "irrelevant_target_joint": 0.5,
+              "reorder_target_joint": 0.28125,
+              "candidate_misbinding": 0.00390625
+            },
+            "known_f1": 0.5703125,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 335.5296296000015,
+        "predictions_sha256": "7a687938db072a26416288026971b9afccef5bf844063e03d0ee093147fa299e",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 512,
+      "training_seconds": 2119.3559121997096,
+      "peak_allocated_mib": 15164.16943359375,
+      "summary_sha256": "de885946d3af744668d407663c115dbaf1fdeca5dfc34e80447e7f29a623bc14"
+    },
+    {
+      "arm": "full",
+      "method": "sft",
+      "seed": 97,
+      "fixed512": {
+        "natural": {
+          "family": "natural",
+          "counts": {
+            "known_exact": [
+              177,
+              224
+            ],
+            "target_joint": [
+              30,
+              32
+            ],
+            "locality_joint": [
+              21,
+              32
+            ],
+            "irrelevant_target_joint": [
+              30,
+              32
+            ],
+            "reorder_target_joint": [
+              0,
+              0
+            ],
+            "candidate_misbinding": [
+              0,
+              96
+            ]
+          },
+          "rates": {
+            "known_exact": 0.7901785714285714,
+            "target_joint": 0.9375,
+            "locality_joint": 0.65625,
+            "irrelevant_target_joint": 0.9375,
+            "reorder_target_joint": null,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 0.9172140985580836,
+          "units": 32,
+          "sources": 32,
+          "articles": 24,
+          "rows": 224
+        },
+        "probe": {
+          "family": "probe",
+          "counts": {
+            "known_exact": [
+              1536,
+              1536
+            ],
+            "target_joint": [
+              96,
+              96
+            ],
+            "locality_joint": [
+              96,
+              96
+            ],
+            "irrelevant_target_joint": [
+              96,
+              96
+            ],
+            "reorder_target_joint": [
+              96,
+              96
+            ],
+            "candidate_misbinding": [
+              0,
+              768
+            ]
+          },
+          "rates": {
+            "known_exact": 1.0,
+            "target_joint": 1.0,
+            "locality_joint": 1.0,
+            "irrelevant_target_joint": 1.0,
+            "reorder_target_joint": 1.0,
+            "candidate_misbinding": 0.0
+          },
+          "known_f1": 1.0,
+          "units": 96,
+          "sources": 32,
+          "articles": 24,
+          "rows": 1536
+        },
+        "probe_by_level": {
+          "2": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                512,
+                512
+              ],
+              "target_joint": [
+                32,
+                32
+              ],
+              "locality_joint": [
+                32,
+                32
+              ],
+              "irrelevant_target_joint": [
+                32,
+                32
+              ],
+              "reorder_target_joint": [
+                32,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 1.0,
+              "target_joint": 1.0,
+              "locality_joint": 1.0,
+              "irrelevant_target_joint": 1.0,
+              "reorder_target_joint": 1.0,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 1.0,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "3": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                512,
+                512
+              ],
+              "target_joint": [
+                32,
+                32
+              ],
+              "locality_joint": [
+                32,
+                32
+              ],
+              "irrelevant_target_joint": [
+                32,
+                32
+              ],
+              "reorder_target_joint": [
+                32,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 1.0,
+              "target_joint": 1.0,
+              "locality_joint": 1.0,
+              "irrelevant_target_joint": 1.0,
+              "reorder_target_joint": 1.0,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 1.0,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          },
+          "4": {
+            "family": "probe",
+            "counts": {
+              "known_exact": [
+                512,
+                512
+              ],
+              "target_joint": [
+                32,
+                32
+              ],
+              "locality_joint": [
+                32,
+                32
+              ],
+              "irrelevant_target_joint": [
+                32,
+                32
+              ],
+              "reorder_target_joint": [
+                32,
+                32
+              ],
+              "candidate_misbinding": [
+                0,
+                256
+              ]
+            },
+            "rates": {
+              "known_exact": 1.0,
+              "target_joint": 1.0,
+              "locality_joint": 1.0,
+              "irrelevant_target_joint": 1.0,
+              "reorder_target_joint": 1.0,
+              "candidate_misbinding": 0.0
+            },
+            "known_f1": 1.0,
+            "units": 32,
+            "sources": 32,
+            "articles": 24,
+            "rows": 512
+          }
+        },
+        "wall_seconds": 347.8758656999562,
+        "predictions_sha256": "fc007c749c8123e1eacf54e1bee58b952c1877e55523ad06fbd6a79df70a2e2b",
+        "generation_without_eos": [
+          0,
+          1760
+        ]
+      },
+      "best_development_step": 256,
+      "training_seconds": 1250.3400896013482,
+      "peak_allocated_mib": 16993.072265625,
+      "summary_sha256": "cf7147cab284f2e36b8fb647dacf8f0b8a074838cd956e063b286e3f165072f7"
+    }
+  ],
+  "comparisons": {
+    "assignment": {
+      "73": {
+        "target_joint_gain": -0.01041666666666663,
+        "natural_known_f1_delta": -0.0012792397660819077,
+        "locality_delta": -0.010416666666666671,
+        "continuation_gate": false
+      },
+      "97": {
+        "target_joint_gain": -0.05208333333333337,
+        "natural_known_f1_delta": -0.004029961266803439,
+        "locality_delta": 0.010416666666666671,
+        "continuation_gate": false
+      }
+    },
+    "relation": {
+      "73": {
+        "target_joint_gain": -0.04166666666666663,
+        "natural_known_f1_delta": -0.005357142857142838,
+        "locality_delta": 0.0,
+        "continuation_gate": false
+      },
+      "97": {
+        "target_joint_gain": -0.07291666666666663,
+        "natural_known_f1_delta": -0.007006151742993794,
+        "locality_delta": 0.03125,
+        "continuation_gate": false
+      }
+    }
+  },
+  "confirmation_evaluated": false,
+  "reserved_test_accessed": false
+}

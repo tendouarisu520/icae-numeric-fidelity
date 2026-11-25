@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "readers": 2,
+  "rows": 256,
+  "source_articles": 8,
+  "protocol_sha256": "36b7703907ffeb6b1f372e5e33c92e57b6980fd82fc47f4fb82e05b4a703813b",
+  "reserved_test_accessed": false
+}

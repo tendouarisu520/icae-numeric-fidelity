@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "phase": "complete",
+  "pid": 4456,
+  "completed": [
+    {
+      "job": "unit-tests",
+      "exit_code": 0,
+      "record_sha256": "c9db7ac115b31783f1e95ba5ea7f3ae3dc1babd22f6411b166bc789883cdc09b"
+    },
+    {
+      "job": "prepare",
+      "exit_code": 0,
+      "record_sha256": "5d041470b05c875ae71219f5b10865dbfbc8e4d898f289001cf2928441535cfa"
+    },
+    {
+      "job": "smoke-compressed-relation-seed73",
+      "exit_code": 0,
+      "record_sha256": "d1b83903a3aeae6adcfbe48550e5e6fee777fc10ba8d3fd0db259f331f34434e"
+    },
+    {
+      "job": "overfit-full-sft-seed73",
+      "exit_code": 0,
+      "record_sha256": "c2d9de1d7a6cf41ecf4488fec322a61c9ae94214a03d88092b830ceedf375df3"
+    },
+    {
+      "job": "overfit-compressed-sft-seed73",
+      "exit_code": 0,
+      "record_sha256": "10679286fe00c965c90269d4f0f13fd126436fe5771b09b46e02254cb5da01a7"
+    },
+    {
+      "job": "main-compressed-sft-seed73",
+      "exit_code": 0,
+      "record_sha256": "88f8181be3095b7ec22e42b3df12fa3662fd14d5bc550724d7fffb26dbdbcd8b"
+    },
+    {
+      "job": "main-compressed-assignment-seed73",
+      "exit_code": 0,
+      "record_sha256": "8b4d75437a37eb3cda4c4783c283e92da427e6563d0d7ee2349547c6bc6048cd"
+    },
+    {
+      "job": "main-compressed-relation-seed73",
+      "exit_code": 0,
+      "record_sha256": "90b85d275732ce974c02a8f894c5c5545ed096747cf09da990258d48d56b3c18"
+    },
+    {
+      "job": "main-full-sft-seed73",
+      "exit_code": 0,
+      "record_sha256": "d5ebede644b32087d29830ec1536da4dfbf7f4877926d3819583990663a6b3d6"
+    },
+    {
+      "job": "main-compressed-sft-seed97",
+      "exit_code": 0,
+      "record_sha256": "aeca1076e40532cc8fc25e1022efcc0b34dcddac4992cfe53326d01a98581b62"
+    },
+    {
+      "job": "main-compressed-assignment-seed97",
+      "exit_code": 0,
+      "record_sha256": "9a1ae10f76dd6c2d1d787340d16599027719545d9dd552ad970f3b6d98dfeba1"
+    },
+    {
+      "job": "main-compressed-relation-seed97",
+      "exit_code": 0,
+      "record_sha256": "1e4521c02dbc628d3d7dd4fb79f33927bbe91f8fc1bc5c1d23b7e43e054ed7a6"
+    },
+    {
+      "job": "main-full-sft-seed97",
+      "exit_code": 0,
+      "record_sha256": "8826cdbcd67b958372847253cc5273260cf94315fd1aaa2d50f5be34d61c529d"
+    }
+  ],
+  "scientific_starts": 8,
+  "maximum_scientific_starts": 8,
+  "started": 1792979068.9882624,
+  "updated": 1793003042.7134295,
+  "current_job": null,
+  "wrapper_pid": 13720,
+  "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v13-answerable-reading-20261026\\main-full-sft-seed97.stdout.log",
+  "stderr": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v13-answerable-reading-20261026\\main-full-sft-seed97.stderr.log",
+  "process_record": "E:\\Research\\ICAE-ConditionalMemory-20261021\\runs\\v13-answerable-reading-20261026\\main-full-sft-seed97-process.json",
+  "current_progress": null,
+  "stdout_bytes": 22344,
+  "stderr_bytes": 647,
+  "last_log_write": 1793002988.7452264,
+  "stale_log_seconds": 33.95349407196045,
+  "possible_stall": false,
+  "child_cpu_seconds": 2142.65625,
+  "finished": 1793003042.7134295
+}

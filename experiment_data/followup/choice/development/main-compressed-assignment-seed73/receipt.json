@@ -1,0 +1,19 @@
+{
+  "job": "main-compressed-assignment-seed73",
+  "split": "development",
+  "rows": 768,
+  "choice_correct": 754,
+  "greedy_correct": 604,
+  "ties": 0,
+  "wrong_generation_correct_choice": 150,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 93,
+  "greedy_target_joint": 53,
+  "groups": 96,
+  "exact_replay_rows": 4,
+  "wall_seconds": 57.82326229987666,
+  "scores_sha256": "10f5a49a0121946a4866c8048c18a0e72ecbaed864721f78c4e1bc35136e1760",
+  "raw_predictions_sha256": "e9e9b78f010b0a49aed7fab54c5d94ab9ddf8d158afa756f38e9d315d08fcd7a",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "93ff5f0510e09e383d2b458f82fdba61a44b23b2714ea23206dac167d1abe757"
+}

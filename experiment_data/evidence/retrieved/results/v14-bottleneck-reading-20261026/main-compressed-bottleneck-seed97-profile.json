@@ -1,0 +1,288 @@
+{
+  "rows": 1536,
+  "errors": {
+    "correct": 1064,
+    "unobserved_code": 442,
+    "field": 2,
+    "entity": 21,
+    "condition": 3,
+    "non_code": 1,
+    "mixed_binding": 3
+  },
+  "by_context": {
+    "0": {
+      "correct": 280,
+      "unobserved_code": 101,
+      "entity": 2,
+      "mixed_binding": 1
+    },
+    "1": {
+      "correct": 287,
+      "unobserved_code": 94,
+      "field": 1,
+      "entity": 2
+    },
+    "2": {
+      "correct": 277,
+      "unobserved_code": 104,
+      "entity": 2,
+      "mixed_binding": 1
+    },
+    "3": {
+      "correct": 220,
+      "unobserved_code": 143,
+      "entity": 15,
+      "condition": 3,
+      "non_code": 1,
+      "field": 1,
+      "mixed_binding": 1
+    }
+  },
+  "by_level": {
+    "2": {
+      "correct": 413,
+      "unobserved_code": 95,
+      "entity": 4
+    },
+    "3": {
+      "correct": 362,
+      "unobserved_code": 135,
+      "field": 1,
+      "entity": 11,
+      "condition": 2,
+      "mixed_binding": 1
+    },
+    "4": {
+      "correct": 289,
+      "unobserved_code": 212,
+      "entity": 6,
+      "non_code": 1,
+      "field": 1,
+      "mixed_binding": 2,
+      "condition": 1
+    }
+  },
+  "by_query": {
+    "0": {
+      "correct": 307,
+      "entity": 7,
+      "unobserved_code": 69,
+      "condition": 1
+    },
+    "1": {
+      "correct": 313,
+      "unobserved_code": 66,
+      "entity": 4,
+      "condition": 1
+    },
+    "2": {
+      "correct": 128,
+      "unobserved_code": 253,
+      "field": 2,
+      "mixed_binding": 1
+    },
+    "3": {
+      "correct": 316,
+      "unobserved_code": 54,
+      "entity": 10,
+      "non_code": 1,
+      "mixed_binding": 2,
+      "condition": 1
+    }
+  },
+  "source_scores": {
+    "v11-36451e0f22a4e88294cad76b": {
+      "article": "Electric_motor",
+      "target_joint": 1.0,
+      "locality_joint": 0.0,
+      "natural_f1": 0.7142857142857143
+    },
+    "v11-952cb077ab94c5791ab6f231": {
+      "article": "Armenians",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.48571428571428577
+    },
+    "v11-4525d5ea52d800f304cd14b3": {
+      "article": "Culture",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.8571428571428571
+    },
+    "v11-fa7be4164274551b3e57dbdb": {
+      "article": "General_Electric",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-6f6479f3405f6318a4f43534": {
+      "article": "St._John%27s,_Newfoundland_and_Labrador",
+      "target_joint": 0.3333333333333333,
+      "locality_joint": 0.0,
+      "natural_f1": 0.42857142857142855
+    },
+    "v11-d63ed2062df66fb516e520eb": {
+      "article": "Nintendo_Entertainment_System",
+      "target_joint": 0.0,
+      "locality_joint": 0.0,
+      "natural_f1": 0.673469387755102
+    },
+    "v11-c629db96037985915dc694d6": {
+      "article": "Tuberculosis",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.42857142857142855
+    },
+    "v11-4499f18dc200dd5a43a70077": {
+      "article": "Military_history_of_the_United_States",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-0fc0d5686768a91dd33955f1": {
+      "article": "Airport",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.37142857142857144
+    },
+    "v11-5716c5833d2fc8cb6d9bd807": {
+      "article": "Iranian_languages",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.5714285714285714
+    },
+    "v11-b912466f740433f1bcc281af": {
+      "article": "Karl_Popper",
+      "target_joint": 1.0,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-88ff739d1afc01b287683caa": {
+      "article": "Marvel_Comics",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-67d2f1abac0d433b878e9352": {
+      "article": "Unicode",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-7f4377cd8885a9bdcd911eff": {
+      "article": "Northwestern_University",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.8571428571428571
+    },
+    "v11-5432f9289f682b8bd6245c97": {
+      "article": "Super_Nintendo_Entertainment_System",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-00a0a6eb67f509bd660bc960": {
+      "article": "Comics",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.21428571428571427
+    },
+    "v11-6b41771220d029a1f0e8f8e6": {
+      "article": "Cardinal_(Catholicism)",
+      "target_joint": 0.0,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-df329faa16fecd8a4bec6b4d": {
+      "article": "Humanism",
+      "target_joint": 0.3333333333333333,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-4f4560c61c2c262dec5cb23d": {
+      "article": "Videoconferencing",
+      "target_joint": 1.0,
+      "locality_joint": 0.0,
+      "natural_f1": 0.2857142857142857
+    },
+    "v11-b51ab210adbf960a0b83b65b": {
+      "article": "Transistor",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.673469387755102
+    },
+    "v11-2a45855608b25d52a493c764": {
+      "article": "George_VI",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-d8b2e98ee377be7763695923": {
+      "article": "Westminster_Abbey",
+      "target_joint": 0.0,
+      "locality_joint": 0.3333333333333333,
+      "natural_f1": 0.7857142857142857
+    },
+    "v11-7b7211ffaacf0fe737e7e55f": {
+      "article": "Ministry_of_Defence_(United_Kingdom)",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.3333333333333333,
+      "natural_f1": 0.8571428571428571
+    },
+    "v11-038826b6d2836c74c16b16d1": {
+      "article": "Late_Middle_Ages",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.7142857142857143
+    },
+    "v11-4430b719e08ce52529105d15": {
+      "article": "Electric_motor",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-9f542dbdbe527ee5bd0ea6f6": {
+      "article": "Armenians",
+      "target_joint": 0.3333333333333333,
+      "locality_joint": 0.3333333333333333,
+      "natural_f1": 1.0
+    },
+    "v11-842d3d77a3dd7c02b7b13a7b": {
+      "article": "General_Electric",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.6666666666666666,
+      "natural_f1": 0.8354978354978355
+    },
+    "v11-f610bf35d41840c8fc73bd28": {
+      "article": "St._John%27s,_Newfoundland_and_Labrador",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.0,
+      "natural_f1": 0.6031746031746031
+    },
+    "v11-33e0ae500112bd84ab203a81": {
+      "article": "Nintendo_Entertainment_System",
+      "target_joint": 0.6666666666666666,
+      "locality_joint": 0.3333333333333333,
+      "natural_f1": 0.7142857142857143
+    },
+    "v11-cb46f58b8340f93e06449afb": {
+      "article": "Tuberculosis",
+      "target_joint": 1.0,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-da3d3c60062cd6f1b455b6a6": {
+      "article": "Military_history_of_the_United_States",
+      "target_joint": 1.0,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    },
+    "v11-c87dcf745fb020a4d0f4a336": {
+      "article": "Karl_Popper",
+      "target_joint": 1.0,
+      "locality_joint": 0.0,
+      "natural_f1": 1.0
+    }
+  },
+  "primary_predictions_and_metrics_unchanged": true
+}

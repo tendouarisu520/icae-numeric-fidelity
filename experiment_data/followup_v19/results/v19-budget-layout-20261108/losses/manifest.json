@@ -1,0 +1,75 @@
+{
+  "status": "verified",
+  "rows": 3072,
+  "raw_sources": [
+    {
+      "job": "main-compressed-assignment-seed73",
+      "path": "runs/v13-answerable-reading-20261026/main-compressed-assignment-seed73/steps.jsonl",
+      "sha256": "3800f06ff48daf82e0cc0cdd78c32301b657950f3de6041ce47053929a0d25ac",
+      "rows": 512
+    },
+    {
+      "job": "main-compressed-assignment-seed97",
+      "path": "runs/v13-answerable-reading-20261026/main-compressed-assignment-seed97/steps.jsonl",
+      "sha256": "30832d12e50c2ccbae507c4099b5cc0a4b3bfc546364aa01fabc6e9c95506484",
+      "rows": 512
+    },
+    {
+      "job": "main-compressed-relation-seed73",
+      "path": "runs/v13-answerable-reading-20261026/main-compressed-relation-seed73/steps.jsonl",
+      "sha256": "450cf9d4d1fdbdff4b1fc067531ad6c90de2d9c7260ebcbb829fc0efb1620b58",
+      "rows": 512
+    },
+    {
+      "job": "main-compressed-relation-seed97",
+      "path": "runs/v13-answerable-reading-20261026/main-compressed-relation-seed97/steps.jsonl",
+      "sha256": "835370a43becb33a2e8266ab81fb02b4252e23672d0227af7194586e1b0d15a6",
+      "rows": 512
+    },
+    {
+      "job": "main-compressed-bottleneck-seed73",
+      "path": "runs/v14-bottleneck-reading-20261026/main-compressed-bottleneck-seed73/steps.jsonl",
+      "sha256": "b4b63f7d5c93b2f2211932befa838098c55ee78044bb514b3ce647df85d904e8",
+      "rows": 512
+    },
+    {
+      "job": "main-compressed-bottleneck-seed97",
+      "path": "runs/v14-bottleneck-reading-20261026/main-compressed-bottleneck-seed97/steps.jsonl",
+      "sha256": "e7fd79aa58765f51d63f301bdd757db64467a84fd1467dcd0644c84d2c97f34b",
+      "rows": 512
+    }
+  ],
+  "files": [
+    {
+      "path": "main-compressed-assignment-seed73.steps.jsonl",
+      "sha256": "3800f06ff48daf82e0cc0cdd78c32301b657950f3de6041ce47053929a0d25ac"
+    },
+    {
+      "path": "main-compressed-assignment-seed97.steps.jsonl",
+      "sha256": "30832d12e50c2ccbae507c4099b5cc0a4b3bfc546364aa01fabc6e9c95506484"
+    },
+    {
+      "path": "main-compressed-relation-seed73.steps.jsonl",
+      "sha256": "450cf9d4d1fdbdff4b1fc067531ad6c90de2d9c7260ebcbb829fc0efb1620b58"
+    },
+    {
+      "path": "main-compressed-relation-seed97.steps.jsonl",
+      "sha256": "835370a43becb33a2e8266ab81fb02b4252e23672d0227af7194586e1b0d15a6"
+    },
+    {
+      "path": "main-compressed-bottleneck-seed73.steps.jsonl",
+      "sha256": "b4b63f7d5c93b2f2211932befa838098c55ee78044bb514b3ce647df85d904e8"
+    },
+    {
+      "path": "main-compressed-bottleneck-seed97.steps.jsonl",
+      "sha256": "e7fd79aa58765f51d63f301bdd757db64467a84fd1467dcd0644c84d2c97f34b"
+    }
+  ],
+  "csv_sha256": "5cc442a6240ceb3b91803b1e4c475181b7c54af191d4357ab347913ed99178c0",
+  "weights": {
+    "ce_each_family": 0.5,
+    "probe_aux": 0.1,
+    "locality_each_family": 0.025
+  },
+  "gpu_used": false
+}

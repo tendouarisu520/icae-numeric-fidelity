@@ -1,0 +1,95 @@
+{
+  "version": 11,
+  "date": "2026-10-25",
+  "source_files": {
+    "src/binding/v11_data.py": "c06525e7b0f4c318175a48ddd6660a80c444075eded26718ad99519b9849807e",
+    "src/binding/v11_pipeline.py": "6ee90f64a0cc13de60f347d763bf0ad8a51c5a9061ea09a33ba789beb838e07d",
+    "src/binding/v11_model.py": "32cb05510ff84f4e191bc79af017bedc4cfecae65daebf10da462f5d1a805f42",
+    "src/binding/v11_training.py": "ea4d5aef2a8978a144a325fa4ca7e5699734a183697117f58ac3947309481ace",
+    "src/binding/v11_freeze.py": "5dd48d5f425edf5cc9f7b599d60e4f81ce53fa05aeb2be179733649ef08e1726",
+    "src/binding/v10_comparison.py": "11f86df04d7b70ef6af83ce96bc2a0c6a668435f83647329f35ff00403e461d3",
+    "temp/v11_queue_20261025.py": "f11d481f99fe804c14068044f849f73bb6fd6ef0fdf267fef880f15ea654bf8a",
+    "src/binding/model.py": "cac6d00ca6a0e3aec2295341e69cc2b50b34db4edfb0fa23a2c922360c43d64b",
+    "src/binding/benchmark.py": "65af34266f6a90a1dae06e1c2b14eeee6a11f12127beff6cb1f1c01e2d72a21c",
+    "src/binding/v4_model.py": "f6ff5b9aa45ae4707fa44bc8a2b3183a5e275cda237169460ec62800cb576774",
+    "src/binding/v9_model.py": "c337c8e78611cdaeefdb522dfbed8ded871f1b928142c6e6f9db406517a669b3",
+    "src/binding/repro_probe.py": "64eb7ca62779ab797d336189ace2ddc3d12a709379e00d758b369c9b42c90284",
+    "src/binding/objectives.py": "aab35bcb8ed6885218bb3e85271662a638ca0d7c40656cd8808b4c2c2b8012d6",
+    "src/tests/test_v11_data.py": "a24714b4dbf96d2c50811f416fb80f410c634c3a996fa3db3d9e134e4a6b4879",
+    "src/tests/test_v11_pipeline.py": "ac398e659764f0277cfc82c63e5be6d6d487561144d31d7701e9bfdd06e12e24",
+    "src/tests/test_v11_model.py": "19760d1ee0702f0169692a23e22c6f17ada637a5f66b2083b90667b4b51ef43b",
+    "src/tests/test_v11_schedule.py": "3fc2b29a471ca143ec0c383f82cb22ef11899872f43af5f74ea4287257a3728c",
+    "docs/v11-natural-data-review-20261025.json": "f6d159ca57befc3b509b573dc7c4eeac3b5b6437d9450a4c6c63a26365b7ecc5"
+  },
+  "model_files": {
+    "models/mistral/config.json": "2e97da1b1d2b7e7669f0991c186904538c27d4ea56c4fc74e89215e2b2013922",
+    "models/mistral/generation_config.json": "104f69e9625993a0839aff79b17f7a0aa73b0954ef8f7e7665aa50b5ef1d4454",
+    "models/mistral/model-00001-of-00003.safetensors": "63654d601820b88b1fa8b4a98df5714f700fbc5b3df2cc4ecbabdced35096d31",
+    "models/mistral/model-00002-of-00003.safetensors": "a42716540ecb2385d371f2109835921ff535406cac8fe8ff28f2f0b5fc7895bd",
+    "models/mistral/model-00003-of-00003.safetensors": "5f86e15cb3ed9078e30ae6e72445e109d0e337d9cde59b9aeea4ce8e44e54a5d",
+    "models/mistral/model.safetensors.index.json": "6d32424091caba25230b09cbae985a5f9252ecce3a722b03b88df17ad05be459",
+    "models/mistral/special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+    "models/mistral/tokenizer.json": "11c08db21487c885d8c792180f0be237f6a261b89a46f128a6a80a3aa4bd1720",
+    "models/mistral/tokenizer.model": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+    "models/mistral/tokenizer_config.json": "475361439e5c012de9dffdedc416a66a50f1a29f7aa80b375ba014fb13d6bb8a",
+    "models/icae/mistral_7b_ft_icae.safetensors": "ae637cf4e4fdbe623a4ad606339facf07128ab1dc8a4a6fad9be055e4c3c1f56"
+  },
+  "cohort": {
+    "train": 512,
+    "development": 32,
+    "confirmation": 64
+  },
+  "max_steps_per_run": 1024,
+  "maximum_main_starts": 6,
+  "jobs": [
+    {
+      "arm": "encoder",
+      "method": "sft",
+      "seed": 73
+    },
+    {
+      "arm": "encoder",
+      "method": "relation",
+      "seed": 73
+    },
+    {
+      "arm": "full",
+      "method": "sft",
+      "seed": 73
+    },
+    {
+      "arm": "encoder",
+      "method": "sft",
+      "seed": 97
+    },
+    {
+      "arm": "encoder",
+      "method": "relation",
+      "seed": 97
+    },
+    {
+      "arm": "full",
+      "method": "sft",
+      "seed": 97
+    }
+  ],
+  "calibration": [
+    "2step_encoder_relation_smoke",
+    "8unit_encoder_sft_overfit_max1024"
+  ],
+  "checkpoints": [
+    256,
+    512,
+    1024
+  ],
+  "main_endpoint": 1024,
+  "learning_rate": 0.0001,
+  "warmup": 32,
+  "target": {
+    "all_four_target_gain": 0.05,
+    "max_f1_loss": 0.02,
+    "max_false_unknown_increase": 0.02
+  },
+  "old_confirmation_used": false,
+  "reserved_test_accessed": false
+}

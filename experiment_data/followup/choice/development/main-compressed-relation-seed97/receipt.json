@@ -1,0 +1,19 @@
+{
+  "job": "main-compressed-relation-seed97",
+  "split": "development",
+  "rows": 768,
+  "choice_correct": 752,
+  "greedy_correct": 605,
+  "ties": 0,
+  "wrong_generation_correct_choice": 147,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 94,
+  "greedy_target_joint": 56,
+  "groups": 96,
+  "exact_replay_rows": 4,
+  "wall_seconds": 56.90594160021283,
+  "scores_sha256": "bce33dca8d3eb9beadc30e453e8c67333398c04d66f0eeab71859f44b441e366",
+  "raw_predictions_sha256": "7a687938db072a26416288026971b9afccef5bf844063e03d0ee093147fa299e",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "312dac2a0b5ec3bb59edf61f30ff7030115e08d3a2f9405bd7d20abd4e324e90"
+}

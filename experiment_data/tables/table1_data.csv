@@ -1,0 +1,4 @@
+partition,sources,articles,natural_units,controlled_units,answerable_rows
+training,512,189,512,512,11776
+development,32,24,32,96,1760
+confirmation,64,22,64,192,3520

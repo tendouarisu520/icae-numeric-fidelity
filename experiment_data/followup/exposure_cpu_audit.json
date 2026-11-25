@@ -1,0 +1,69 @@
+{
+  "status": "verified",
+  "completed_runs": 2,
+  "test_accessed": false,
+  "runs": [
+    {
+      "seed": 73,
+      "complete": true,
+      "exact_replay_checkpoints": [
+        128,
+        256,
+        512
+      ],
+      "source_exposures": 2,
+      "plateau": {
+        "plateau": false,
+        "target_span_of96": 4,
+        "previous128_mean_ce": 0.1857617469413301,
+        "last128_mean_ce": 0.14627923967678522,
+        "relative_ce_change": 0.2125437982504267,
+        "rule": "last3 target counts span<=2/96 and last128 vs preceding128 mean training CE changes<=2%",
+        "interpretation": "descriptive finite-window plateau check, not proof of convergence"
+      },
+      "maximum_cpu_float_reduction_difference": 3.885780586188048e-16,
+      "paired_training": {
+        "sources": 512,
+        "first_exposure_mean": 0.35215942216195806,
+        "second_exposure_mean": 0.17569034914828455,
+        "sources_with_lower_loss": 501,
+        "interpretation": "Same source at its first and second online exposures; models differ across updates, not a fixed-checkpoint training-set evaluation"
+      },
+      "wall_seconds": 4899.053689399967,
+      "training_seconds": 2212.29856220074,
+      "peak_allocated_mib": 15163.1923828125,
+      "summary_sha256": "9eff70575ad00f2b608ab097d7fac3b436514d5cc449a0246e60c4cbb67e20c1"
+    },
+    {
+      "seed": 97,
+      "complete": true,
+      "exact_replay_checkpoints": [
+        128,
+        256,
+        512
+      ],
+      "source_exposures": 2,
+      "plateau": {
+        "plateau": false,
+        "target_span_of96": 2,
+        "previous128_mean_ce": 0.18595039402737715,
+        "last128_mean_ce": 0.1599297723519235,
+        "relative_ce_change": 0.13993313545559194,
+        "rule": "last3 target counts span<=2/96 and last128 vs preceding128 mean training CE changes<=2%",
+        "interpretation": "descriptive finite-window plateau check, not proof of convergence"
+      },
+      "maximum_cpu_float_reduction_difference": 4.163336342344337e-16,
+      "paired_training": {
+        "sources": 512,
+        "first_exposure_mean": 0.3505120362681117,
+        "second_exposure_mean": 0.17472853570474925,
+        "sources_with_lower_loss": 500,
+        "interpretation": "Same source at its first and second online exposures; models differ across updates, not a fixed-checkpoint training-set evaluation"
+      },
+      "wall_seconds": 4898.323409699835,
+      "training_seconds": 2191.640328700887,
+      "peak_allocated_mib": 15163.1923828125,
+      "summary_sha256": "d0e1d632730665e2bb4bf6935980ae5837ce3bc9b3c4d9043d82cd8b03084bd1"
+    }
+  ]
+}

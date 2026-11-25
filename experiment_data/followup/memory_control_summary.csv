@@ -1,0 +1,5 @@
+reader,seed,mode,rows,correct,accuracy,ties
+main-compressed-sft-seed73,73,matched,64,63,0.984375,0
+main-compressed-sft-seed73,73,shuffled,64,36,0.5625,0
+main-compressed-sft-seed97,97,matched,64,64,1.0,0
+main-compressed-sft-seed97,97,shuffled,64,37,0.578125,0

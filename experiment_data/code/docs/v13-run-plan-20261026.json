@@ -1,0 +1,99 @@
+{
+  "version": 13,
+  "date": "2026-10-26",
+  "source_files": {
+    "src/binding/v11_data.py": "c06525e7b0f4c318175a48ddd6660a80c444075eded26718ad99519b9849807e",
+    "src/binding/v11_pipeline.py": "6ee90f64a0cc13de60f347d763bf0ad8a51c5a9061ea09a33ba789beb838e07d",
+    "src/binding/v11_model.py": "32cb05510ff84f4e191bc79af017bedc4cfecae65daebf10da462f5d1a805f42",
+    "src/binding/v11_training.py": "ea4d5aef2a8978a144a325fa4ca7e5699734a183697117f58ac3947309481ace",
+    "src/binding/v11_freeze.py": "5dd48d5f425edf5cc9f7b599d60e4f81ce53fa05aeb2be179733649ef08e1726",
+    "src/binding/v10_comparison.py": "11f86df04d7b70ef6af83ce96bc2a0c6a668435f83647329f35ff00403e461d3",
+    "temp/v11_queue_20261025.py": "f11d481f99fe804c14068044f849f73bb6fd6ef0fdf267fef880f15ea654bf8a",
+    "src/binding/model.py": "cac6d00ca6a0e3aec2295341e69cc2b50b34db4edfb0fa23a2c922360c43d64b",
+    "src/binding/benchmark.py": "65af34266f6a90a1dae06e1c2b14eeee6a11f12127beff6cb1f1c01e2d72a21c",
+    "src/binding/v4_model.py": "f6ff5b9aa45ae4707fa44bc8a2b3183a5e275cda237169460ec62800cb576774",
+    "src/binding/v9_model.py": "c337c8e78611cdaeefdb522dfbed8ded871f1b928142c6e6f9db406517a669b3",
+    "src/binding/repro_probe.py": "64eb7ca62779ab797d336189ace2ddc3d12a709379e00d758b369c9b42c90284",
+    "src/binding/objectives.py": "aab35bcb8ed6885218bb3e85271662a638ca0d7c40656cd8808b4c2c2b8012d6",
+    "src/tests/test_v11_data.py": "a24714b4dbf96d2c50811f416fb80f410c634c3a996fa3db3d9e134e4a6b4879",
+    "src/tests/test_v11_pipeline.py": "ac398e659764f0277cfc82c63e5be6d6d487561144d31d7701e9bfdd06e12e24",
+    "src/tests/test_v11_model.py": "19760d1ee0702f0169692a23e22c6f17ada637a5f66b2083b90667b4b51ef43b",
+    "src/tests/test_v11_schedule.py": "3fc2b29a471ca143ec0c383f82cb22ef11899872f43af5f74ea4287257a3728c",
+    "docs/v11-natural-data-review-20261025.json": "f6d159ca57befc3b509b573dc7c4eeac3b5b6437d9450a4c6c63a26365b7ecc5",
+    "src/binding/v11_full_entry.py": "6070601201d1857127e2913eac9e1282a8d5cbf0723746e91faf3ee9ab5a9e63",
+    "src/tests/test_v11_full_entry.py": "b7dcae52d10426617ee1bb4beed9229bdf4a997e50b769b26ed81b91eabc2707",
+    "temp/v11_continuation_20261025.py": "55eb4f68cba2519caf1218217ae52ec6005efb75d2fc76bbf9f5cc65f5bd835d",
+    "src/binding/v12_protocol.py": "6b5aab8d0c1e5a0d6e669595b5a11a230e63337d9a5961da6d78b8d13910665b",
+    "src/binding/v12_reader.py": "0077c058f420c4e17b827fdb333b6bb790b2571e0e799f48f7d9153fcb525ddf",
+    "src/binding/v12_training.py": "c53234a4aff71432b39148b05c06f8ac703944d6b9fc3d56f430923531026175",
+    "src/tests/test_v12_protocol.py": "08afdb8900dca6460c98ce890e192058e2f3a9eb3d045fd944e9c0fc246a8dbe",
+    "src/tests/test_v12_reader.py": "6a20809fcce7ad235b9d9cd47c260315fc2dae18b61b27bc327aac9e5b31fcb2",
+    "temp/v12_queue_20261025.py": "f1341ad044654617389eb0214187c913a5601707de38dd2b2b95b45f6bbedf31",
+    "docs/superpowers/plans/2026-10-25-frozen-memory-reader-diagnostics.md": "167c07342db9c2174aa9a62b654958fe670f8e4170ffde63474e162390e00640",
+    "src/scripts/run_recorded.py": "0aad488a79c837b84f3bc3cb7a5cee73d68d0729d76cf040b71875fbf9335c39",
+    "src/binding/v13_data.py": "147d62c2823fbd005c34b48501ac5a8c0dd32f43814879ebac2f6f887db8455b",
+    "src/binding/v13_protocol.py": "9a652066c7aa16c0442898dd9a7c41ed1c54144079577396d08b4817385caf6c",
+    "src/binding/v13_objectives.py": "159c7e6788a9a968263753d510a1f81aaab2e85ccad63b09e3e6c0a2b853ca4d",
+    "src/binding/v13_training.py": "8d1111761b7020f5848ecfa8a52adc8e133ee26b7ef88907a32f581f83b85085",
+    "src/tests/test_v13_protocol.py": "e8a2093134d56918625b08f9104a9ea2c28cc18efcbeba2874b1d56d867b2ff6",
+    "src/tests/test_v13_neural.py": "85bcfc1609d812674fd1376f6b193ec576acb3e1da6f84a26e4fc03cd792390e",
+    "temp/v13_queue_20261026.py": "08ceb5d5d677b46aa60f11d14df999feda94a1419146fc9c2089786d22fd7a85"
+  },
+  "original_data_hashes": {
+    "manifest.json": "2da51fafbe97f61a1e6fd0fa455a3f8013eca1ff4323d73104adcf1cd14704e6",
+    "train.jsonl": "6494d0ea9c0574d04b9eb2fd6cacebcf2e532b34da0ee1cd3cdf37e8e83a72d3",
+    "development.jsonl": "c0422c1b8707b673e227367453cc875367357e0fc15912b83dfa25ea4281679d"
+  },
+  "encoder": "Official frozen ICAE128slots; no trained V11 writer",
+  "main_endpoint": 512,
+  "maximum_overfit_steps": 1024,
+  "peak_learning_rate": 5e-05,
+  "warmup": 32,
+  "decay": "cosine to5e-6",
+  "memory_cache": "CPU RAM only",
+  "cells": [
+    {
+      "arm": "compressed",
+      "method": "sft",
+      "seed": 73
+    },
+    {
+      "arm": "compressed",
+      "method": "assignment",
+      "seed": 73
+    },
+    {
+      "arm": "compressed",
+      "method": "relation",
+      "seed": 73
+    },
+    {
+      "arm": "full",
+      "method": "sft",
+      "seed": 73
+    },
+    {
+      "arm": "compressed",
+      "method": "sft",
+      "seed": 97
+    },
+    {
+      "arm": "compressed",
+      "method": "assignment",
+      "seed": 97
+    },
+    {
+      "arm": "compressed",
+      "method": "relation",
+      "seed": 97
+    },
+    {
+      "arm": "full",
+      "method": "sft",
+      "seed": 97
+    }
+  ],
+  "scope": "Answerable naturalQA plus explicitly controlled relation probes; reader-only supervision",
+  "confirmation_evaluated": false,
+  "reserved_test_accessed": false
+}

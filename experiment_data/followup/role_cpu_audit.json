@@ -1,0 +1,47 @@
+{
+  "status": "verified",
+  "models": 6,
+  "rows": 13824,
+  "sources": 8,
+  "articles": 8,
+  "factorial": "3 semantic rotations x3 serialized-field rotations x2 first-two-team roles",
+  "test_accessed": false,
+  "files": [
+    {
+      "job": "main-compressed-sft-seed73-step512",
+      "rows": 2304,
+      "identity_replay": 128,
+      "predictions_sha256": "0251af9a258d295e4b8dfc1f6fd3d25bf9bb85811c78fde5f052e58d51b51518"
+    },
+    {
+      "job": "main-compressed-sft-seed97-step512",
+      "rows": 2304,
+      "identity_replay": 128,
+      "predictions_sha256": "ba60241807cdc7550015e84c9c3d185df1753f7ea40ad6139cb546d9d6f12084"
+    },
+    {
+      "job": "main-full-sft-seed73-step512",
+      "rows": 2304,
+      "identity_replay": 128,
+      "predictions_sha256": "a08a3bc08fe0f162f5001b834383a37267367c9c6cee0ba97c63201fa261f8cd"
+    },
+    {
+      "job": "main-full-sft-seed97-step512",
+      "rows": 2304,
+      "identity_replay": 128,
+      "predictions_sha256": "5e8b91a722de55184b220e0c1b07995ee41d10d934dc742215a5a1b0a7ba6ccf"
+    },
+    {
+      "job": "main-compressed-sft-seed73-step1024",
+      "rows": 2304,
+      "identity_replay": 128,
+      "predictions_sha256": "0a0947ed33d3e81da75f34bf5330300309fe2b7028bef8e02325d2646f501208"
+    },
+    {
+      "job": "main-compressed-sft-seed97-step1024",
+      "rows": 2304,
+      "identity_replay": 128,
+      "predictions_sha256": "b5dc20c02d840dc320a5aa1d0958a09c998fcba34d1c1374c3f05f4d0cbb6a5e"
+    }
+  ]
+}

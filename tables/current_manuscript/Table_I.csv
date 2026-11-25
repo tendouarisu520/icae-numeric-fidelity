@@ -1,0 +1,4 @@
+Partition,Sources / articles,Natural / control units,Answer rows
+Training,512 / 189,512 / 512,"11,776"
+Development,32 / 24,32 / 96,"1,760"
+Confirmation,64 / 22,64 / 192,"3,520"

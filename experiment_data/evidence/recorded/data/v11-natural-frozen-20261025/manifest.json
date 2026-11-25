@@ -1,0 +1,38 @@
+{
+  "recipe": "v11-natural-relations-3",
+  "source_manifest_sha256": "9609f23abee3a900573831d3bdd55b9edba3205ab2d5448a12823f57f9016d02",
+  "review_receipt_sha256": "f6d159ca57befc3b509b573dc7c4eeac3b5b6437d9450a4c6c63a26365b7ecc5",
+  "overfit_ids": [
+    "v11-4758664ccec569410b4417d3",
+    "v11-b28256799fbc75afa82408a5",
+    "v11-197a5bc52569b7c5a7f61680",
+    "v11-b9077f5ac62a22975875b550",
+    "v11-5571feee61eb0d4124c94f58",
+    "v11-c1d3166dd77b26c28ccf601c",
+    "v11-4d0ccce84e7a58524bf87639",
+    "v11-dfa6bd752b70dd01d526f99c"
+  ],
+  "partitions": {
+    "train": {
+      "units": 512,
+      "articles": 189,
+      "sha256": "6494d0ea9c0574d04b9eb2fd6cacebcf2e532b34da0ee1cd3cdf37e8e83a72d3",
+      "article_cap": 8
+    },
+    "development": {
+      "units": 32,
+      "articles": 24,
+      "sha256": "c0422c1b8707b673e227367453cc875367357e0fc15912b83dfa25ea4281679d",
+      "article_cap": 2
+    },
+    "confirmation": {
+      "units": 64,
+      "articles": 22,
+      "sha256": "52bc47141cbf8a825ade6b3309bc937f8c33b3ce9ba5a82305a267c0edf81bb2",
+      "article_cap": 8
+    }
+  },
+  "original_official_dev_used": false,
+  "old_confirmation_accessed": false,
+  "reserved_test_accessed": false
+}

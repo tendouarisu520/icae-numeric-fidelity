@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-06",
+  "runner_sha256": "d8dce1ba986809fe4f2e1ab5b3b236cd6bc6b4367bf58b751b33b852c6af3642",
+  "original_protocol_sha256": "85ad32bfcb7b5645689f29e4c606415f2b78701c3d299228237efac78a709abb",
+  "data": {
+    "development": "c1873f26379b65a6ed4b236b73f95236e663d7e5eff58aa04221ceac5a906c2a",
+    "confirmation": "7114a211ddabf388daeff79dd7525ae127dfd6b0139ddd864f1970cf0c55ec17"
+  },
+  "choice_module": "6b0447328641bf0b9773861a14be1245e4efda07f253c91b88353e83698b9f03",
+  "scoring": "mean log probability of answer including leading blank and EOS; equal token lengths; exact ties fail strict choice",
+  "selection": "two target values, not shown in the input; all four contexts and two target queries",
+  "model_selection": false,
+  "post_hoc_diagnostic": true,
+  "reserved_test_accessed": false,
+  "free_generation": "unchanged recorded greedy strings; exact per-reader replay checked",
+  "jobs": [
+    {
+      "name": "main-compressed-assignment-seed73",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-assignment-seed73/final-adapter.safetensors",
+      "identity": "7300e3cc5908ad2b90e573c9a7136cf2b13b078a1e8ebfd6275cbc9d4da177bf",
+      "arm": "compressed",
+      "seed": 73,
+      "method": "assignment"
+    },
+    {
+      "name": "main-compressed-assignment-seed97",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-assignment-seed97/final-adapter.safetensors",
+      "identity": "6e77f41dfb0bd44978efedad749f8404b0805aae708e0b92e146de5767c39467",
+      "arm": "compressed",
+      "seed": 97,
+      "method": "assignment"
+    },
+    {
+      "name": "main-compressed-relation-seed73",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-relation-seed73/final-adapter.safetensors",
+      "identity": "46b32d18935b35430adf4c335a8a0e9a94c98b97e961a4f6010cc73e52dee567",
+      "arm": "compressed",
+      "seed": 73,
+      "method": "relation"
+    },
+    {
+      "name": "main-compressed-relation-seed97",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-relation-seed97/final-adapter.safetensors",
+      "identity": "8d69e64089088aa856730b358a9671647c681baf20ba0a5c16984db524d8e0a4",
+      "arm": "compressed",
+      "seed": 97,
+      "method": "relation"
+    },
+    {
+      "name": "main-compressed-sft-seed73",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-sft-seed73/final-adapter.safetensors",
+      "identity": "cab0af27525ed42b59da02744b9110f88b2ece15115dc7d147a9f17668f10c9f",
+      "arm": "compressed",
+      "seed": 73,
+      "method": "sft"
+    },
+    {
+      "name": "main-compressed-sft-seed97",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-sft-seed97/final-adapter.safetensors",
+      "identity": "c04c7f97f01622985ebb9531fa7dd02339b53057dfcce25fa6cd849d73945617",
+      "arm": "compressed",
+      "seed": 97,
+      "method": "sft"
+    },
+    {
+      "name": "main-full-sft-seed73",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-full-sft-seed73/final-adapter.safetensors",
+      "identity": "f530adc9bd857d4f9a500f49a0fa9159e5baa6f977602ae4ffaa1dd1afbe1473",
+      "arm": "full",
+      "seed": 73,
+      "method": "sft"
+    },
+    {
+      "name": "main-full-sft-seed97",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-full-sft-seed97/final-adapter.safetensors",
+      "identity": "423da22dce560880bdc2434aebf601a601df4bef1c84b7dc6355b7b8b3d23670",
+      "arm": "full",
+      "seed": 97,
+      "method": "sft"
+    },
+    {
+      "name": "main-compressed-bottleneck-seed73",
+      "checkpoint": "runs/v14-bottleneck-reading-20261026/main-compressed-bottleneck-seed73/final-adapter.safetensors",
+      "identity": "aa4058c42f8b8d389ab5addb110008e65d95f3c1d7d103220f76185147199c93",
+      "arm": "compressed",
+      "seed": 73,
+      "method": "bottleneck"
+    },
+    {
+      "name": "main-compressed-bottleneck-seed97",
+      "checkpoint": "runs/v14-bottleneck-reading-20261026/main-compressed-bottleneck-seed97/final-adapter.safetensors",
+      "identity": "4d90780ab053ac102c9b08105ab281613b5e44ae8492448733c503330db638ed",
+      "arm": "compressed",
+      "seed": 97,
+      "method": "bottleneck"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "designed_after_interim_development": true,
+  "original_eight_incomplete": true,
+  "original_job": "main-compressed-assignment-seed73",
+  "original_step": 368,
+  "execution_waited_for_eight": true,
+  "source_files": [
+    {
+      "path": "2026-10-26-bottleneck-conditional-followup.md",
+      "sha256": "a228c25f829665a471eb1ab6d38fca47de2263dcf4f791746cab87320b626c25"
+    },
+    {
+      "path": "v14-launch-audit-20261026.json",
+      "sha256": "c5aabb31e152a55cbb053424e9fceb097ed3f575211d1a62e0063df0d310232e"
+    },
+    {
+      "path": "v14-run-plan-20261026.json",
+      "sha256": "51f72e507bef1a076c8bd260d9af5c860706f3d427b56d8aa1ce70118d65b5ca"
+    }
+  ]
+}

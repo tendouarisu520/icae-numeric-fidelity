@@ -1,0 +1,19 @@
+{
+  "job": "main-compressed-bottleneck-seed97",
+  "split": "confirmation",
+  "rows": 1536,
+  "choice_correct": 1519,
+  "greedy_correct": 1208,
+  "ties": 0,
+  "wrong_generation_correct_choice": 311,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 187,
+  "greedy_target_joint": 85,
+  "groups": 192,
+  "exact_replay_rows": 4,
+  "wall_seconds": 113.7447195998393,
+  "scores_sha256": "f4ce0520c1aadd62446a5537a5d65bd63b9e17f513e859af9c9491b5fac73395",
+  "raw_predictions_sha256": "a2e7d155e6c3b41ed85cc0930e66102a6242c40864a53ae3d3790b769fb2c3e0",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "1ef02ad3546a1db77982910c609d499c5502f076e13b72f7a6062c0de869d165"
+}

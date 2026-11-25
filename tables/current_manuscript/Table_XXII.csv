@@ -1,0 +1,9 @@
+Reader,Seed,Errors,Absent,Foil /768
+SFT,73,469,439,6/768
+SFT,97,476,444,4/768
+Assign.,73,464,444,4/768
+Assign.,97,470,444,2/768
+Assign. + loc.,73,473,451,4/768
+Assign. + loc.,97,481,446,1/768
+Weakest + loc.,73,459,434,3/768
+Weakest + loc.,97,472,442,2/768

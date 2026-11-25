@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-06",
+  "purpose": "Similarity-controlled two-choice and sequence-score diagnostics",
+  "files": {
+    "src/binding/v16_near_codes.py": "cfb716d5790d8c0e2a41727ddc35726886c7f13fa8298f924a87c7712332eb8c",
+    "temp/v16/near_runner.py": "dd791e2e847ed1e849456707896c090fe120aefba05c3064f57387ed98b27ec7"
+  }
+}

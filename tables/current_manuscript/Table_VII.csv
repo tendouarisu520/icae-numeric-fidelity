@@ -1,0 +1,11 @@
+Measure,Seed 73,Seed 97
+Choice correct /768,762,760
+Exact generation /768,605,618
+Choice − generation (pp),20.44,18.49
+98.75% interval,"[15.76, 25.39]","[13.80, 23.18]"
+Choice on failed gen. (post hoc),157/163,142/150
+Absent outputs /1536,417,391
+Digit advantage,1.616,1.682
+98.75% interval,"[1.407, 1.801]","[1.518, 1.837]"
+Target groups /96,55,58
+Unaffected groups /96,14,14

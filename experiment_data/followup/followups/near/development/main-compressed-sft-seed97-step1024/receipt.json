@@ -1,0 +1,15 @@
+{
+  "job": "main-compressed-sft-seed97-step1024",
+  "split": "development",
+  "rows": 768,
+  "condition_correct": 752,
+  "first_digit_correct": 763,
+  "last_digit_correct": 749,
+  "greedy_correct": 617,
+  "wrong_generation_gold_more_likely": 11,
+  "exact_replay_rows": 2,
+  "max_candidate_score_replay_difference": 0.0,
+  "scores_sha256": "b64240b74bcd9c403ecb1941994d2862ab292a2279127dfe2ab0b799f2f24807",
+  "raw_predictions_sha256": "8ccc846ea95a76137fc4686dcfa5cd256f224a62bdd0504e06e5f556d8b50a7c",
+  "protocol_sha256": "2dfa1db768d554f7644258d4372fa6f0cd1c1cb7d71210c4a25004662ab292d0"
+}

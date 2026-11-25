@@ -1,0 +1,101 @@
+{
+  "time": 1794560391.3685224,
+  "pid": 32168,
+  "queue_started": 1794536213.8632457,
+  "completed": [
+    {
+      "job": "preflight",
+      "seconds": 13.3,
+      "child_pid": 7148,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-preflight-20261113-101653.log"
+    },
+    {
+      "job": "smoke",
+      "seconds": 28.3,
+      "child_pid": 32596,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-smoke-20261113-101707.log"
+    },
+    {
+      "job": "crossed-choice",
+      "seconds": 953.5,
+      "child_pid": 27784,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-crossed-choice-20261113-101735.log"
+    },
+    {
+      "job": "replay-sft-seed73",
+      "seconds": 372.1,
+      "child_pid": 39084,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-replay-sft-seed73-20261113-103329.log"
+    },
+    {
+      "job": "replay-bottleneck-seed73",
+      "seconds": 438.0,
+      "child_pid": 7120,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-replay-bottleneck-seed73-20261113-103941.log"
+    },
+    {
+      "job": "main-compressed-sft-seed101",
+      "seconds": 2482.2,
+      "child_pid": 32264,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-main-compressed-sft-seed101-20261113-104659.log"
+    },
+    {
+      "job": "main-compressed-bottleneck-seed101",
+      "seconds": 3575.1,
+      "child_pid": 20064,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-main-compressed-bottleneck-seed101-20261113-112821.log"
+    },
+    {
+      "job": "main-compressed-sft-seed131",
+      "seconds": 2490.4,
+      "child_pid": 37560,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-main-compressed-sft-seed131-20261113-122756.log"
+    },
+    {
+      "job": "main-compressed-bottleneck-seed131",
+      "seconds": 3552.0,
+      "child_pid": 38904,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-main-compressed-bottleneck-seed131-20261113-130927.log"
+    },
+    {
+      "job": "main-compressed-sft-seed151",
+      "seconds": 2460.9,
+      "child_pid": 19576,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-main-compressed-sft-seed151-20261113-140839.log"
+    },
+    {
+      "job": "main-compressed-bottleneck-seed151",
+      "seconds": 3478.4,
+      "child_pid": 24400,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-main-compressed-bottleneck-seed151-20261113-144940.log"
+    },
+    {
+      "job": "new-seed-readouts",
+      "seconds": 4325.8,
+      "child_pid": 35240,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-new-seed-readouts-20261113-154738.log"
+    },
+    {
+      "job": "collect",
+      "seconds": 6.6,
+      "child_pid": 32240,
+      "exit_code": 0,
+      "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v20-collect-20261113-165944.log"
+    }
+  ],
+  "failures": [],
+  "phase": "complete",
+  "finished": 1794560391.3685224
+}

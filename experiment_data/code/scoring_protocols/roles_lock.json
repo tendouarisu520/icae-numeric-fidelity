@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-06",
+  "data_sha256": "78d33ebfe1a8a198fae74d832d4b44e59a511b49505e31b13a03b519bf4a663b",
+  "files": {
+    "src/binding/v16_roles.py": "75cbb9f4519cee04a8695394a6a0e84bd7ee1b01b69e3a2da0ae532a8bff6c1c",
+    "temp/v16/build_role_data.py": "02bed6bd0e6d2793ed833492eba1fe0e5482894760506ec5622d547c892284e5",
+    "temp/v16/role_runner.py": "be9e10b2dc61a4a3567b48a072a9f2745bacc02b71481557dc4238aab9189597",
+    "temp/v16/collect_choice.py": "6fe0502fed4429f03b1b2a73226a0adf11128633dd98d44ba9dcc845ab52fd16"
+  }
+}

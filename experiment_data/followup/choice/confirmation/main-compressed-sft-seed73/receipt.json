@@ -1,0 +1,19 @@
+{
+  "job": "main-compressed-sft-seed73",
+  "split": "confirmation",
+  "rows": 1536,
+  "choice_correct": 1517,
+  "greedy_correct": 1168,
+  "ties": 0,
+  "wrong_generation_correct_choice": 349,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 184,
+  "greedy_target_joint": 79,
+  "groups": 192,
+  "exact_replay_rows": 4,
+  "wall_seconds": 115.70977229997516,
+  "scores_sha256": "55001f1cbc4acac464919d8efebfb35a21b9cf83d7509308bb3d6a2a850721f0",
+  "raw_predictions_sha256": "81291ecfc875d0738cba466a63f8301b2cd6df39372df2efc17252ab7802a3ba",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "81457e39f358aaf7b144a479e0117379a3fd2addf5fe2e1c499c05eb41ecd3e4"
+}

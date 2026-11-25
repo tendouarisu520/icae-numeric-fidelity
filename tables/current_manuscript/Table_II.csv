@@ -1,0 +1,21 @@
+Analysis,Cohort,Fixed
+Assignment arms at 512 updates,Dev.,Before training
+"Weakest-margin arm, 512 updates",Dev.,After interim results
+Auxiliary arms on confirmation,Conf.,Before its inference
+Auxiliary arms at 1024 updates,Dev.,Before these runs
+"Balanced-layout SFT, criterion",Dev.,Before these runs
+Second SFT exposure,Dev.,Before its results
+"Readout gap, digit advantage",New scenes,Before inference
+"Slot rule, transitions",New scenes,"Listed, no threshold"
+"Three further seeds, two arms",Dev.,Before training
+"Gap and digit tests, new seeds",New scenes,Before training
+"Slot rule, new seeds",Crossed,"Fixed, no threshold"
+"Gap, digit structure, new seeds",Dev.,"Listed, no threshold"
+Choice on crossed views,Crossed,Before scoring
+"Readout gap, digit structure","Dev., conf.",Post hoc
+One-digit and own-output foils,"Dev., conf.",Post hoc
+"Crossed views, slot rule",Dev.,Post hoc
+Errors after balanced training,Dev.,Post hoc
+Failed generations and foil distance,New scenes,Post hoc
+"Query, error and team audits",All cohorts,Post hoc
+"Two-seed rule, held-out margins","Dev., conf.",Post hoc

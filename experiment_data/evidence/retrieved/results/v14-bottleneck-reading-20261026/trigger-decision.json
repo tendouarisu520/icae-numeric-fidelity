@@ -1,0 +1,35 @@
+{
+  "run_followup": true,
+  "original_comparison_sha256": "26a29c965b220d0c8bb3740bed2fe943cd7153197210ffcdb67e66769c882f09",
+  "comparisons": {
+    "assignment": {
+      "73": {
+        "target_joint_gain": -0.01041666666666663,
+        "natural_known_f1_delta": -0.0012792397660819077,
+        "locality_delta": -0.010416666666666671,
+        "continuation_gate": false
+      },
+      "97": {
+        "target_joint_gain": -0.05208333333333337,
+        "natural_known_f1_delta": -0.004029961266803439,
+        "locality_delta": 0.010416666666666671,
+        "continuation_gate": false
+      }
+    },
+    "relation": {
+      "73": {
+        "target_joint_gain": -0.04166666666666663,
+        "natural_known_f1_delta": -0.005357142857142838,
+        "locality_delta": 0.0,
+        "continuation_gate": false
+      },
+      "97": {
+        "target_joint_gain": -0.07291666666666663,
+        "natural_known_f1_delta": -0.007006151742993794,
+        "locality_delta": 0.03125,
+        "continuation_gate": false
+      }
+    }
+  },
+  "rule": "Only after all8 original V13 cells succeed, if neither assignment nor relation passes the original continuation gate for BOTH seeds"
+}

@@ -1,0 +1,10 @@
+{
+  "job": "main-compressed-sft-seed73",
+  "rows": 128,
+  "matched_correct": 63,
+  "shuffled_correct": 36,
+  "exact_greedy_replay_rows": 2,
+  "max_matched_score_difference": 0.0,
+  "scores_sha256": "8b75029a97cd1a4e967744b84fab965a36c8a3713ae6e4e15bc66103ea0ab1d2",
+  "protocol_sha256": "36b7703907ffeb6b1f372e5e33c92e57b6980fd82fc47f4fb82e05b4a703813b"
+}

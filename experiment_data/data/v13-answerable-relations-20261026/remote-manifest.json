@@ -1,0 +1,48 @@
+{
+  "schema": 13,
+  "source_manifest_sha256": "2da51fafbe97f61a1e6fd0fa455a3f8013eca1ff4323d73104adcf1cd14704e6",
+  "source_hashes": {
+    "train": "6494d0ea9c0574d04b9eb2fd6cacebcf2e532b34da0ee1cd3cdf37e8e83a72d3",
+    "development": "c0422c1b8707b673e227367453cc875367357e0fc15912b83dfa25ea4281679d"
+  },
+  "partitions": {
+    "train": {
+      "sha256": "e249136d7ae625344821950a42368a135a7a576510825e68e8db37b4cff3baec",
+      "sources": 512,
+      "units": 1024,
+      "natural_units": 512,
+      "probe_units": 512,
+      "articles": 189,
+      "known_labels": 11776,
+      "context_tokens_min": 52,
+      "context_tokens_max": 472,
+      "context_tokens_mean": 218.79736328125
+    },
+    "development": {
+      "sha256": "c1873f26379b65a6ed4b236b73f95236e663d7e5eff58aa04221ceac5a906c2a",
+      "sources": 32,
+      "units": 128,
+      "natural_units": 32,
+      "probe_units": 96,
+      "articles": 24,
+      "known_labels": 1760,
+      "context_tokens_min": 97,
+      "context_tokens_max": 349,
+      "context_tokens_mean": 229.189453125
+    }
+  },
+  "overfit_ids": [
+    "v11-4758664ccec569410b4417d3",
+    "v11-b28256799fbc75afa82408a5",
+    "v11-197a5bc52569b7c5a7f61680",
+    "v11-b9077f5ac62a22975875b550",
+    "v11-5571feee61eb0d4124c94f58",
+    "v11-c1d3166dd77b26c28ccf601c",
+    "v11-4d0ccce84e7a58524bf87639",
+    "v11-dfa6bd752b70dd01d526f99c"
+  ],
+  "encoder_input": "Context tokens only",
+  "controlled_records_are_synthetic": true,
+  "confirmation_loaded": false,
+  "reserved_test_accessed": false
+}

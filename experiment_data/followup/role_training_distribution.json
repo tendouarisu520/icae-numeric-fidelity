@@ -1,0 +1,26 @@
+{
+  "query_keys_per_training_source": 4,
+  "counts": [
+    {
+      "query": 0,
+      "field": "badge",
+      "count": 512
+    },
+    {
+      "query": 1,
+      "field": "badge",
+      "count": 512
+    },
+    {
+      "query": 2,
+      "field": "locker",
+      "count": 512
+    },
+    {
+      "query": 3,
+      "field": "badge",
+      "count": 512
+    }
+  ],
+  "interpretation": "The route field occurs in records but is never queried in controlled training. Semantic rotations therefore include an unqueried-field transfer condition; report fields separately. Only first-two-team roles are crossed."
+}

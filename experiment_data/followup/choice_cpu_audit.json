@@ -1,0 +1,231 @@
+{
+  "status": "verified",
+  "cells": 20,
+  "total_rows": 23040,
+  "paired_bootstrap": "2000 article-cluster resamples, seed20261106, percentile interval",
+  "joint_definition": "all four target responses: original and condition-swap contexts, both target queries; other contexts included in row accuracy",
+  "post_hoc": true,
+  "test_accessed": false,
+  "files": [
+    {
+      "split": "confirmation",
+      "job": "main-compressed-assignment-seed73",
+      "rows": 1536,
+      "score_sha256": "40d32315d4777d78f66fd882369234f460b3f16d32f3cbb6cd0a4b5b000c3c40",
+      "raw_prediction_sha256": "d43984dc1849089c61534ce10581b360c4125954162466f8bb04f74caec75a89",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-assignment-seed97",
+      "rows": 1536,
+      "score_sha256": "5a3985a8e90c1c3bb37b5df77ee261d0ae787593084707fd9c7a413c142d987c",
+      "raw_prediction_sha256": "e8f53aa261a8332cfcab20273fc8e40a2953278717086ee2ad12dfd4055ecfc8",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-bottleneck-seed73",
+      "rows": 1536,
+      "score_sha256": "ed1f821264b39316c476e49a7bfa280a9e085112d92b41a6cee9187356e72d5d",
+      "raw_prediction_sha256": "2fc02ae5d2407037530a6c57a57a9d972a573369a68dc0fd35101c68321153da",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-bottleneck-seed97",
+      "rows": 1536,
+      "score_sha256": "f4ce0520c1aadd62446a5537a5d65bd63b9e17f513e859af9c9491b5fac73395",
+      "raw_prediction_sha256": "a2e7d155e6c3b41ed85cc0930e66102a6242c40864a53ae3d3790b769fb2c3e0",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-relation-seed73",
+      "rows": 1536,
+      "score_sha256": "fbbc845fa6680c02474589f123b01703e1a259391cc6194aa56e09bac9ca9680",
+      "raw_prediction_sha256": "d603e33001e3edc3ca4caefffb4aafec411a1520bce3accec4d5d1d3b9eb9c30",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-relation-seed97",
+      "rows": 1536,
+      "score_sha256": "d020aabd5e6cb844ed33fe51aafd3e3d1e0223c8f32f739d74d45c2d5364dd3f",
+      "raw_prediction_sha256": "26e97e9965b257fc7d2bf5ad9a173ec73cb1051033595ef39adc4743167ae658",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-sft-seed73",
+      "rows": 1536,
+      "score_sha256": "55001f1cbc4acac464919d8efebfb35a21b9cf83d7509308bb3d6a2a850721f0",
+      "raw_prediction_sha256": "81291ecfc875d0738cba466a63f8301b2cd6df39372df2efc17252ab7802a3ba",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-sft-seed97",
+      "rows": 1536,
+      "score_sha256": "753c893fa1d49c69e5db7800e3c56a368d998858ec6b12c368014f0ea0b463e0",
+      "raw_prediction_sha256": "509423653bc3281055593008233190dcfc302d6cba049cc31e20f62038d2b443",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-full-sft-seed73",
+      "rows": 1536,
+      "score_sha256": "16ebfe35406769839fc827f86dccc01dd48564378076260c759cdc7270bfe0cb",
+      "raw_prediction_sha256": "1da1c37db07d046184e521fdbfed93f47160a8adffd3b5b2a9012b44b80985d0",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "confirmation",
+      "job": "main-full-sft-seed97",
+      "rows": 1536,
+      "score_sha256": "f29ac6725a3cb8f2815f6702012dba4fbedfeb3ce2ec482f994dfd42d6adc22d",
+      "raw_prediction_sha256": "5e3c4853582499647d9d94841465e06e992ef52faefb20785e568ac8a1a43e8a",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-assignment-seed73",
+      "rows": 768,
+      "score_sha256": "10f5a49a0121946a4866c8048c18a0e72ecbaed864721f78c4e1bc35136e1760",
+      "raw_prediction_sha256": "e9e9b78f010b0a49aed7fab54c5d94ab9ddf8d158afa756f38e9d315d08fcd7a",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-assignment-seed97",
+      "rows": 768,
+      "score_sha256": "41151ea2bfa33d777bc60fbf1cd763f51f29409ddd0bcd7c9ab453b80dbaafc8",
+      "raw_prediction_sha256": "7c38b360112d60786b377ce76076674410455ff77f7df7bd9c92a78f408edfad",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-bottleneck-seed73",
+      "rows": 768,
+      "score_sha256": "9edbcfb81337b0e198c698d798cf6c3e94821743b98e8b86f0a3fa2f7d920a2f",
+      "raw_prediction_sha256": "bb4e4947f482ac6f371cda7c8b9f0c65786b569c439e995e1d0d103bbdf99304",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-bottleneck-seed97",
+      "rows": 768,
+      "score_sha256": "be4cd3f3792b10efd553e7103b60f77393e6c296ff1b14f1df82fee58d1986b1",
+      "raw_prediction_sha256": "57e6d0e4648ffa35c21eee7844e1e79508a454609d65fd2c7b5fb83d139d4bd9",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-relation-seed73",
+      "rows": 768,
+      "score_sha256": "c791555cb1cc654d5135b0e93391563257e262cc3f71ea4ad98fc6521947ba91",
+      "raw_prediction_sha256": "9b9821c2285effedb4b95b932ed1116cd0a395fcef3c3029b5c81b36e23e21bb",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-relation-seed97",
+      "rows": 768,
+      "score_sha256": "bce33dca8d3eb9beadc30e453e8c67333398c04d66f0eeab71859f44b441e366",
+      "raw_prediction_sha256": "7a687938db072a26416288026971b9afccef5bf844063e03d0ee093147fa299e",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-sft-seed73",
+      "rows": 768,
+      "score_sha256": "bfca78186ba99abeacd66464257f6c4a5fb33601cda9486aa708b2e50d0f2bb4",
+      "raw_prediction_sha256": "f7863f3456317358afcb8419071f2a51c02262c85d34eaccd1c010605efeef88",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-sft-seed97",
+      "rows": 768,
+      "score_sha256": "cc603cd06bee38a7e1c11b29feddd15c65a94c5dd120abd2ec2691a0310aa97b",
+      "raw_prediction_sha256": "6e174ce8eaaf168486faad1a4fe26b25319894ecf35500a82c9d12bc54e6401b",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-full-sft-seed73",
+      "rows": 768,
+      "score_sha256": "fb9d4ee3721906bd6107cc7b3aeded0c1ec051eb57babd18bd99eabaaff93783",
+      "raw_prediction_sha256": "ee43d921ae5f6930ee6780b0b0bff7ebdf6f7ff75ad82b12195e406d4fff1536",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    },
+    {
+      "split": "development",
+      "job": "main-full-sft-seed97",
+      "rows": 768,
+      "score_sha256": "a7367a6f97fba3f33f83406221a1c9c9cf111f781b2d6d2da147176b16a12ddc",
+      "raw_prediction_sha256": "fc007c749c8123e1eacf54e1bee58b952c1877e55523ad06fbd6a79df70a2e2b",
+      "candidate_lengths": [
+        6
+      ],
+      "gpu_greedy_replay_rows": 4
+    }
+  ]
+}

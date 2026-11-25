@@ -1,0 +1,11 @@
+seed,arm,method,target_four,unaffected_four,unaffected_eight,units
+73,compressed,assignment,53,27,8,96
+97,compressed,assignment,58,20,7,96
+73,compressed,relation,50,25,9,96
+97,compressed,relation,56,21,9,96
+73,compressed,sft,54,24,9,96
+97,compressed,sft,63,21,6,96
+73,full,sft,96,96,96,96
+97,full,sft,96,96,96,96
+73,compressed,bottleneck,57,25,7,96
+97,compressed,bottleneck,61,18,6,96

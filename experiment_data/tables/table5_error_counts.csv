@@ -1,0 +1,11 @@
+seed,arm,method,correct,unobserved_code,entity,condition,field,mixed_binding,non_code
+73,compressed,sft,1067,439,14,9,4,3,0
+73,compressed,assignment,1072,444,9,5,4,2,0
+73,compressed,relation,1063,451,13,6,1,2,0
+73,full,sft,1536,0,0,0,0,0,0
+73,compressed,bottleneck,1077,434,16,3,4,2,0
+97,compressed,sft,1060,444,16,6,5,4,1
+97,compressed,assignment,1066,444,15,3,3,4,1
+97,compressed,relation,1055,446,26,2,2,4,1
+97,full,sft,1536,0,0,0,0,0,0
+97,compressed,bottleneck,1064,442,21,3,2,3,1

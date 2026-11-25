@@ -1,0 +1,6 @@
+Reader,Train min,Wall min,Peak GiB
+SFT,17.8,39.5,14.81
+Assign.,35.4,57.2,14.81
+Assign. + loc.,35.3,57.0,14.81
+Weakest + loc.,36.0,57.9,14.81
+Full SFT,20.8,38.6,16.59

@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "pid": 32908,
+  "completed": [
+    "main-compressed-sft-seed73--128",
+    "main-compressed-sft-seed73--256",
+    "main-compressed-sft-seed73--512",
+    "main-compressed-assignment-seed73--128",
+    "main-compressed-assignment-seed73--256",
+    "main-compressed-assignment-seed73--512",
+    "main-compressed-relation-seed73--128",
+    "main-compressed-relation-seed73--256",
+    "main-compressed-relation-seed73--512",
+    "main-full-sft-seed73--128",
+    "main-full-sft-seed73--256",
+    "main-full-sft-seed73--512",
+    "main-compressed-sft-seed97--128",
+    "main-compressed-sft-seed97--256",
+    "main-compressed-sft-seed97--512",
+    "main-compressed-assignment-seed97--128",
+    "main-compressed-assignment-seed97--256",
+    "main-compressed-assignment-seed97--512",
+    "main-compressed-relation-seed97--128",
+    "main-compressed-relation-seed97--256",
+    "main-compressed-relation-seed97--512",
+    "main-full-sft-seed97--128",
+    "main-full-sft-seed97--256",
+    "main-full-sft-seed97--512"
+  ],
+  "expected": 24,
+  "finished": 1793003050.1194804
+}

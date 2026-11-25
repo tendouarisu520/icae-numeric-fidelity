@@ -1,0 +1,1542 @@
+{
+  "128": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          159,
+          224
+        ],
+        "target_joint": [
+          27,
+          32
+        ],
+        "locality_joint": [
+          16,
+          32
+        ],
+        "irrelevant_target_joint": [
+          25,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.7098214285714286,
+        "target_joint": 0.84375,
+        "locality_joint": 0.5,
+        "irrelevant_target_joint": 0.78125,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.7905061456400742,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          877,
+          1536
+        ],
+        "target_joint": [
+          36,
+          96
+        ],
+        "locality_joint": [
+          2,
+          96
+        ],
+        "irrelevant_target_joint": [
+          49,
+          96
+        ],
+        "reorder_target_joint": [
+          14,
+          96
+        ],
+        "candidate_misbinding": [
+          19,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.5709635416666666,
+        "target_joint": 0.375,
+        "locality_joint": 0.020833333333333332,
+        "irrelevant_target_joint": 0.5104166666666666,
+        "reorder_target_joint": 0.14583333333333334,
+        "candidate_misbinding": 0.024739583333333332
+      },
+      "known_f1": 0.5709635416666666,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            370,
+            512
+          ],
+          "target_joint": [
+            21,
+            32
+          ],
+          "locality_joint": [
+            2,
+            32
+          ],
+          "irrelevant_target_joint": [
+            26,
+            32
+          ],
+          "reorder_target_joint": [
+            10,
+            32
+          ],
+          "candidate_misbinding": [
+            7,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.72265625,
+          "target_joint": 0.65625,
+          "locality_joint": 0.0625,
+          "irrelevant_target_joint": 0.8125,
+          "reorder_target_joint": 0.3125,
+          "candidate_misbinding": 0.02734375
+        },
+        "known_f1": 0.72265625,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            289,
+            512
+          ],
+          "target_joint": [
+            9,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            17,
+            32
+          ],
+          "reorder_target_joint": [
+            2,
+            32
+          ],
+          "candidate_misbinding": [
+            6,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.564453125,
+          "target_joint": 0.28125,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.53125,
+          "reorder_target_joint": 0.0625,
+          "candidate_misbinding": 0.0234375
+        },
+        "known_f1": 0.564453125,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            218,
+            512
+          ],
+          "target_joint": [
+            6,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            6,
+            32
+          ],
+          "reorder_target_joint": [
+            2,
+            32
+          ],
+          "candidate_misbinding": [
+            6,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.42578125,
+          "target_joint": 0.1875,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.1875,
+          "reorder_target_joint": 0.0625,
+          "candidate_misbinding": 0.0234375
+        },
+        "known_f1": 0.42578125,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 345.003789300099,
+    "predictions_sha256": "26e2583d312a42fdfeffed2eae4fdbd558a37a65817c76ed6022b9ae4864acbf",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  },
+  "256": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          155,
+          224
+        ],
+        "target_joint": [
+          26,
+          32
+        ],
+        "locality_joint": [
+          16,
+          32
+        ],
+        "irrelevant_target_joint": [
+          23,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.6919642857142857,
+        "target_joint": 0.8125,
+        "locality_joint": 0.5,
+        "irrelevant_target_joint": 0.71875,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.7755798027943234,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          951,
+          1536
+        ],
+        "target_joint": [
+          43,
+          96
+        ],
+        "locality_joint": [
+          6,
+          96
+        ],
+        "irrelevant_target_joint": [
+          55,
+          96
+        ],
+        "reorder_target_joint": [
+          22,
+          96
+        ],
+        "candidate_misbinding": [
+          11,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.619140625,
+        "target_joint": 0.4479166666666667,
+        "locality_joint": 0.0625,
+        "irrelevant_target_joint": 0.5729166666666666,
+        "reorder_target_joint": 0.22916666666666666,
+        "candidate_misbinding": 0.014322916666666666
+      },
+      "known_f1": 0.619140625,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            376,
+            512
+          ],
+          "target_joint": [
+            18,
+            32
+          ],
+          "locality_joint": [
+            5,
+            32
+          ],
+          "irrelevant_target_joint": [
+            23,
+            32
+          ],
+          "reorder_target_joint": [
+            9,
+            32
+          ],
+          "candidate_misbinding": [
+            3,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.734375,
+          "target_joint": 0.5625,
+          "locality_joint": 0.15625,
+          "irrelevant_target_joint": 0.71875,
+          "reorder_target_joint": 0.28125,
+          "candidate_misbinding": 0.01171875
+        },
+        "known_f1": 0.734375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            326,
+            512
+          ],
+          "target_joint": [
+            16,
+            32
+          ],
+          "locality_joint": [
+            1,
+            32
+          ],
+          "irrelevant_target_joint": [
+            18,
+            32
+          ],
+          "reorder_target_joint": [
+            6,
+            32
+          ],
+          "candidate_misbinding": [
+            4,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.63671875,
+          "target_joint": 0.5,
+          "locality_joint": 0.03125,
+          "irrelevant_target_joint": 0.5625,
+          "reorder_target_joint": 0.1875,
+          "candidate_misbinding": 0.015625
+        },
+        "known_f1": 0.63671875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            249,
+            512
+          ],
+          "target_joint": [
+            9,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            14,
+            32
+          ],
+          "reorder_target_joint": [
+            7,
+            32
+          ],
+          "candidate_misbinding": [
+            4,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.486328125,
+          "target_joint": 0.28125,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.4375,
+          "reorder_target_joint": 0.21875,
+          "candidate_misbinding": 0.015625
+        },
+        "known_f1": 0.486328125,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 342.5751712999772,
+    "predictions_sha256": "5ace5112d57bfc84b79b1721b2575da36a8b7be826ad30c965f17759dd5de872",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  },
+  "512": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          158,
+          224
+        ],
+        "target_joint": [
+          26,
+          32
+        ],
+        "locality_joint": [
+          17,
+          32
+        ],
+        "irrelevant_target_joint": [
+          23,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.7053571428571429,
+        "target_joint": 0.8125,
+        "locality_joint": 0.53125,
+        "irrelevant_target_joint": 0.71875,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.7867648355195348,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          1060,
+          1536
+        ],
+        "target_joint": [
+          63,
+          96
+        ],
+        "locality_joint": [
+          6,
+          96
+        ],
+        "irrelevant_target_joint": [
+          69,
+          96
+        ],
+        "reorder_target_joint": [
+          39,
+          96
+        ],
+        "candidate_misbinding": [
+          4,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.6901041666666666,
+        "target_joint": 0.65625,
+        "locality_joint": 0.0625,
+        "irrelevant_target_joint": 0.71875,
+        "reorder_target_joint": 0.40625,
+        "candidate_misbinding": 0.005208333333333333
+      },
+      "known_f1": 0.6901041666666666,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            410,
+            512
+          ],
+          "target_joint": [
+            28,
+            32
+          ],
+          "locality_joint": [
+            5,
+            32
+          ],
+          "irrelevant_target_joint": [
+            28,
+            32
+          ],
+          "reorder_target_joint": [
+            18,
+            32
+          ],
+          "candidate_misbinding": [
+            1,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.80078125,
+          "target_joint": 0.875,
+          "locality_joint": 0.15625,
+          "irrelevant_target_joint": 0.875,
+          "reorder_target_joint": 0.5625,
+          "candidate_misbinding": 0.00390625
+        },
+        "known_f1": 0.80078125,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            363,
+            512
+          ],
+          "target_joint": [
+            21,
+            32
+          ],
+          "locality_joint": [
+            1,
+            32
+          ],
+          "irrelevant_target_joint": [
+            26,
+            32
+          ],
+          "reorder_target_joint": [
+            14,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.708984375,
+          "target_joint": 0.65625,
+          "locality_joint": 0.03125,
+          "irrelevant_target_joint": 0.8125,
+          "reorder_target_joint": 0.4375,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.708984375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            287,
+            512
+          ],
+          "target_joint": [
+            14,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            15,
+            32
+          ],
+          "reorder_target_joint": [
+            7,
+            32
+          ],
+          "candidate_misbinding": [
+            1,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.560546875,
+          "target_joint": 0.4375,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.46875,
+          "reorder_target_joint": 0.21875,
+          "candidate_misbinding": 0.00390625
+        },
+        "known_f1": 0.560546875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 345.4347536000423,
+    "predictions_sha256": "6e174ce8eaaf168486faad1a4fe26b25319894ecf35500a82c9d12bc54e6401b",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  },
+  "640": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          157,
+          224
+        ],
+        "target_joint": [
+          26,
+          32
+        ],
+        "locality_joint": [
+          17,
+          32
+        ],
+        "irrelevant_target_joint": [
+          23,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.7008928571428571,
+        "target_joint": 0.8125,
+        "locality_joint": 0.53125,
+        "irrelevant_target_joint": 0.71875,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.7872608672655665,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          1068,
+          1536
+        ],
+        "target_joint": [
+          59,
+          96
+        ],
+        "locality_joint": [
+          6,
+          96
+        ],
+        "irrelevant_target_joint": [
+          67,
+          96
+        ],
+        "reorder_target_joint": [
+          38,
+          96
+        ],
+        "candidate_misbinding": [
+          5,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.6953125,
+        "target_joint": 0.6145833333333334,
+        "locality_joint": 0.0625,
+        "irrelevant_target_joint": 0.6979166666666666,
+        "reorder_target_joint": 0.3958333333333333,
+        "candidate_misbinding": 0.006510416666666667
+      },
+      "known_f1": 0.6953125,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            411,
+            512
+          ],
+          "target_joint": [
+            27,
+            32
+          ],
+          "locality_joint": [
+            5,
+            32
+          ],
+          "irrelevant_target_joint": [
+            27,
+            32
+          ],
+          "reorder_target_joint": [
+            18,
+            32
+          ],
+          "candidate_misbinding": [
+            1,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.802734375,
+          "target_joint": 0.84375,
+          "locality_joint": 0.15625,
+          "irrelevant_target_joint": 0.84375,
+          "reorder_target_joint": 0.5625,
+          "candidate_misbinding": 0.00390625
+        },
+        "known_f1": 0.802734375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            362,
+            512
+          ],
+          "target_joint": [
+            21,
+            32
+          ],
+          "locality_joint": [
+            1,
+            32
+          ],
+          "irrelevant_target_joint": [
+            25,
+            32
+          ],
+          "reorder_target_joint": [
+            12,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.70703125,
+          "target_joint": 0.65625,
+          "locality_joint": 0.03125,
+          "irrelevant_target_joint": 0.78125,
+          "reorder_target_joint": 0.375,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.70703125,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            295,
+            512
+          ],
+          "target_joint": [
+            11,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            15,
+            32
+          ],
+          "reorder_target_joint": [
+            8,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.576171875,
+          "target_joint": 0.34375,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.46875,
+          "reorder_target_joint": 0.25,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.576171875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 344.35541220009327,
+    "predictions_sha256": "fc297c96d623bba7bc1695fb4711272f244d3968813fced1be8c3e765f759ee3",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  },
+  "768": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          154,
+          224
+        ],
+        "target_joint": [
+          27,
+          32
+        ],
+        "locality_joint": [
+          15,
+          32
+        ],
+        "irrelevant_target_joint": [
+          24,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.6875,
+        "target_joint": 0.84375,
+        "locality_joint": 0.46875,
+        "irrelevant_target_joint": 0.75,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.7875853561121418,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          1074,
+          1536
+        ],
+        "target_joint": [
+          62,
+          96
+        ],
+        "locality_joint": [
+          6,
+          96
+        ],
+        "irrelevant_target_joint": [
+          68,
+          96
+        ],
+        "reorder_target_joint": [
+          38,
+          96
+        ],
+        "candidate_misbinding": [
+          6,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.69921875,
+        "target_joint": 0.6458333333333334,
+        "locality_joint": 0.0625,
+        "irrelevant_target_joint": 0.7083333333333334,
+        "reorder_target_joint": 0.3958333333333333,
+        "candidate_misbinding": 0.0078125
+      },
+      "known_f1": 0.69921875,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            415,
+            512
+          ],
+          "target_joint": [
+            27,
+            32
+          ],
+          "locality_joint": [
+            4,
+            32
+          ],
+          "irrelevant_target_joint": [
+            27,
+            32
+          ],
+          "reorder_target_joint": [
+            18,
+            32
+          ],
+          "candidate_misbinding": [
+            1,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.810546875,
+          "target_joint": 0.84375,
+          "locality_joint": 0.125,
+          "irrelevant_target_joint": 0.84375,
+          "reorder_target_joint": 0.5625,
+          "candidate_misbinding": 0.00390625
+        },
+        "known_f1": 0.810546875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            368,
+            512
+          ],
+          "target_joint": [
+            24,
+            32
+          ],
+          "locality_joint": [
+            2,
+            32
+          ],
+          "irrelevant_target_joint": [
+            26,
+            32
+          ],
+          "reorder_target_joint": [
+            13,
+            32
+          ],
+          "candidate_misbinding": [
+            3,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.71875,
+          "target_joint": 0.75,
+          "locality_joint": 0.0625,
+          "irrelevant_target_joint": 0.8125,
+          "reorder_target_joint": 0.40625,
+          "candidate_misbinding": 0.01171875
+        },
+        "known_f1": 0.71875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            291,
+            512
+          ],
+          "target_joint": [
+            11,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            15,
+            32
+          ],
+          "reorder_target_joint": [
+            7,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.568359375,
+          "target_joint": 0.34375,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.46875,
+          "reorder_target_joint": 0.21875,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.568359375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 344.0862209000625,
+    "predictions_sha256": "b310d1b16986defc12141c22a886e073f7495a671ba171813d9de2355501a8d1",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  },
+  "896": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          155,
+          224
+        ],
+        "target_joint": [
+          27,
+          32
+        ],
+        "locality_joint": [
+          15,
+          32
+        ],
+        "irrelevant_target_joint": [
+          25,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.6919642857142857,
+        "target_joint": 0.84375,
+        "locality_joint": 0.46875,
+        "irrelevant_target_joint": 0.78125,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.7988348339734618,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          1092,
+          1536
+        ],
+        "target_joint": [
+          60,
+          96
+        ],
+        "locality_joint": [
+          7,
+          96
+        ],
+        "irrelevant_target_joint": [
+          69,
+          96
+        ],
+        "reorder_target_joint": [
+          42,
+          96
+        ],
+        "candidate_misbinding": [
+          5,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.7109375,
+        "target_joint": 0.625,
+        "locality_joint": 0.07291666666666667,
+        "irrelevant_target_joint": 0.71875,
+        "reorder_target_joint": 0.4375,
+        "candidate_misbinding": 0.006510416666666667
+      },
+      "known_f1": 0.7109375,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            422,
+            512
+          ],
+          "target_joint": [
+            27,
+            32
+          ],
+          "locality_joint": [
+            6,
+            32
+          ],
+          "irrelevant_target_joint": [
+            27,
+            32
+          ],
+          "reorder_target_joint": [
+            19,
+            32
+          ],
+          "candidate_misbinding": [
+            1,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.82421875,
+          "target_joint": 0.84375,
+          "locality_joint": 0.1875,
+          "irrelevant_target_joint": 0.84375,
+          "reorder_target_joint": 0.59375,
+          "candidate_misbinding": 0.00390625
+        },
+        "known_f1": 0.82421875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            363,
+            512
+          ],
+          "target_joint": [
+            22,
+            32
+          ],
+          "locality_joint": [
+            1,
+            32
+          ],
+          "irrelevant_target_joint": [
+            25,
+            32
+          ],
+          "reorder_target_joint": [
+            12,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.708984375,
+          "target_joint": 0.6875,
+          "locality_joint": 0.03125,
+          "irrelevant_target_joint": 0.78125,
+          "reorder_target_joint": 0.375,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.708984375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            307,
+            512
+          ],
+          "target_joint": [
+            11,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            17,
+            32
+          ],
+          "reorder_target_joint": [
+            11,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.599609375,
+          "target_joint": 0.34375,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.53125,
+          "reorder_target_joint": 0.34375,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.599609375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 344.557062599808,
+    "predictions_sha256": "771a0bb9647fab0e9c7670fbb1efd90de6911f7bfeedb0c2e8f594352fb4251e",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  },
+  "1024": {
+    "natural": {
+      "family": "natural",
+      "counts": {
+        "known_exact": [
+          153,
+          224
+        ],
+        "target_joint": [
+          26,
+          32
+        ],
+        "locality_joint": [
+          15,
+          32
+        ],
+        "irrelevant_target_joint": [
+          24,
+          32
+        ],
+        "reorder_target_joint": [
+          0,
+          0
+        ],
+        "candidate_misbinding": [
+          0,
+          96
+        ]
+      },
+      "rates": {
+        "known_exact": 0.6830357142857143,
+        "target_joint": 0.8125,
+        "locality_joint": 0.46875,
+        "irrelevant_target_joint": 0.75,
+        "reorder_target_joint": null,
+        "candidate_misbinding": 0.0
+      },
+      "known_f1": 0.793353496701711,
+      "units": 32,
+      "sources": 32,
+      "articles": 24,
+      "rows": 224
+    },
+    "probe": {
+      "family": "probe",
+      "counts": {
+        "known_exact": [
+          1074,
+          1536
+        ],
+        "target_joint": [
+          61,
+          96
+        ],
+        "locality_joint": [
+          6,
+          96
+        ],
+        "irrelevant_target_joint": [
+          69,
+          96
+        ],
+        "reorder_target_joint": [
+          39,
+          96
+        ],
+        "candidate_misbinding": [
+          5,
+          768
+        ]
+      },
+      "rates": {
+        "known_exact": 0.69921875,
+        "target_joint": 0.6354166666666666,
+        "locality_joint": 0.0625,
+        "irrelevant_target_joint": 0.71875,
+        "reorder_target_joint": 0.40625,
+        "candidate_misbinding": 0.006510416666666667
+      },
+      "known_f1": 0.69921875,
+      "units": 96,
+      "sources": 32,
+      "articles": 24,
+      "rows": 1536
+    },
+    "probe_by_level": {
+      "2": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            414,
+            512
+          ],
+          "target_joint": [
+            26,
+            32
+          ],
+          "locality_joint": [
+            5,
+            32
+          ],
+          "irrelevant_target_joint": [
+            27,
+            32
+          ],
+          "reorder_target_joint": [
+            18,
+            32
+          ],
+          "candidate_misbinding": [
+            1,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.80859375,
+          "target_joint": 0.8125,
+          "locality_joint": 0.15625,
+          "irrelevant_target_joint": 0.84375,
+          "reorder_target_joint": 0.5625,
+          "candidate_misbinding": 0.00390625
+        },
+        "known_f1": 0.80859375,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "3": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            359,
+            512
+          ],
+          "target_joint": [
+            23,
+            32
+          ],
+          "locality_joint": [
+            1,
+            32
+          ],
+          "irrelevant_target_joint": [
+            24,
+            32
+          ],
+          "reorder_target_joint": [
+            12,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.701171875,
+          "target_joint": 0.71875,
+          "locality_joint": 0.03125,
+          "irrelevant_target_joint": 0.75,
+          "reorder_target_joint": 0.375,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.701171875,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      },
+      "4": {
+        "family": "probe",
+        "counts": {
+          "known_exact": [
+            301,
+            512
+          ],
+          "target_joint": [
+            12,
+            32
+          ],
+          "locality_joint": [
+            0,
+            32
+          ],
+          "irrelevant_target_joint": [
+            18,
+            32
+          ],
+          "reorder_target_joint": [
+            9,
+            32
+          ],
+          "candidate_misbinding": [
+            2,
+            256
+          ]
+        },
+        "rates": {
+          "known_exact": 0.587890625,
+          "target_joint": 0.375,
+          "locality_joint": 0.0,
+          "irrelevant_target_joint": 0.5625,
+          "reorder_target_joint": 0.28125,
+          "candidate_misbinding": 0.0078125
+        },
+        "known_f1": 0.587890625,
+        "units": 32,
+        "sources": 32,
+        "articles": 24,
+        "rows": 512
+      }
+    },
+    "wall_seconds": 343.192175099859,
+    "predictions_sha256": "8ccc846ea95a76137fc4686dcfa5cd256f224a62bdd0504e06e5f556d8b50a7c",
+    "generation_without_eos": [
+      0,
+      1760
+    ]
+  }
+}

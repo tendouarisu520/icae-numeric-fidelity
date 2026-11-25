@@ -1,0 +1,387 @@
+{
+  "status": "descriptive_oracle_diagnostic",
+  "cells": 20,
+  "files": [
+    {
+      "split": "confirmation",
+      "job": "main-compressed-assignment-seed73",
+      "same_prefix_token_comparisons": 8262,
+      "different_argmax_with_identical_prefix": 8,
+      "rows_with_same_prefix_discrepancy": 8,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-assignment-seed97",
+      "same_prefix_token_comparisons": 8354,
+      "different_argmax_with_identical_prefix": 7,
+      "rows_with_same_prefix_discrepancy": 7,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-bottleneck-seed73",
+      "same_prefix_token_comparisons": 8343,
+      "different_argmax_with_identical_prefix": 16,
+      "rows_with_same_prefix_discrepancy": 16,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-bottleneck-seed97",
+      "same_prefix_token_comparisons": 8412,
+      "different_argmax_with_identical_prefix": 7,
+      "rows_with_same_prefix_discrepancy": 7,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-relation-seed73",
+      "same_prefix_token_comparisons": 8246,
+      "different_argmax_with_identical_prefix": 7,
+      "rows_with_same_prefix_discrepancy": 7,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-relation-seed97",
+      "same_prefix_token_comparisons": 8252,
+      "different_argmax_with_identical_prefix": 9,
+      "rows_with_same_prefix_discrepancy": 9,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-sft-seed73",
+      "same_prefix_token_comparisons": 8288,
+      "different_argmax_with_identical_prefix": 7,
+      "rows_with_same_prefix_discrepancy": 7,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-compressed-sft-seed97",
+      "same_prefix_token_comparisons": 8336,
+      "different_argmax_with_identical_prefix": 8,
+      "rows_with_same_prefix_discrepancy": 8,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-full-sft-seed73",
+      "same_prefix_token_comparisons": 9216,
+      "different_argmax_with_identical_prefix": 0,
+      "rows_with_same_prefix_discrepancy": 0,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "confirmation",
+      "job": "main-full-sft-seed97",
+      "same_prefix_token_comparisons": 9216,
+      "different_argmax_with_identical_prefix": 0,
+      "rows_with_same_prefix_discrepancy": 0,
+      "gold_digit_token_map": {
+        "3": 28770,
+        "4": 28781,
+        "6": 28784,
+        "7": 28787,
+        "5": 28782,
+        "9": 28774,
+        "8": 28783,
+        "2": 28750,
+        "1": 28740,
+        "0": 28734
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-assignment-seed73",
+      "same_prefix_token_comparisons": 4231,
+      "different_argmax_with_identical_prefix": 5,
+      "rows_with_same_prefix_discrepancy": 5,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-assignment-seed97",
+      "same_prefix_token_comparisons": 4251,
+      "different_argmax_with_identical_prefix": 3,
+      "rows_with_same_prefix_discrepancy": 3,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-bottleneck-seed73",
+      "same_prefix_token_comparisons": 4249,
+      "different_argmax_with_identical_prefix": 3,
+      "rows_with_same_prefix_discrepancy": 3,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-bottleneck-seed97",
+      "same_prefix_token_comparisons": 4244,
+      "different_argmax_with_identical_prefix": 6,
+      "rows_with_same_prefix_discrepancy": 6,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-relation-seed73",
+      "same_prefix_token_comparisons": 4212,
+      "different_argmax_with_identical_prefix": 9,
+      "rows_with_same_prefix_discrepancy": 9,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-relation-seed97",
+      "same_prefix_token_comparisons": 4235,
+      "different_argmax_with_identical_prefix": 5,
+      "rows_with_same_prefix_discrepancy": 5,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-sft-seed73",
+      "same_prefix_token_comparisons": 4226,
+      "different_argmax_with_identical_prefix": 8,
+      "rows_with_same_prefix_discrepancy": 8,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-compressed-sft-seed97",
+      "same_prefix_token_comparisons": 4261,
+      "different_argmax_with_identical_prefix": 6,
+      "rows_with_same_prefix_discrepancy": 6,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-full-sft-seed73",
+      "same_prefix_token_comparisons": 4608,
+      "different_argmax_with_identical_prefix": 0,
+      "rows_with_same_prefix_discrepancy": 0,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    },
+    {
+      "split": "development",
+      "job": "main-full-sft-seed97",
+      "same_prefix_token_comparisons": 4608,
+      "different_argmax_with_identical_prefix": 0,
+      "rows_with_same_prefix_discrepancy": 0,
+      "gold_digit_token_map": {
+        "4": 28781,
+        "2": 28750,
+        "6": 28784,
+        "3": 28770,
+        "7": 28787,
+        "8": 28783,
+        "5": 28782,
+        "9": 28774,
+        "0": 28734,
+        "1": 28740
+      }
+    }
+  ],
+  "note": "Teacher-forced gold prefixes are not available to an autonomous decoder; same-prefix discrepancies audit cached versus uncached inference."
+}

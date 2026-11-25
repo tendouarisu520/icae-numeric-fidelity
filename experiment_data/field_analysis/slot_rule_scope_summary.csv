@@ -1,0 +1,9 @@
+cohort,seed,step,context_scope,follows_rule,same_row_field_intrusions,exceptions
+development,73,512,original,166,166,0
+development,73,512,all_four_contexts,646,651,5
+development,97,512,original,163,163,0
+development,97,512,all_four_contexts,617,622,5
+development,73,1024,original,163,166,3
+development,73,1024,all_four_contexts,638,650,12
+development,97,1024,original,157,159,2
+development,97,1024,all_four_contexts,634,643,9

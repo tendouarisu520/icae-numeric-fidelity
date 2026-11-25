@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "maximum_updates": 1024,
+  "seeds": [
+    73,
+    97
+  ],
+  "method": "sft",
+  "files": {
+    "src/binding/v16_training.py": "b4a6f8ca42d35c854120c978cda61c201f2e28d3d02e8810ec1befc1da8f7034",
+    "src/binding/v16_exposure.py": "10ff77c5dc7a65b8e05f9c39bd6e3868392d78467156c1f4bf506565d98f8ee1",
+    "temp/v16/exposure_queue.py": "45ea8cbef626fd128b4d48b99de2382f6a1037db7c828b0f20854e29bfcb9e27"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "phase": "complete",
+  "job": "main-compressed-sft-seed97",
+  "pid": 7560,
+  "optimizer_steps": 1024,
+  "updated": 1793935817.4281013,
+  "cache_completed": 4608,
+  "cache_total": 4608,
+  "cache_contexts": 4608,
+  "cache_bytes": 4831838208,
+  "last_step_seconds": 2.1834923001006246,
+  "peak_allocated_mib": 15163.1923828125,
+  "cumulative_training_seconds": 2191.640328700887,
+  "evaluation_units": 128,
+  "evaluation_total": 128,
+  "overfit_pass": true
+}

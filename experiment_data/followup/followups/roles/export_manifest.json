@@ -1,0 +1,78 @@
+{
+  "part": "roles",
+  "root": "E:\\Research\\ICAE-ConditionalMemory-20261021\\results\\v16-code-fidelity-20261106\\roles",
+  "files": [
+    {
+      "path": "main-compressed-sft-seed73-step1024/predictions.jsonl",
+      "size": 1316352,
+      "sha256": "0a0947ed33d3e81da75f34bf5330300309fe2b7028bef8e02325d2646f501208"
+    },
+    {
+      "path": "main-compressed-sft-seed73-step1024/receipt.json",
+      "size": 1166,
+      "sha256": "7ddf7c89a85589f39075c01da3aac8bd0ffb7bb51741186f8dcdc2507cf15fff"
+    },
+    {
+      "path": "main-compressed-sft-seed73-step512/predictions.jsonl",
+      "size": 1316352,
+      "sha256": "0251af9a258d295e4b8dfc1f6fd3d25bf9bb85811c78fde5f052e58d51b51518"
+    },
+    {
+      "path": "main-compressed-sft-seed73-step512/receipt.json",
+      "size": 1158,
+      "sha256": "acdc76f92d55ac9193700096201a9f881c474004346fdd264a981425a8615048"
+    },
+    {
+      "path": "main-compressed-sft-seed97-step1024/predictions.jsonl",
+      "size": 1316352,
+      "sha256": "b5dc20c02d840dc320a5aa1d0958a09c998fcba34d1c1374c3f05f4d0cbb6a5e"
+    },
+    {
+      "path": "main-compressed-sft-seed97-step1024/receipt.json",
+      "size": 1174,
+      "sha256": "a3596c702410bf4a66545a1022021a75c1eb3fe833ffa20a53c200470e9db9d0"
+    },
+    {
+      "path": "main-compressed-sft-seed97-step512/predictions.jsonl",
+      "size": 1316360,
+      "sha256": "ba60241807cdc7550015e84c9c3d185df1753f7ea40ad6139cb546d9d6f12084"
+    },
+    {
+      "path": "main-compressed-sft-seed97-step512/receipt.json",
+      "size": 1190,
+      "sha256": "f572798a868a2987e3859ba2031feea998815e6b37685622dc8b3eef5f469ee8"
+    },
+    {
+      "path": "main-full-sft-seed73-step512/predictions.jsonl",
+      "size": 1316352,
+      "sha256": "a08a3bc08fe0f162f5001b834383a37267367c9c6cee0ba97c63201fa261f8cd"
+    },
+    {
+      "path": "main-full-sft-seed73-step512/receipt.json",
+      "size": 1187,
+      "sha256": "68c6a0f32fa1a071e007c5a756ea5d315c9a7c6236f356791f634737fddd83be"
+    },
+    {
+      "path": "main-full-sft-seed97-step512/predictions.jsonl",
+      "size": 1316352,
+      "sha256": "5e8b91a722de55184b220e0c1b07995ee41d10d934dc742215a5a1b0a7ba6ccf"
+    },
+    {
+      "path": "main-full-sft-seed97-step512/receipt.json",
+      "size": 1187,
+      "sha256": "5be75f317fb4deea27ec0c0203e81e51173604fc34e462b00780e6ede4a6335e"
+    },
+    {
+      "path": "protocol.json",
+      "size": 3514,
+      "sha256": "b01b8bd33be4a5b02d821cd7311b68995d02ef71b1b40e01b1c1b100b642b0de"
+    },
+    {
+      "path": "status.json",
+      "size": 74,
+      "sha256": "632bf031612331fc4537206db1add5c34b6c5c5aa784b8f007ae1ea1130865fe"
+    }
+  ],
+  "models_included": false,
+  "reserved_test_accessed": false
+}

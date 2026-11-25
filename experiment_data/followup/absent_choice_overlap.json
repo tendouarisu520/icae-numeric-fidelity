@@ -1,0 +1,26 @@
+[
+  {
+    "split": "development",
+    "seed": 73,
+    "absent_target": 145,
+    "choice_correct": 135
+  },
+  {
+    "split": "development",
+    "seed": 97,
+    "absent_target": 138,
+    "choice_correct": 127
+  },
+  {
+    "split": "confirmation",
+    "seed": 73,
+    "absent_target": 312,
+    "choice_correct": 308
+  },
+  {
+    "split": "confirmation",
+    "seed": 97,
+    "absent_target": 277,
+    "choice_correct": 265
+  }
+]

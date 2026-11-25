@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-08",
+  "status": "fixed_before_gpu",
+  "files": {
+    "temp/v19/common.py": "4d9b26c96849578223f9f97e2e6a123ace6a8c5fd87771188f48e9a151ce39d7",
+    "temp/v19/evaluate.py": "57f50163fb61a05affd67b09961fa380b581fb538f77819f05eb3d11bbc62fb1",
+    "temp/v19/export_losses.py": "1358bf625b7cc7ccf51d99a7d08ccc48aaea7b0b56f065196cf24693626c2d55",
+    "temp/v19/preflight.py": "a74b50cca4652c259488880f0dd70a089cd0de212a753a05e8710656d40d6af1",
+    "src/binding/v19_training.py": "982aba1bf2dbd51d69b496585728ef12d4d6448b20bac661cb874c94ef8fabfc",
+    "src/binding/v19_data.py": "c6249ad1b8c4e5660f10b93ed4ecc52298174b6e02dac539d926acbc5bd3b0db",
+    "src/binding/v19_analysis.py": "62e4b6900100196a902f7cc7f3324cd8e6b59c262f6409b7a5b80d4c56facef5",
+    "src/tests/test_v19_followup.py": "c828cbb4dc975a88522673c3c064a76b6f96074881e00b1aac2006289ed754d9",
+    "docs/superpowers/plans/2026-11-08-budget-layout-prospective.md": "3639cef3b29cc7065fc7bbedd8726c9bb203b8d664b5f5ffe7c332d57659d5e5",
+    "src/binding/v13_data.py": "147d62c2823fbd005c34b48501ac5a8c0dd32f43814879ebac2f6f887db8455b",
+    "src/binding/v13_protocol.py": "9a652066c7aa16c0442898dd9a7c41ed1c54144079577396d08b4817385caf6c",
+    "src/binding/v13_objectives.py": "159c7e6788a9a968263753d510a1f81aaab2e85ccad63b09e3e6c0a2b853ca4d",
+    "src/binding/v14_objectives.py": "3ca169780e71c66f32ece131e06b28f46d836feb693e183cd1d8a2adb25ef6d2",
+    "src/binding/v13_training.py": "8d1111761b7020f5848ecfa8a52adc8e133ee26b7ef88907a32f581f83b85085",
+    "src/binding/v16_training.py": "b4a6f8ca42d35c854120c978cda61c201f2e28d3d02e8810ec1befc1da8f7034",
+    "src/binding/v16_exposure.py": "10ff77c5dc7a65b8e05f9c39bd6e3868392d78467156c1f4bf506565d98f8ee1",
+    "src/binding/v16_roles.py": "75cbb9f4519cee04a8695394a6a0e84bd7ee1b01b69e3a2da0ae532a8bff6c1c",
+    "src/binding/v16_code_fidelity.py": "6b0447328641bf0b9773861a14be1245e4efda07f253c91b88353e83698b9f03",
+    "src/binding/v12_reader.py": "0077c058f420c4e17b827fdb333b6bb790b2571e0e799f48f7d9153fcb525ddf",
+    "src/binding/v11_training.py": "ea4d5aef2a8978a144a325fa4ca7e5699734a183697117f58ac3947309481ace",
+    "src/binding/v11_pipeline.py": "6ee90f64a0cc13de60f347d763bf0ad8a51c5a9061ea09a33ba789beb838e07d",
+    "src/binding/v4_model.py": "f6ff5b9aa45ae4707fa44bc8a2b3183a5e275cda237169460ec62800cb576774",
+    "src/binding/v9_model.py": "c337c8e78611cdaeefdb522dfbed8ded871f1b928142c6e6f9db406517a669b3",
+    "src/binding/model.py": "cac6d00ca6a0e3aec2295341e69cc2b50b34db4edfb0fa23a2c922360c43d64b",
+    "src/binding/benchmark.py": "65af34266f6a90a1dae06e1c2b14eeee6a11f12127beff6cb1f1c01e2d72a21c",
+    "src/binding/repro_probe.py": "64eb7ca62779ab797d336189ace2ddc3d12a709379e00d758b369c9b42c90284",
+    "temp/v19/run_queue.py": "8a8d3823036214b100c9f9afd0fac590f30f249f42cc89f9d6706595de52e761"
+  },
+  "generated_data_sha256": {
+    "original": "66265c6c003519f656759783e666c25d0a5f84152dd4afb1929da1897dfa3caa",
+    "crossed": "25b274ffc21ed444177920a3925d9855078218838075266094c966d303bacca8",
+    "balanced_training": "f660612adb9b9d7fabc17b533e1920730ea7c5114256133ed2e4363d88daa8c1"
+  },
+  "original_protocol_sha256": "85ad32bfcb7b5645689f29e4c606415f2b78701c3d299228237efac78a709abb",
+  "test_accessed": false,
+  "plan": "docs/superpowers/plans/2026-11-08-budget-layout-prospective.md",
+  "environment_fix": "Rename runner to avoid shadowing Python queue; fixed before any GPU work; analysis/data unchanged"
+}

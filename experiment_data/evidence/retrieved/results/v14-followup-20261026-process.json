@@ -1,0 +1,13 @@
+{
+  "parent_pid": 28592,
+  "command": [
+    "E:\\Research\\ICAE-ConditionalMemory-20261021\\envs\\icae\\Scripts\\python.exe",
+    "-B",
+    "E:\\Research\\ICAE-ConditionalMemory-20261021\\temp\\v14_after_v13_20261026.py"
+  ],
+  "status": "success",
+  "started": 1792984731.3850734,
+  "child_pid": 17788,
+  "exit_code": 0,
+  "finished": 1793010105.9926808
+}

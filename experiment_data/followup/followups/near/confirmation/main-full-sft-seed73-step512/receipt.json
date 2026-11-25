@@ -1,0 +1,15 @@
+{
+  "job": "main-full-sft-seed73-step512",
+  "split": "confirmation",
+  "rows": 1536,
+  "condition_correct": 1536,
+  "first_digit_correct": 1536,
+  "last_digit_correct": 1536,
+  "greedy_correct": 1536,
+  "wrong_generation_gold_more_likely": 0,
+  "exact_replay_rows": 2,
+  "max_candidate_score_replay_difference": 0.0,
+  "scores_sha256": "cc582a771a9a77d01d2081aa2509257a1af4eedbc49c7f5694956f2813503fed",
+  "raw_predictions_sha256": "1da1c37db07d046184e521fdbfed93f47160a8adffd3b5b2a9012b44b80985d0",
+  "protocol_sha256": "2dfa1db768d554f7644258d4372fa6f0cd1c1cb7d71210c4a25004662ab292d0"
+}

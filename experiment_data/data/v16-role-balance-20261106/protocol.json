@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-06",
+  "split": "development",
+  "purpose": "post hoc factorial diagnostic, not new independent confirmation",
+  "selection": "first8 distinct development articles by sha256(v16-role-source:+source_id), level4 only",
+  "selected_sources": [
+    {
+      "id": "v11-c87dcf745fb020a4d0f4a336",
+      "article": "Karl_Popper"
+    },
+    {
+      "id": "v11-da3d3c60062cd6f1b455b6a6",
+      "article": "Military_history_of_the_United_States"
+    },
+    {
+      "id": "v11-33e0ae500112bd84ab203a81",
+      "article": "Nintendo_Entertainment_System"
+    },
+    {
+      "id": "v11-36451e0f22a4e88294cad76b",
+      "article": "Electric_motor"
+    },
+    {
+      "id": "v11-0fc0d5686768a91dd33955f1",
+      "article": "Airport"
+    },
+    {
+      "id": "v11-952cb077ab94c5791ab6f231",
+      "article": "Armenians"
+    },
+    {
+      "id": "v11-6f6479f3405f6318a4f43534",
+      "article": "St._John%27s,_Newfoundland_and_Labrador"
+    },
+    {
+      "id": "v11-6b41771220d029a1f0e8f8e6",
+      "article": "Cardinal_(Catholicism)"
+    }
+  ],
+  "factors": {
+    "target_field_identity": 3,
+    "within_record_field_position": 3,
+    "first_two_team_role": 2
+  },
+  "original_contexts": 4,
+  "queries": 4,
+  "units": 144,
+  "rows": 2304,
+  "source_sha256": "c1873f26379b65a6ed4b236b73f95236e663d7e5eff58aa04221ceac5a906c2a",
+  "data_sha256": "78d33ebfe1a8a198fae74d832d4b44e59a511b49505e31b13a03b519bf4a663b",
+  "generator_sha256": "75cbb9f4519cee04a8695394a6a0e84bd7ee1b01b69e3a2da0ae532a8bff6c1c",
+  "comparisons": [
+    "original512compressedSFT73",
+    "original512compressedSFT97",
+    "original512fullSFT73",
+    "original512fullSFT97",
+    "extended1024compressedSFT73",
+    "extended1024compressedSFT97"
+  ],
+  "no_training_on_diagnostic": true,
+  "reserved_test_accessed": false
+}

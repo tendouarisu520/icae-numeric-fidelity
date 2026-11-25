@@ -1,0 +1,37 @@
+{
+  "part": "memory_control",
+  "files": [
+    {
+      "path": "main-compressed-sft-seed73/receipt.json",
+      "size": 366,
+      "sha256": "fd48b7313956d1659707bd4bd3da7e19815d0f885b3365a1df4451001306e38a"
+    },
+    {
+      "path": "main-compressed-sft-seed73/scores.jsonl",
+      "size": 113018,
+      "sha256": "8b75029a97cd1a4e967744b84fab965a36c8a3713ae6e4e15bc66103ea0ab1d2"
+    },
+    {
+      "path": "main-compressed-sft-seed97/receipt.json",
+      "size": 366,
+      "sha256": "0235f3afd6ad57a9380f4b0e68a90a9ce134c571361ba73a4f5d8d44c3050ca0"
+    },
+    {
+      "path": "main-compressed-sft-seed97/scores.jsonl",
+      "size": 112931,
+      "sha256": "a16a3a6c239dc6f9b6fa9cb513926d495160cf5ec24501472370f23992fb970f"
+    },
+    {
+      "path": "protocol.json",
+      "size": 4839,
+      "sha256": "36b7703907ffeb6b1f372e5e33c92e57b6980fd82fc47f4fb82e05b4a703813b"
+    },
+    {
+      "path": "status.json",
+      "size": 114,
+      "sha256": "418c898f0f65090fe53aa7ae171f30a3543e8b5fd585ec2451024ad739a37e55"
+    }
+  ],
+  "models_included": false,
+  "reserved_test_accessed": false
+}

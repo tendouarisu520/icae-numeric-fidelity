@@ -1,0 +1,13 @@
+seed,query,label,intervention,n,original_correct,original_wrong,correct_to_wrong,wrong_to_correct,net_correct_change
+73,2,Locker,Swap,192,96,96,31,19,-12
+73,2,Locker,Irrelevant edit,192,96,96,5,5,0
+73,2,Locker,Reverse order,192,96,96,75,23,-52
+73,3,Other-team badge,Swap,192,163,29,6,9,3
+73,3,Other-team badge,Irrelevant edit,192,163,29,3,1,-2
+73,3,Other-team badge,Reverse order,192,163,29,58,15,-43
+97,2,Locker,Swap,192,90,102,24,21,-3
+97,2,Locker,Irrelevant edit,192,90,102,4,5,1
+97,2,Locker,Reverse order,192,90,102,62,25,-37
+97,3,Other-team badge,Swap,192,158,34,8,12,4
+97,3,Other-team badge,Irrelevant edit,192,158,34,1,2,1
+97,3,Other-team badge,Reverse order,192,158,34,54,14,-40

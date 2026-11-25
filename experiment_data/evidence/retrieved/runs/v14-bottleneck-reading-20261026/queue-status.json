@@ -1,0 +1,52 @@
+{
+  "status": "success",
+  "phase": "complete",
+  "pid": 16336,
+  "completed": [
+    {
+      "job": "unit-tests",
+      "exit_code": 0,
+      "record_sha256": "306977498e08853ee60d47bbd490a3c9dc0e64b2e127a3c9d974714cab97bbd3"
+    },
+    {
+      "job": "smoke-compressed-bottleneck-seed73",
+      "exit_code": 0,
+      "record_sha256": "84bee63b5383711682e6f810e7a690d7e6d19a9684858b5ad75174efee87f581"
+    },
+    {
+      "job": "main-compressed-bottleneck-seed73",
+      "exit_code": 0,
+      "record_sha256": "1be7aefe027d3a604b083ae9cac92a8aba44ad1d9903d2667baea2b2631fca6a"
+    },
+    {
+      "job": "main-compressed-bottleneck-seed97",
+      "exit_code": 0,
+      "record_sha256": "cbfbaa826bec39c6e294cb0d6be6b0a1fba9998d5f8f2a4f2c188d474405a9cd"
+    }
+  ],
+  "scientific_starts": 2,
+  "maximum_scientific_starts": 2,
+  "started": 1792984731.486099,
+  "confirmation_evaluated": false,
+  "reserved_test_accessed": false,
+  "updated": 1793010105.9836771,
+  "current_job": null,
+  "wrapper_pid": 33988,
+  "stdout": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v14-bottleneck-reading-20261026\\main-compressed-bottleneck-seed97.stdout.log",
+  "stderr": "E:\\Research\\ICAE-ConditionalMemory-20261021\\logs\\v14-bottleneck-reading-20261026\\main-compressed-bottleneck-seed97.stderr.log",
+  "process_record": "E:\\Research\\ICAE-ConditionalMemory-20261021\\runs\\v14-bottleneck-reading-20261026\\main-compressed-bottleneck-seed97-process.json",
+  "current_progress": null,
+  "stdout_bytes": 43368,
+  "stderr_bytes": 1037,
+  "last_log_write": 1793010047.4710884,
+  "stale_log_seconds": 38.41000938415527,
+  "child_cpu_seconds": 5079.46875,
+  "diagnostic": "progress_or_short_gap",
+  "recent_stderr": null,
+  "original_job": "main-full-sft-seed97",
+  "original_step": 512,
+  "original_phase": "evaluation",
+  "original_updated": 1793003022.6987205,
+  "Efree": 680722432,
+  "finished": 1793010105.9836771
+}

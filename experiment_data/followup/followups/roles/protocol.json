@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-06",
+  "purpose": "post hoc factorial diagnostic, not new independent confirmation",
+  "runner_sha256": "be9e10b2dc61a4a3567b48a072a9f2745bacc02b71481557dc4238aab9189597",
+  "data_sha256": "78d33ebfe1a8a198fae74d832d4b44e59a511b49505e31b13a03b519bf4a663b",
+  "generator_protocol_sha256": "54674cf8dcc9567a4cca8d95478fa905dc6bd5d7532ff00e8fdc145b09a6406b",
+  "lock_sha256": "5c9816e3dc56811f283bb31a3626fce1ed8d4798765b031433cd87443aff3d1c",
+  "jobs": [
+    {
+      "name": "main-compressed-sft-seed73",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-sft-seed73/final-adapter.safetensors",
+      "identity": "cab0af27525ed42b59da02744b9110f88b2ece15115dc7d147a9f17668f10c9f",
+      "arm": "compressed",
+      "seed": 73,
+      "method": "sft",
+      "step": 512,
+      "label": "main-compressed-sft-seed73-step512",
+      "checkpoint_sha256": "81457e39f358aaf7b144a479e0117379a3fd2addf5fe2e1c499c05eb41ecd3e4"
+    },
+    {
+      "name": "main-compressed-sft-seed97",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-compressed-sft-seed97/final-adapter.safetensors",
+      "identity": "c04c7f97f01622985ebb9531fa7dd02339b53057dfcce25fa6cd849d73945617",
+      "arm": "compressed",
+      "seed": 97,
+      "method": "sft",
+      "step": 512,
+      "label": "main-compressed-sft-seed97-step512",
+      "checkpoint_sha256": "2b30173588ace2fef2e97b149e28c362c10f476be6c54b455b4fb00e70ed4c80"
+    },
+    {
+      "name": "main-full-sft-seed73",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-full-sft-seed73/final-adapter.safetensors",
+      "identity": "f530adc9bd857d4f9a500f49a0fa9159e5baa6f977602ae4ffaa1dd1afbe1473",
+      "arm": "full",
+      "seed": 73,
+      "method": "sft",
+      "step": 512,
+      "label": "main-full-sft-seed73-step512",
+      "checkpoint_sha256": "98835dfd79dde2093b4d7a9efe77b2d05ac02da4fa0b0f441637d239fe8bc73b"
+    },
+    {
+      "name": "main-full-sft-seed97",
+      "checkpoint": "runs/v13-answerable-reading-20261026/main-full-sft-seed97/final-adapter.safetensors",
+      "identity": "423da22dce560880bdc2434aebf601a601df4bef1c84b7dc6355b7b8b3d23670",
+      "arm": "full",
+      "seed": 97,
+      "method": "sft",
+      "step": 512,
+      "label": "main-full-sft-seed97-step512",
+      "checkpoint_sha256": "47405c422c02f0a4daa6b5618e0c8aabb7c23a057c5b6d4e2186ccd7345aa6f4"
+    },
+    {
+      "name": "main-compressed-sft-seed73",
+      "label": "main-compressed-sft-seed73-step1024",
+      "arm": "compressed",
+      "seed": 73,
+      "method": "sft",
+      "step": 1024,
+      "checkpoint": "runs/v16-repeated-exposure-20261106/main-compressed-sft-seed73/final-adapter.safetensors",
+      "identity": "ab471d530c22c3794c4324c39769f97dbdab5984a5d8742d10ac19fb93874805",
+      "checkpoint_sha256": "628cf86da6d276476698915a46e45714474ca80faaad114aae117a8dcac8c73d"
+    },
+    {
+      "name": "main-compressed-sft-seed97",
+      "label": "main-compressed-sft-seed97-step1024",
+      "arm": "compressed",
+      "seed": 97,
+      "method": "sft",
+      "step": 1024,
+      "checkpoint": "runs/v16-repeated-exposure-20261106/main-compressed-sft-seed97/final-adapter.safetensors",
+      "identity": "a8e8df8a4d82442fc5b4bf20914fa5db932cd907f38d354466ba54e696815854",
+      "checkpoint_sha256": "498b2f2fe23ff6587d68155496d1096f8d7142c8c7b45e5279654684b9eb0c17"
+    }
+  ],
+  "reserved_test_accessed": false,
+  "model_selection": false
+}

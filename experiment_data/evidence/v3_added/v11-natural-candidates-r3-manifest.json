@@ -1,0 +1,33 @@
+{
+  "status": "candidate_data_built_semantic_and_token_audit_pending",
+  "source_sha256": "68dcfbb971bd3e96d5b46c7177b16c1a4e7d4bdef19fb204502738552dede002",
+  "partitions": {
+    "train": {
+      "units": 720,
+      "articles": 189,
+      "sha256": "4c951c12375e79169b30dd791111189de2efcfdc01700f936ff7d68947fb2c52"
+    },
+    "development": {
+      "units": 73,
+      "articles": 24,
+      "sha256": "7394101f445ebcb3339c258360018e915dcdf50f15d73b34cd31f0c603383ccd"
+    },
+    "confirmation": {
+      "units": 77,
+      "articles": 22,
+      "sha256": "a4f50faf2c207f93c8ccfa8beec761648df60f10e3dcf4d1aa5ecc530ba374bc"
+    }
+  },
+  "source_paragraphs": 19035,
+  "recipe": "v11-natural-relations-3",
+  "target_kinds": [
+    "time",
+    "number"
+  ],
+  "numeric_units_preserved": true,
+  "donor_partition_isolated": true,
+  "contexts_per_unit": 4,
+  "questions_per_context": 3,
+  "official_external_dev_used": false,
+  "internal_confirmation_or_reserved_test_accessed": false
+}

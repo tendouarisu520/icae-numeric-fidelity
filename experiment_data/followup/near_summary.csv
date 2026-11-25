@@ -1,0 +1,11 @@
+split,arm,seed,step,rows,condition_correct,first_digit_correct,last_digit_correct,greedy_correct,wrong_generation_gold_more_likely,wrong_generation,same_length_wrong,same_length_gold_more_likely_wrong,same_length_wrong_gold_less_likely,same_length_wrong_sequence_ties,same_length_wrong_gold_advantage_gt0p01,same_length_wrong_gold_advantage_gt0p1,same_length_wrong_condition_correct,same_length_wrong_first_digit_correct,same_length_wrong_last_digit_correct,condition_ties,first_digit_ties,last_digit_ties,groups,condition_target_joint,first_digit_target_joint,last_digit_target_joint
+development,compressed,73,512,768,750,764,751,607,23,161,161,23,138,0,22,21,143,157,144,0,0,0,96,92,95,89
+confirmation,compressed,73,512,1536,1517,1518,1498,1168,23,368,368,23,345,0,19,16,349,350,330,0,0,0,192,184,188,173
+development,compressed,97,512,768,749,763,750,615,6,153,153,6,147,0,6,3,134,148,135,0,0,0,96,93,96,90
+confirmation,compressed,97,512,1536,1502,1519,1501,1194,37,342,342,37,305,0,32,22,308,325,307,0,0,0,192,179,187,173
+development,full,73,512,768,768,768,768,768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,96,96,96
+confirmation,full,73,512,1536,1536,1536,1536,1536,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192,192,192,192
+development,full,97,512,768,768,768,768,768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,96,96,96
+confirmation,full,97,512,1536,1536,1536,1536,1536,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192,192,192,192
+development,compressed,73,1024,768,752,765,750,626,13,142,142,13,129,0,11,11,126,139,124,0,0,0,96,92,95,88
+development,compressed,97,1024,768,752,763,749,617,11,151,151,11,140,0,10,9,135,146,132,0,0,0,96,94,95,88

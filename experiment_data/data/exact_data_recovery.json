@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "files": {
+    "v11-natural-frozen-20261025/train.jsonl": {
+      "sha256": "6494d0ea9c0574d04b9eb2fd6cacebcf2e532b34da0ee1cd3cdf37e8e83a72d3",
+      "units": 512,
+      "byte_identical": true
+    },
+    "v13-answerable-relations-20261026/train.jsonl": {
+      "sha256": "e249136d7ae625344821950a42368a135a7a576510825e68e8db37b4cff3baec",
+      "units": 1024,
+      "byte_identical": true
+    },
+    "v11-natural-frozen-20261025/development.jsonl": {
+      "sha256": "c0422c1b8707b673e227367453cc875367357e0fc15912b83dfa25ea4281679d",
+      "units": 32,
+      "byte_identical": true
+    },
+    "v13-answerable-relations-20261026/development.jsonl": {
+      "sha256": "c1873f26379b65a6ed4b236b73f95236e663d7e5eff58aa04221ceac5a906c2a",
+      "units": 128,
+      "byte_identical": true
+    }
+  }
+}

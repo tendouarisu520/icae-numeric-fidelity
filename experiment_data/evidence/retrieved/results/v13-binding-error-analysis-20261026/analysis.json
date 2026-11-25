@@ -1,0 +1,2124 @@
+{
+  "status": "complete",
+  "endpoint": 512,
+  "comparisons": {
+    "assignment-seed73": {
+      "method": "Paired source-weighted article-cluster bootstrap; development diagnostic",
+      "sources": 32,
+      "articles": 24,
+      "repetitions": 2000,
+      "fields": {
+        "target_joint": {
+          "delta": -0.010416666666666666,
+          "interval95": [
+            -0.05555555555555555,
+            0.03809523809523809
+          ]
+        },
+        "locality_joint": {
+          "delta": -0.010416666666666666,
+          "interval95": [
+            -0.04901960784313725,
+            0.022988505747126436
+          ]
+        },
+        "natural_f1": {
+          "delta": -0.0012792397660818678,
+          "interval95": [
+            -0.01377923976608187,
+            0.01172723475355055
+          ]
+        }
+      }
+    },
+    "relation-seed73": {
+      "method": "Paired source-weighted article-cluster bootstrap; development diagnostic",
+      "sources": 32,
+      "articles": 24,
+      "repetitions": 2000,
+      "fields": {
+        "target_joint": {
+          "delta": -0.041666666666666664,
+          "interval95": [
+            -0.11111111111111112,
+            0.035714285714285705
+          ]
+        },
+        "locality_joint": {
+          "delta": 0.0,
+          "interval95": [
+            -0.03125,
+            0.03125
+          ]
+        },
+        "natural_f1": {
+          "delta": -0.005357142857142854,
+          "interval95": [
+            -0.01224489795918367,
+            -0.0003401360544217675
+          ]
+        }
+      }
+    },
+    "assignment-seed97": {
+      "method": "Paired source-weighted article-cluster bootstrap; development diagnostic",
+      "sources": 32,
+      "articles": 24,
+      "repetitions": 2000,
+      "fields": {
+        "target_joint": {
+          "delta": -0.052083333333333336,
+          "interval95": [
+            -0.1238095238095238,
+            0.01075268817204301
+          ]
+        },
+        "locality_joint": {
+          "delta": 0.010416666666666666,
+          "interval95": [
+            -0.022988505747126436,
+            0.04444444444444444
+          ]
+        },
+        "natural_f1": {
+          "delta": -0.00402996126680337,
+          "interval95": [
+            -0.016211327216111897,
+            0.004761904761904756
+          ]
+        }
+      }
+    },
+    "relation-seed97": {
+      "method": "Paired source-weighted article-cluster bootstrap; development diagnostic",
+      "sources": 32,
+      "articles": 24,
+      "repetitions": 2000,
+      "fields": {
+        "target_joint": {
+          "delta": -0.07291666666666667,
+          "interval95": [
+            -0.15555555555555559,
+            -0.010416666666666666
+          ]
+        },
+        "locality_joint": {
+          "delta": 0.03125,
+          "interval95": [
+            0.0,
+            0.06666666666666665
+          ]
+        },
+        "natural_f1": {
+          "delta": -0.007006151742993842,
+          "interval95": [
+            -0.029994340690435762,
+            0.007668521954236247
+          ]
+        }
+      }
+    }
+  },
+  "profiles": {
+    "main-compressed-sft-seed73--128": {
+      "errors": {
+        "correct": 871,
+        "unobserved_code": 540,
+        "condition": 47,
+        "entity": 25,
+        "field": 35,
+        "mixed_binding": 16,
+        "non_code": 2
+      },
+      "by_context": {
+        "0": {
+          "correct": 241,
+          "unobserved_code": 135,
+          "mixed_binding": 3,
+          "field": 4,
+          "condition": 1
+        },
+        "1": {
+          "correct": 248,
+          "unobserved_code": 130,
+          "entity": 2,
+          "field": 3,
+          "mixed_binding": 1
+        },
+        "2": {
+          "correct": 241,
+          "unobserved_code": 135,
+          "mixed_binding": 3,
+          "field": 4,
+          "condition": 1
+        },
+        "3": {
+          "correct": 141,
+          "condition": 45,
+          "unobserved_code": 140,
+          "field": 24,
+          "entity": 23,
+          "mixed_binding": 9,
+          "non_code": 2
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 373,
+          "unobserved_code": 115,
+          "condition": 12,
+          "entity": 3,
+          "mixed_binding": 4,
+          "non_code": 1,
+          "field": 4
+        },
+        "3": {
+          "correct": 286,
+          "unobserved_code": 173,
+          "entity": 16,
+          "condition": 15,
+          "field": 16,
+          "mixed_binding": 6
+        },
+        "4": {
+          "correct": 212,
+          "unobserved_code": 252,
+          "field": 15,
+          "condition": 20,
+          "mixed_binding": 6,
+          "entity": 6,
+          "non_code": 1
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 222,
+          "unobserved_code": 132,
+          "entity": 11,
+          "mixed_binding": 2,
+          "condition": 16,
+          "non_code": 1
+        },
+        "1": {
+          "correct": 271,
+          "condition": 13,
+          "unobserved_code": 92,
+          "entity": 4,
+          "non_code": 1,
+          "mixed_binding": 3
+        },
+        "2": {
+          "unobserved_code": 243,
+          "field": 35,
+          "correct": 100,
+          "mixed_binding": 6
+        },
+        "3": {
+          "correct": 278,
+          "unobserved_code": 73,
+          "entity": 10,
+          "condition": 18,
+          "mixed_binding": 5
+        }
+      }
+    },
+    "main-compressed-sft-seed73--256": {
+      "errors": {
+        "correct": 966,
+        "unobserved_code": 516,
+        "condition": 17,
+        "entity": 23,
+        "field": 7,
+        "mixed_binding": 7
+      },
+      "by_context": {
+        "0": {
+          "correct": 258,
+          "unobserved_code": 118,
+          "entity": 2,
+          "mixed_binding": 3,
+          "field": 2,
+          "condition": 1
+        },
+        "1": {
+          "correct": 274,
+          "unobserved_code": 106,
+          "entity": 3,
+          "field": 1
+        },
+        "2": {
+          "correct": 253,
+          "unobserved_code": 124,
+          "entity": 2,
+          "mixed_binding": 2,
+          "field": 2,
+          "condition": 1
+        },
+        "3": {
+          "correct": 181,
+          "condition": 15,
+          "unobserved_code": 168,
+          "entity": 16,
+          "field": 2,
+          "mixed_binding": 2
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 388,
+          "unobserved_code": 111,
+          "condition": 7,
+          "entity": 5,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 326,
+          "unobserved_code": 170,
+          "condition": 4,
+          "entity": 7,
+          "field": 3,
+          "mixed_binding": 2
+        },
+        "4": {
+          "correct": 252,
+          "unobserved_code": 235,
+          "entity": 11,
+          "condition": 6,
+          "field": 4,
+          "mixed_binding": 4
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 257,
+          "unobserved_code": 115,
+          "condition": 2,
+          "entity": 9,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 285,
+          "condition": 11,
+          "unobserved_code": 78,
+          "entity": 8,
+          "mixed_binding": 2
+        },
+        "2": {
+          "correct": 123,
+          "unobserved_code": 254,
+          "field": 7
+        },
+        "3": {
+          "correct": 301,
+          "unobserved_code": 69,
+          "entity": 6,
+          "mixed_binding": 4,
+          "condition": 4
+        }
+      }
+    },
+    "main-compressed-sft-seed73--512": {
+      "errors": {
+        "correct": 1067,
+        "unobserved_code": 439,
+        "entity": 14,
+        "condition": 9,
+        "field": 4,
+        "mixed_binding": 3
+      },
+      "by_context": {
+        "0": {
+          "correct": 277,
+          "unobserved_code": 102,
+          "entity": 2,
+          "mixed_binding": 1,
+          "field": 1,
+          "condition": 1
+        },
+        "1": {
+          "correct": 285,
+          "unobserved_code": 96,
+          "entity": 2,
+          "field": 1
+        },
+        "2": {
+          "correct": 278,
+          "unobserved_code": 101,
+          "entity": 2,
+          "mixed_binding": 1,
+          "field": 1,
+          "condition": 1
+        },
+        "3": {
+          "correct": 227,
+          "unobserved_code": 140,
+          "entity": 8,
+          "condition": 7,
+          "field": 1,
+          "mixed_binding": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 405,
+          "unobserved_code": 101,
+          "entity": 1,
+          "condition": 4,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 360,
+          "unobserved_code": 143,
+          "entity": 5,
+          "condition": 4
+        },
+        "4": {
+          "correct": 302,
+          "unobserved_code": 195,
+          "entity": 8,
+          "field": 4,
+          "mixed_binding": 2,
+          "condition": 1
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 296,
+          "unobserved_code": 80,
+          "condition": 3,
+          "entity": 4,
+          "field": 1
+        },
+        "1": {
+          "correct": 311,
+          "unobserved_code": 65,
+          "entity": 4,
+          "mixed_binding": 1,
+          "condition": 3
+        },
+        "2": {
+          "correct": 134,
+          "unobserved_code": 247,
+          "field": 3
+        },
+        "3": {
+          "correct": 326,
+          "unobserved_code": 47,
+          "entity": 6,
+          "mixed_binding": 2,
+          "condition": 3
+        }
+      }
+    },
+    "main-compressed-assignment-seed73--128": {
+      "errors": {
+        "correct": 874,
+        "unobserved_code": 555,
+        "condition": 37,
+        "entity": 20,
+        "field": 35,
+        "mixed_binding": 13,
+        "non_code": 2
+      },
+      "by_context": {
+        "0": {
+          "correct": 235,
+          "unobserved_code": 138,
+          "field": 4,
+          "mixed_binding": 4,
+          "entity": 1,
+          "condition": 2
+        },
+        "1": {
+          "correct": 250,
+          "unobserved_code": 126,
+          "entity": 3,
+          "field": 4,
+          "mixed_binding": 1
+        },
+        "2": {
+          "correct": 234,
+          "unobserved_code": 141,
+          "field": 4,
+          "mixed_binding": 2,
+          "entity": 1,
+          "condition": 2
+        },
+        "3": {
+          "correct": 155,
+          "condition": 33,
+          "unobserved_code": 150,
+          "field": 23,
+          "entity": 15,
+          "mixed_binding": 6,
+          "non_code": 2
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 373,
+          "unobserved_code": 120,
+          "condition": 9,
+          "entity": 2,
+          "field": 4,
+          "mixed_binding": 3,
+          "non_code": 1
+        },
+        "3": {
+          "correct": 284,
+          "unobserved_code": 187,
+          "entity": 10,
+          "condition": 11,
+          "field": 16,
+          "mixed_binding": 4
+        },
+        "4": {
+          "correct": 217,
+          "unobserved_code": 248,
+          "field": 15,
+          "condition": 17,
+          "mixed_binding": 6,
+          "entity": 8,
+          "non_code": 1
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 225,
+          "entity": 11,
+          "unobserved_code": 137,
+          "mixed_binding": 1,
+          "condition": 9,
+          "non_code": 1
+        },
+        "1": {
+          "correct": 266,
+          "condition": 13,
+          "unobserved_code": 94,
+          "entity": 5,
+          "non_code": 1,
+          "mixed_binding": 5
+        },
+        "2": {
+          "unobserved_code": 249,
+          "field": 35,
+          "correct": 96,
+          "mixed_binding": 4
+        },
+        "3": {
+          "correct": 287,
+          "unobserved_code": 75,
+          "entity": 4,
+          "condition": 15,
+          "mixed_binding": 3
+        }
+      }
+    },
+    "main-compressed-assignment-seed73--256": {
+      "errors": {
+        "correct": 997,
+        "unobserved_code": 495,
+        "entity": 25,
+        "condition": 9,
+        "field": 6,
+        "mixed_binding": 4
+      },
+      "by_context": {
+        "0": {
+          "correct": 263,
+          "unobserved_code": 116,
+          "entity": 3,
+          "mixed_binding": 1,
+          "field": 1
+        },
+        "1": {
+          "correct": 278,
+          "unobserved_code": 100,
+          "entity": 4,
+          "field": 2
+        },
+        "2": {
+          "correct": 265,
+          "unobserved_code": 113,
+          "entity": 3,
+          "mixed_binding": 1,
+          "field": 2
+        },
+        "3": {
+          "correct": 191,
+          "unobserved_code": 166,
+          "entity": 15,
+          "condition": 9,
+          "field": 1,
+          "mixed_binding": 2
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 400,
+          "unobserved_code": 105,
+          "entity": 3,
+          "condition": 3,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 331,
+          "unobserved_code": 167,
+          "entity": 10,
+          "field": 3,
+          "condition": 1
+        },
+        "4": {
+          "correct": 266,
+          "unobserved_code": 223,
+          "entity": 12,
+          "condition": 5,
+          "field": 3,
+          "mixed_binding": 3
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 256,
+          "unobserved_code": 117,
+          "entity": 9,
+          "condition": 1,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 296,
+          "unobserved_code": 74,
+          "entity": 8,
+          "condition": 5,
+          "mixed_binding": 1
+        },
+        "2": {
+          "correct": 127,
+          "unobserved_code": 251,
+          "field": 6
+        },
+        "3": {
+          "correct": 318,
+          "unobserved_code": 53,
+          "entity": 8,
+          "mixed_binding": 2,
+          "condition": 3
+        }
+      }
+    },
+    "main-compressed-assignment-seed73--512": {
+      "errors": {
+        "correct": 1072,
+        "unobserved_code": 444,
+        "entity": 9,
+        "field": 4,
+        "condition": 5,
+        "mixed_binding": 2
+      },
+      "by_context": {
+        "0": {
+          "correct": 279,
+          "unobserved_code": 100,
+          "entity": 2,
+          "mixed_binding": 1,
+          "field": 1,
+          "condition": 1
+        },
+        "1": {
+          "correct": 290,
+          "unobserved_code": 93,
+          "field": 1
+        },
+        "2": {
+          "correct": 275,
+          "unobserved_code": 104,
+          "entity": 2,
+          "mixed_binding": 1,
+          "field": 1,
+          "condition": 1
+        },
+        "3": {
+          "correct": 228,
+          "unobserved_code": 147,
+          "entity": 5,
+          "field": 1,
+          "condition": 3
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 413,
+          "unobserved_code": 94,
+          "entity": 1,
+          "condition": 4
+        },
+        "3": {
+          "correct": 363,
+          "unobserved_code": 145,
+          "entity": 3,
+          "condition": 1
+        },
+        "4": {
+          "correct": 296,
+          "unobserved_code": 205,
+          "entity": 5,
+          "field": 4,
+          "mixed_binding": 2
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 290,
+          "unobserved_code": 89,
+          "entity": 3,
+          "condition": 1,
+          "field": 1
+        },
+        "1": {
+          "correct": 314,
+          "unobserved_code": 64,
+          "entity": 3,
+          "condition": 3
+        },
+        "2": {
+          "correct": 138,
+          "unobserved_code": 243,
+          "field": 3
+        },
+        "3": {
+          "correct": 330,
+          "unobserved_code": 48,
+          "entity": 3,
+          "mixed_binding": 2,
+          "condition": 1
+        }
+      }
+    },
+    "main-compressed-relation-seed73--128": {
+      "errors": {
+        "correct": 867,
+        "unobserved_code": 564,
+        "entity": 23,
+        "condition": 35,
+        "field": 33,
+        "mixed_binding": 12,
+        "non_code": 2
+      },
+      "by_context": {
+        "0": {
+          "correct": 237,
+          "unobserved_code": 137,
+          "condition": 3,
+          "field": 4,
+          "mixed_binding": 3
+        },
+        "1": {
+          "correct": 245,
+          "unobserved_code": 128,
+          "entity": 4,
+          "field": 5,
+          "mixed_binding": 2
+        },
+        "2": {
+          "correct": 233,
+          "unobserved_code": 144,
+          "mixed_binding": 1,
+          "field": 3,
+          "entity": 1,
+          "condition": 2
+        },
+        "3": {
+          "correct": 152,
+          "unobserved_code": 155,
+          "condition": 30,
+          "field": 21,
+          "entity": 18,
+          "mixed_binding": 6,
+          "non_code": 2
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 367,
+          "unobserved_code": 125,
+          "entity": 3,
+          "mixed_binding": 3,
+          "field": 4,
+          "condition": 9,
+          "non_code": 1
+        },
+        "3": {
+          "correct": 288,
+          "unobserved_code": 184,
+          "entity": 11,
+          "condition": 10,
+          "field": 16,
+          "mixed_binding": 3
+        },
+        "4": {
+          "correct": 212,
+          "unobserved_code": 255,
+          "field": 13,
+          "condition": 16,
+          "mixed_binding": 6,
+          "entity": 9,
+          "non_code": 1
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 224,
+          "entity": 12,
+          "unobserved_code": 136,
+          "mixed_binding": 1,
+          "condition": 10,
+          "non_code": 1
+        },
+        "1": {
+          "correct": 269,
+          "unobserved_code": 93,
+          "entity": 5,
+          "condition": 12,
+          "non_code": 1,
+          "mixed_binding": 4
+        },
+        "2": {
+          "unobserved_code": 256,
+          "field": 33,
+          "correct": 91,
+          "mixed_binding": 4
+        },
+        "3": {
+          "correct": 283,
+          "unobserved_code": 79,
+          "entity": 6,
+          "condition": 13,
+          "mixed_binding": 3
+        }
+      }
+    },
+    "main-compressed-relation-seed73--256": {
+      "errors": {
+        "correct": 996,
+        "unobserved_code": 508,
+        "condition": 6,
+        "entity": 16,
+        "field": 8,
+        "mixed_binding": 2
+      },
+      "by_context": {
+        "0": {
+          "correct": 264,
+          "unobserved_code": 116,
+          "mixed_binding": 1,
+          "entity": 1,
+          "field": 2
+        },
+        "1": {
+          "correct": 274,
+          "unobserved_code": 105,
+          "entity": 2,
+          "field": 3
+        },
+        "2": {
+          "correct": 265,
+          "unobserved_code": 115,
+          "mixed_binding": 1,
+          "entity": 1,
+          "field": 2
+        },
+        "3": {
+          "correct": 193,
+          "unobserved_code": 172,
+          "condition": 6,
+          "entity": 12,
+          "field": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 396,
+          "unobserved_code": 109,
+          "entity": 3,
+          "condition": 3,
+          "field": 1
+        },
+        "3": {
+          "correct": 330,
+          "unobserved_code": 172,
+          "condition": 1,
+          "entity": 5,
+          "field": 4
+        },
+        "4": {
+          "correct": 270,
+          "unobserved_code": 227,
+          "entity": 8,
+          "field": 3,
+          "mixed_binding": 2,
+          "condition": 2
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 258,
+          "unobserved_code": 118,
+          "entity": 7,
+          "condition": 1
+        },
+        "1": {
+          "correct": 291,
+          "unobserved_code": 83,
+          "condition": 3,
+          "entity": 7
+        },
+        "2": {
+          "correct": 130,
+          "unobserved_code": 246,
+          "field": 8
+        },
+        "3": {
+          "correct": 317,
+          "unobserved_code": 61,
+          "entity": 2,
+          "mixed_binding": 2,
+          "condition": 2
+        }
+      }
+    },
+    "main-compressed-relation-seed73--512": {
+      "errors": {
+        "correct": 1063,
+        "unobserved_code": 451,
+        "entity": 13,
+        "condition": 6,
+        "mixed_binding": 2,
+        "field": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 273,
+          "unobserved_code": 107,
+          "entity": 2,
+          "mixed_binding": 1,
+          "condition": 1
+        },
+        "1": {
+          "correct": 290,
+          "unobserved_code": 90,
+          "entity": 3,
+          "field": 1
+        },
+        "2": {
+          "correct": 271,
+          "unobserved_code": 109,
+          "entity": 2,
+          "mixed_binding": 1,
+          "condition": 1
+        },
+        "3": {
+          "correct": 229,
+          "unobserved_code": 145,
+          "entity": 6,
+          "condition": 4
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 410,
+          "unobserved_code": 97,
+          "entity": 1,
+          "condition": 4
+        },
+        "3": {
+          "correct": 360,
+          "unobserved_code": 145,
+          "entity": 5,
+          "condition": 2
+        },
+        "4": {
+          "correct": 293,
+          "unobserved_code": 209,
+          "entity": 7,
+          "mixed_binding": 2,
+          "field": 1
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 289,
+          "unobserved_code": 89,
+          "entity": 4,
+          "condition": 1,
+          "field": 1
+        },
+        "1": {
+          "correct": 311,
+          "unobserved_code": 66,
+          "entity": 4,
+          "condition": 3
+        },
+        "2": {
+          "correct": 133,
+          "unobserved_code": 251
+        },
+        "3": {
+          "correct": 330,
+          "unobserved_code": 45,
+          "entity": 5,
+          "mixed_binding": 2,
+          "condition": 2
+        }
+      }
+    },
+    "main-full-sft-seed73--128": {
+      "errors": {
+        "correct": 1534,
+        "unobserved_code": 1,
+        "entity": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 382,
+          "unobserved_code": 1,
+          "entity": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 510,
+          "unobserved_code": 1,
+          "entity": 1
+        },
+        "3": {
+          "correct": 512
+        },
+        "4": {
+          "correct": 512
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 382,
+          "unobserved_code": 1,
+          "entity": 1
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      }
+    },
+    "main-full-sft-seed73--256": {
+      "errors": {
+        "correct": 1535,
+        "condition": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 383,
+          "condition": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 512
+        },
+        "3": {
+          "correct": 511,
+          "condition": 1
+        },
+        "4": {
+          "correct": 512
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 383,
+          "condition": 1
+        }
+      }
+    },
+    "main-full-sft-seed73--512": {
+      "errors": {
+        "correct": 1536
+      },
+      "by_context": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 512
+        },
+        "3": {
+          "correct": 512
+        },
+        "4": {
+          "correct": 512
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      }
+    },
+    "main-compressed-sft-seed97--128": {
+      "errors": {
+        "correct": 877,
+        "unobserved_code": 551,
+        "condition": 26,
+        "mixed_binding": 15,
+        "field": 33,
+        "entity": 34
+      },
+      "by_context": {
+        "0": {
+          "correct": 244,
+          "unobserved_code": 129,
+          "condition": 2,
+          "mixed_binding": 3,
+          "entity": 2,
+          "field": 4
+        },
+        "1": {
+          "correct": 243,
+          "unobserved_code": 134,
+          "mixed_binding": 1,
+          "entity": 4,
+          "field": 2
+        },
+        "2": {
+          "correct": 237,
+          "unobserved_code": 139,
+          "condition": 1,
+          "mixed_binding": 2,
+          "entity": 2,
+          "field": 3
+        },
+        "3": {
+          "correct": 153,
+          "condition": 23,
+          "unobserved_code": 149,
+          "field": 24,
+          "entity": 26,
+          "mixed_binding": 9
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 370,
+          "unobserved_code": 124,
+          "condition": 7,
+          "entity": 6,
+          "mixed_binding": 2,
+          "field": 3
+        },
+        "3": {
+          "correct": 289,
+          "unobserved_code": 183,
+          "mixed_binding": 5,
+          "condition": 7,
+          "field": 15,
+          "entity": 13
+        },
+        "4": {
+          "unobserved_code": 244,
+          "correct": 218,
+          "condition": 12,
+          "entity": 15,
+          "mixed_binding": 8,
+          "field": 15
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 236,
+          "unobserved_code": 117,
+          "entity": 21,
+          "condition": 10
+        },
+        "1": {
+          "correct": 273,
+          "condition": 9,
+          "mixed_binding": 5,
+          "unobserved_code": 91,
+          "entity": 6
+        },
+        "2": {
+          "correct": 89,
+          "unobserved_code": 256,
+          "field": 33,
+          "mixed_binding": 6
+        },
+        "3": {
+          "correct": 279,
+          "unobserved_code": 87,
+          "condition": 7,
+          "entity": 7,
+          "mixed_binding": 4
+        }
+      }
+    },
+    "main-compressed-sft-seed97--256": {
+      "errors": {
+        "correct": 951,
+        "unobserved_code": 532,
+        "condition": 17,
+        "field": 8,
+        "entity": 19,
+        "mixed_binding": 9
+      },
+      "by_context": {
+        "0": {
+          "correct": 247,
+          "unobserved_code": 132,
+          "mixed_binding": 2,
+          "entity": 1,
+          "condition": 1,
+          "field": 1
+        },
+        "1": {
+          "correct": 266,
+          "unobserved_code": 113,
+          "entity": 2,
+          "field": 2,
+          "mixed_binding": 1
+        },
+        "2": {
+          "correct": 251,
+          "unobserved_code": 128,
+          "field": 2,
+          "mixed_binding": 1,
+          "entity": 1,
+          "condition": 1
+        },
+        "3": {
+          "correct": 187,
+          "condition": 15,
+          "unobserved_code": 159,
+          "entity": 15,
+          "mixed_binding": 5,
+          "field": 3
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 376,
+          "unobserved_code": 126,
+          "condition": 4,
+          "entity": 4,
+          "field": 2
+        },
+        "3": {
+          "correct": 326,
+          "unobserved_code": 165,
+          "mixed_binding": 2,
+          "entity": 10,
+          "condition": 5,
+          "field": 4
+        },
+        "4": {
+          "correct": 249,
+          "unobserved_code": 241,
+          "field": 2,
+          "mixed_binding": 7,
+          "entity": 5,
+          "condition": 8
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 259,
+          "entity": 11,
+          "mixed_binding": 2,
+          "unobserved_code": 108,
+          "condition": 4
+        },
+        "1": {
+          "correct": 289,
+          "condition": 7,
+          "unobserved_code": 81,
+          "entity": 4,
+          "mixed_binding": 3
+        },
+        "2": {
+          "unobserved_code": 280,
+          "field": 8,
+          "correct": 93,
+          "mixed_binding": 2,
+          "entity": 1
+        },
+        "3": {
+          "correct": 310,
+          "unobserved_code": 63,
+          "entity": 3,
+          "mixed_binding": 2,
+          "condition": 6
+        }
+      }
+    },
+    "main-compressed-sft-seed97--512": {
+      "errors": {
+        "correct": 1060,
+        "unobserved_code": 444,
+        "field": 5,
+        "entity": 16,
+        "mixed_binding": 4,
+        "condition": 6,
+        "non_code": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 278,
+          "unobserved_code": 102,
+          "entity": 1,
+          "field": 2,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 285,
+          "unobserved_code": 95,
+          "field": 1,
+          "entity": 3
+        },
+        "2": {
+          "correct": 274,
+          "unobserved_code": 107,
+          "entity": 1,
+          "mixed_binding": 1,
+          "field": 1
+        },
+        "3": {
+          "correct": 223,
+          "unobserved_code": 140,
+          "entity": 11,
+          "mixed_binding": 2,
+          "condition": 6,
+          "non_code": 1,
+          "field": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 410,
+          "unobserved_code": 96,
+          "entity": 4,
+          "condition": 2
+        },
+        "3": {
+          "correct": 363,
+          "unobserved_code": 135,
+          "field": 4,
+          "entity": 7,
+          "condition": 2,
+          "mixed_binding": 1
+        },
+        "4": {
+          "correct": 287,
+          "unobserved_code": 213,
+          "mixed_binding": 3,
+          "entity": 5,
+          "non_code": 1,
+          "field": 1,
+          "condition": 2
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 304,
+          "entity": 6,
+          "mixed_binding": 1,
+          "unobserved_code": 72,
+          "condition": 1
+        },
+        "1": {
+          "correct": 311,
+          "unobserved_code": 66,
+          "entity": 4,
+          "condition": 3
+        },
+        "2": {
+          "correct": 131,
+          "unobserved_code": 247,
+          "field": 5,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 314,
+          "unobserved_code": 59,
+          "entity": 6,
+          "non_code": 1,
+          "mixed_binding": 2,
+          "condition": 2
+        }
+      }
+    },
+    "main-compressed-assignment-seed97--128": {
+      "errors": {
+        "correct": 852,
+        "unobserved_code": 569,
+        "condition": 17,
+        "field": 51,
+        "entity": 34,
+        "mixed_binding": 12,
+        "non_code": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 228,
+          "unobserved_code": 145,
+          "entity": 3,
+          "condition": 1,
+          "field": 5,
+          "mixed_binding": 2
+        },
+        "1": {
+          "correct": 241,
+          "unobserved_code": 128,
+          "field": 9,
+          "entity": 6
+        },
+        "2": {
+          "correct": 226,
+          "unobserved_code": 149,
+          "entity": 1,
+          "mixed_binding": 2,
+          "field": 6
+        },
+        "3": {
+          "correct": 157,
+          "condition": 16,
+          "unobserved_code": 147,
+          "field": 31,
+          "entity": 24,
+          "mixed_binding": 8,
+          "non_code": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 347,
+          "unobserved_code": 141,
+          "condition": 5,
+          "entity": 7,
+          "mixed_binding": 1,
+          "field": 10,
+          "non_code": 1
+        },
+        "3": {
+          "correct": 285,
+          "unobserved_code": 178,
+          "condition": 5,
+          "field": 24,
+          "mixed_binding": 4,
+          "entity": 16
+        },
+        "4": {
+          "correct": 220,
+          "unobserved_code": 250,
+          "field": 17,
+          "condition": 7,
+          "entity": 11,
+          "mixed_binding": 7
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 246,
+          "unobserved_code": 116,
+          "entity": 14,
+          "mixed_binding": 1,
+          "condition": 5,
+          "field": 1,
+          "non_code": 1
+        },
+        "1": {
+          "correct": 258,
+          "condition": 9,
+          "unobserved_code": 104,
+          "entity": 12,
+          "mixed_binding": 1
+        },
+        "2": {
+          "correct": 78,
+          "unobserved_code": 250,
+          "field": 50,
+          "mixed_binding": 6
+        },
+        "3": {
+          "correct": 270,
+          "unobserved_code": 99,
+          "entity": 8,
+          "mixed_binding": 4,
+          "condition": 3
+        }
+      }
+    },
+    "main-compressed-assignment-seed97--256": {
+      "errors": {
+        "correct": 949,
+        "unobserved_code": 543,
+        "entity": 22,
+        "mixed_binding": 8,
+        "condition": 10,
+        "field": 3,
+        "non_code": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 253,
+          "unobserved_code": 130,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 261,
+          "unobserved_code": 120,
+          "field": 1,
+          "mixed_binding": 1,
+          "entity": 1
+        },
+        "2": {
+          "correct": 248,
+          "unobserved_code": 135,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 187,
+          "unobserved_code": 158,
+          "entity": 21,
+          "mixed_binding": 5,
+          "condition": 10,
+          "field": 2,
+          "non_code": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 368,
+          "unobserved_code": 136,
+          "entity": 5,
+          "condition": 1,
+          "mixed_binding": 1,
+          "non_code": 1
+        },
+        "3": {
+          "correct": 329,
+          "unobserved_code": 166,
+          "entity": 11,
+          "condition": 3,
+          "field": 1,
+          "mixed_binding": 2
+        },
+        "4": {
+          "correct": 252,
+          "unobserved_code": 241,
+          "mixed_binding": 5,
+          "field": 2,
+          "entity": 6,
+          "condition": 6
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 261,
+          "entity": 9,
+          "mixed_binding": 4,
+          "unobserved_code": 107,
+          "condition": 3
+        },
+        "1": {
+          "correct": 288,
+          "unobserved_code": 84,
+          "entity": 8,
+          "non_code": 1,
+          "condition": 2,
+          "mixed_binding": 1
+        },
+        "2": {
+          "unobserved_code": 283,
+          "correct": 96,
+          "field": 3,
+          "mixed_binding": 1,
+          "entity": 1
+        },
+        "3": {
+          "correct": 304,
+          "unobserved_code": 69,
+          "entity": 4,
+          "mixed_binding": 2,
+          "condition": 5
+        }
+      }
+    },
+    "main-compressed-assignment-seed97--512": {
+      "errors": {
+        "correct": 1066,
+        "unobserved_code": 444,
+        "field": 3,
+        "entity": 15,
+        "mixed_binding": 4,
+        "non_code": 1,
+        "condition": 3
+      },
+      "by_context": {
+        "0": {
+          "correct": 278,
+          "unobserved_code": 104,
+          "entity": 1,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 288,
+          "unobserved_code": 93,
+          "field": 2,
+          "entity": 1
+        },
+        "2": {
+          "correct": 278,
+          "unobserved_code": 104,
+          "entity": 1,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 222,
+          "unobserved_code": 143,
+          "entity": 12,
+          "mixed_binding": 2,
+          "non_code": 1,
+          "field": 1,
+          "condition": 3
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 405,
+          "unobserved_code": 103,
+          "entity": 4
+        },
+        "3": {
+          "correct": 361,
+          "unobserved_code": 141,
+          "field": 2,
+          "entity": 7,
+          "mixed_binding": 1
+        },
+        "4": {
+          "correct": 300,
+          "unobserved_code": 200,
+          "mixed_binding": 3,
+          "entity": 4,
+          "non_code": 1,
+          "field": 1,
+          "condition": 3
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 302,
+          "entity": 5,
+          "unobserved_code": 75,
+          "mixed_binding": 1,
+          "condition": 1
+        },
+        "1": {
+          "correct": 314,
+          "unobserved_code": 65,
+          "entity": 4,
+          "condition": 1
+        },
+        "2": {
+          "correct": 133,
+          "unobserved_code": 247,
+          "field": 3,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 317,
+          "unobserved_code": 57,
+          "entity": 6,
+          "non_code": 1,
+          "mixed_binding": 2,
+          "condition": 1
+        }
+      }
+    },
+    "main-compressed-relation-seed97--128": {
+      "errors": {
+        "correct": 861,
+        "unobserved_code": 574,
+        "condition": 15,
+        "field": 32,
+        "entity": 40,
+        "mixed_binding": 13,
+        "non_code": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 235,
+          "unobserved_code": 142,
+          "condition": 1,
+          "mixed_binding": 2,
+          "field": 2,
+          "entity": 2
+        },
+        "1": {
+          "correct": 241,
+          "unobserved_code": 133,
+          "field": 4,
+          "entity": 6
+        },
+        "2": {
+          "correct": 227,
+          "unobserved_code": 150,
+          "condition": 1,
+          "mixed_binding": 3,
+          "field": 3
+        },
+        "3": {
+          "correct": 158,
+          "condition": 13,
+          "unobserved_code": 149,
+          "entity": 32,
+          "mixed_binding": 8,
+          "field": 23,
+          "non_code": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 362,
+          "unobserved_code": 131,
+          "condition": 4,
+          "entity": 9,
+          "mixed_binding": 3,
+          "field": 3
+        },
+        "3": {
+          "correct": 281,
+          "unobserved_code": 192,
+          "condition": 5,
+          "entity": 20,
+          "field": 11,
+          "mixed_binding": 3
+        },
+        "4": {
+          "correct": 218,
+          "unobserved_code": 251,
+          "field": 18,
+          "condition": 6,
+          "entity": 11,
+          "mixed_binding": 7,
+          "non_code": 1
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 245,
+          "unobserved_code": 113,
+          "entity": 19,
+          "condition": 6,
+          "field": 1
+        },
+        "1": {
+          "correct": 265,
+          "condition": 6,
+          "unobserved_code": 96,
+          "entity": 12,
+          "non_code": 1,
+          "mixed_binding": 4
+        },
+        "2": {
+          "correct": 85,
+          "unobserved_code": 263,
+          "field": 31,
+          "mixed_binding": 5
+        },
+        "3": {
+          "correct": 266,
+          "unobserved_code": 102,
+          "entity": 9,
+          "mixed_binding": 4,
+          "condition": 3
+        }
+      }
+    },
+    "main-compressed-relation-seed97--256": {
+      "errors": {
+        "correct": 929,
+        "unobserved_code": 544,
+        "field": 15,
+        "entity": 24,
+        "mixed_binding": 11,
+        "condition": 12,
+        "non_code": 1
+      },
+      "by_context": {
+        "0": {
+          "correct": 244,
+          "unobserved_code": 134,
+          "entity": 1,
+          "mixed_binding": 2,
+          "field": 3
+        },
+        "1": {
+          "correct": 258,
+          "unobserved_code": 117,
+          "field": 6,
+          "entity": 2,
+          "mixed_binding": 1
+        },
+        "2": {
+          "correct": 239,
+          "unobserved_code": 139,
+          "entity": 1,
+          "mixed_binding": 2,
+          "field": 3
+        },
+        "3": {
+          "correct": 188,
+          "unobserved_code": 154,
+          "entity": 20,
+          "mixed_binding": 6,
+          "condition": 12,
+          "non_code": 1,
+          "field": 3
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 364,
+          "unobserved_code": 142,
+          "entity": 4,
+          "condition": 1,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 332,
+          "unobserved_code": 148,
+          "field": 10,
+          "entity": 14,
+          "mixed_binding": 3,
+          "condition": 5
+        },
+        "4": {
+          "correct": 233,
+          "unobserved_code": 254,
+          "mixed_binding": 7,
+          "non_code": 1,
+          "field": 5,
+          "entity": 6,
+          "condition": 6
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 231,
+          "unobserved_code": 132,
+          "entity": 13,
+          "mixed_binding": 4,
+          "condition": 4
+        },
+        "1": {
+          "correct": 290,
+          "entity": 7,
+          "unobserved_code": 82,
+          "mixed_binding": 3,
+          "condition": 2
+        },
+        "2": {
+          "unobserved_code": 260,
+          "field": 15,
+          "correct": 107,
+          "mixed_binding": 2
+        },
+        "3": {
+          "correct": 301,
+          "unobserved_code": 70,
+          "entity": 4,
+          "non_code": 1,
+          "condition": 6,
+          "mixed_binding": 2
+        }
+      }
+    },
+    "main-compressed-relation-seed97--512": {
+      "errors": {
+        "correct": 1055,
+        "unobserved_code": 446,
+        "field": 2,
+        "entity": 26,
+        "non_code": 1,
+        "condition": 2,
+        "mixed_binding": 4
+      },
+      "by_context": {
+        "0": {
+          "correct": 275,
+          "unobserved_code": 105,
+          "entity": 3,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 284,
+          "unobserved_code": 93,
+          "field": 1,
+          "entity": 6
+        },
+        "2": {
+          "correct": 274,
+          "unobserved_code": 105,
+          "entity": 3,
+          "mixed_binding": 2
+        },
+        "3": {
+          "correct": 222,
+          "unobserved_code": 143,
+          "entity": 14,
+          "non_code": 1,
+          "field": 1,
+          "condition": 2,
+          "mixed_binding": 1
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 415,
+          "unobserved_code": 93,
+          "entity": 4
+        },
+        "3": {
+          "correct": 348,
+          "unobserved_code": 151,
+          "field": 1,
+          "entity": 11,
+          "mixed_binding": 1
+        },
+        "4": {
+          "correct": 292,
+          "unobserved_code": 202,
+          "entity": 11,
+          "non_code": 1,
+          "field": 1,
+          "condition": 2,
+          "mixed_binding": 3
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 297,
+          "entity": 11,
+          "unobserved_code": 74,
+          "condition": 1,
+          "mixed_binding": 1
+        },
+        "1": {
+          "correct": 308,
+          "unobserved_code": 71,
+          "entity": 5
+        },
+        "2": {
+          "correct": 133,
+          "unobserved_code": 248,
+          "field": 2,
+          "mixed_binding": 1
+        },
+        "3": {
+          "correct": 317,
+          "unobserved_code": 53,
+          "entity": 10,
+          "non_code": 1,
+          "mixed_binding": 2,
+          "condition": 1
+        }
+      }
+    },
+    "main-full-sft-seed97--128": {
+      "errors": {
+        "correct": 1536
+      },
+      "by_context": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 512
+        },
+        "3": {
+          "correct": 512
+        },
+        "4": {
+          "correct": 512
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      }
+    },
+    "main-full-sft-seed97--256": {
+      "errors": {
+        "correct": 1536
+      },
+      "by_context": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 512
+        },
+        "3": {
+          "correct": 512
+        },
+        "4": {
+          "correct": 512
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      }
+    },
+    "main-full-sft-seed97--512": {
+      "errors": {
+        "correct": 1536
+      },
+      "by_context": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      },
+      "by_level": {
+        "2": {
+          "correct": 512
+        },
+        "3": {
+          "correct": 512
+        },
+        "4": {
+          "correct": 512
+        }
+      },
+      "by_query": {
+        "0": {
+          "correct": 384
+        },
+        "1": {
+          "correct": 384
+        },
+        "2": {
+          "correct": 384
+        },
+        "3": {
+          "correct": 384
+        }
+      }
+    }
+  },
+  "development_only": true,
+  "confirmation_evaluated": false,
+  "reserved_test_accessed": false
+}

@@ -1,0 +1,103 @@
+{
+  "part": "exposure73",
+  "root": "E:\\Research\\ICAE-ConditionalMemory-20261021\\runs\\v16-repeated-exposure-20261106\\main-compressed-sft-seed73",
+  "files": [
+    {
+      "path": "config.json",
+      "size": 40408,
+      "sha256": "ab1680ccd9c444f5da4499cba9547699a437ffca0ffea7d33546c41cb3aa1b87"
+    },
+    {
+      "path": "evaluation-1024/metrics.json",
+      "size": 4540,
+      "sha256": "1d342d5a500db5f0e79747353b215a69348cd129230d2aecc3e6391702dad045"
+    },
+    {
+      "path": "evaluation-1024/predictions.jsonl",
+      "size": 643919,
+      "sha256": "57c2988844f2c7a2a5928934a2ba4d75d5ec3d2ca925205887ff09c2779b5800"
+    },
+    {
+      "path": "evaluation-128/metrics.json",
+      "size": 4577,
+      "sha256": "0ea85fe3ec5054573dd99074e4712de9e580b185da87333d4a6174782e4a6318"
+    },
+    {
+      "path": "evaluation-128/predictions.jsonl",
+      "size": 644158,
+      "sha256": "c62d2cb70fe5890c74f9d0728515c7b1cafcd0a2316bf227014cece21dc3d01f"
+    },
+    {
+      "path": "evaluation-256/metrics.json",
+      "size": 4567,
+      "sha256": "d662de6d076b778fdbb0795920c45d7279efd9519fa755d7d60a14a45098d4b9"
+    },
+    {
+      "path": "evaluation-256/predictions.jsonl",
+      "size": 643657,
+      "sha256": "5651320d8129259ef6b61561d053e70c44d7d19706ec511e808246ab644d85a3"
+    },
+    {
+      "path": "evaluation-512/metrics.json",
+      "size": 4509,
+      "sha256": "611dcd1c485c156ed9137605f8885dc680c777ef268d41860619af8fa763fb97"
+    },
+    {
+      "path": "evaluation-512/predictions.jsonl",
+      "size": 643657,
+      "sha256": "f7863f3456317358afcb8419071f2a51c02262c85d34eaccd1c010605efeef88"
+    },
+    {
+      "path": "evaluation-640/metrics.json",
+      "size": 4542,
+      "sha256": "08059512b01f2270c626aa901bb1493d7383637dcf11f26a363a4c58b0876c3f"
+    },
+    {
+      "path": "evaluation-640/predictions.jsonl",
+      "size": 643554,
+      "sha256": "6fb43fd2320a430924530e11dfa8085d3df368694c06f4f195ac36d28791ec8c"
+    },
+    {
+      "path": "evaluation-768/metrics.json",
+      "size": 4547,
+      "sha256": "9e25b9d08d93e455efcf0e105759406a20c2e99bb741a842e149e5c79cd7688b"
+    },
+    {
+      "path": "evaluation-768/predictions.jsonl",
+      "size": 643795,
+      "sha256": "bd1f6789ec1514898cb9717d9c0e76c2be649be478ded24767d5ff82e9436ba1"
+    },
+    {
+      "path": "evaluation-896/metrics.json",
+      "size": 4568,
+      "sha256": "c33111e6323a844b28bff7de2388dbdf2d485b83224ec13dc96e407333be8704"
+    },
+    {
+      "path": "evaluation-896/predictions.jsonl",
+      "size": 644027,
+      "sha256": "edaa5fa9d04f914a3c462f7f41c3b61e14f19502c7aa37f95fbe87106b931890"
+    },
+    {
+      "path": "evaluations.json",
+      "size": 34992,
+      "sha256": "d88dafab8c9acfffc8dec0172279f5bf081595c8848c75304c8a14012bb025d8"
+    },
+    {
+      "path": "status.json",
+      "size": 500,
+      "sha256": "ed2ee4c1c889d6e4e884892dec434bddf9619e68f8742b0cfec07e15cf031952"
+    },
+    {
+      "path": "steps.jsonl",
+      "size": 526194,
+      "sha256": "3c8143ca0f027c077cc8ba8dd90c174e9c6a51900e94115708a43f05dfb1e6d8"
+    },
+    {
+      "path": "summary.json",
+      "size": 39711,
+      "sha256": "9eff70575ad00f2b608ab097d7fac3b436514d5cc449a0246e60c4cbb67e20c1"
+    }
+  ],
+  "models_included": false,
+  "reserved_test_accessed": false
+}

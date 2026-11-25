@@ -1,0 +1,7 @@
+{
+  "status": "verified",
+  "contrasts": 52,
+  "bootstrap": "2000 paired article-cluster resamples; seed20261106; percentile interval; ratio of sums. Incorrect-generation contrasts retain the full cohort article universe, including articles with zero qualifying errors; empty-denominator resamples are redrawn.",
+  "scope": "descriptive post hoc contrasts conditional on fitted readers",
+  "test_accessed": false
+}

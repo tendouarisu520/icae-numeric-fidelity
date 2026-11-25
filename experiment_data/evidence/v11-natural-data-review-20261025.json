@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "date": "2026-10-25",
+  "recipe": "v11-natural-relations-3",
+  "preview": {
+    "overfit": [
+      "v11-4758664ccec569410b4417d3",
+      "v11-b28256799fbc75afa82408a5",
+      "v11-197a5bc52569b7c5a7f61680",
+      "v11-b9077f5ac62a22975875b550",
+      "v11-5571feee61eb0d4124c94f58",
+      "v11-c1d3166dd77b26c28ccf601c",
+      "v11-4d0ccce84e7a58524bf87639",
+      "v11-dfa6bd752b70dd01d526f99c"
+    ],
+    "development": [
+      "v11-36451e0f22a4e88294cad76b",
+      "v11-952cb077ab94c5791ab6f231",
+      "v11-4525d5ea52d800f304cd14b3",
+      "v11-fa7be4164274551b3e57dbdb",
+      "v11-6f6479f3405f6318a4f43534",
+      "v11-d63ed2062df66fb516e520eb",
+      "v11-c629db96037985915dc694d6",
+      "v11-4499f18dc200dd5a43a70077",
+      "v11-0fc0d5686768a91dd33955f1",
+      "v11-5716c5833d2fc8cb6d9bd807",
+      "v11-b912466f740433f1bcc281af",
+      "v11-88ff739d1afc01b287683caa",
+      "v11-67d2f1abac0d433b878e9352",
+      "v11-7f4377cd8885a9bdcd911eff",
+      "v11-5432f9289f682b8bd6245c97",
+      "v11-00a0a6eb67f509bd660bc960",
+      "v11-6b41771220d029a1f0e8f8e6",
+      "v11-df329faa16fecd8a4bec6b4d",
+      "v11-4f4560c61c2c262dec5cb23d",
+      "v11-b51ab210adbf960a0b83b65b",
+      "v11-2a45855608b25d52a493c764",
+      "v11-d8b2e98ee377be7763695923",
+      "v11-7b7211ffaacf0fe737e7e55f",
+      "v11-038826b6d2836c74c16b16d1",
+      "v11-4430b719e08ce52529105d15",
+      "v11-9f542dbdbe527ee5bd0ea6f6",
+      "v11-842d3d77a3dd7c02b7b13a7b",
+      "v11-f610bf35d41840c8fc73bd28",
+      "v11-33e0ae500112bd84ab203a81",
+      "v11-cb46f58b8340f93e06449afb",
+      "v11-da3d3c60062cd6f1b455b6a6",
+      "v11-c87dcf745fb020a4d0f4a336"
+    ]
+  },
+  "reviewed_units": 40,
+  "reviewed_fields": [
+    "original paragraph",
+    "three questions and annotated answers",
+    "target replacement value and units",
+    "target support versus retained support",
+    "irrelevant sentence removed"
+  ],
+  "mechanical_checks": [
+    "four exact context reconstructions",
+    "answer occurrence/absence",
+    "article split and donor isolation",
+    "all context BOS-inclusive token lengths <=512",
+    "answer+EOS <=25"
+  ],
+  "source_candidate_manifest_sha256": "ff21645a9b04cd19ce5d0cb02e85ae01101d26f93b984b8cb2b4565023057635",
+  "checks_performed_before_model_outputs": true,
+  "notes": [
+    "Raw SQuAD2 annotations are the source; ambiguous units observed in review excluded before selection.",
+    "The derived edit evaluation is not an official SQuAD2 score.",
+    "The new confirmation partition is frozen automatically, not used for development selection."
+  ]
+}

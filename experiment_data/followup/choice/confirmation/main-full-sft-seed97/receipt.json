@@ -1,0 +1,19 @@
+{
+  "job": "main-full-sft-seed97",
+  "split": "confirmation",
+  "rows": 1536,
+  "choice_correct": 1536,
+  "greedy_correct": 1536,
+  "ties": 0,
+  "wrong_generation_correct_choice": 0,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 192,
+  "greedy_target_joint": 192,
+  "groups": 192,
+  "exact_replay_rows": 4,
+  "wall_seconds": 142.57600359991193,
+  "scores_sha256": "f29ac6725a3cb8f2815f6702012dba4fbedfeb3ce2ec482f994dfd42d6adc22d",
+  "raw_predictions_sha256": "5e3c4853582499647d9d94841465e06e992ef52faefb20785e568ac8a1a43e8a",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "47405c422c02f0a4daa6b5618e0c8aabb7c23a057c5b6d4e2186ccd7345aa6f4"
+}

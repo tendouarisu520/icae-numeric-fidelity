@@ -1,0 +1,19 @@
+{
+  "job": "main-compressed-relation-seed73",
+  "split": "confirmation",
+  "rows": 1536,
+  "choice_correct": 1512,
+  "greedy_correct": 1160,
+  "ties": 0,
+  "wrong_generation_correct_choice": 352,
+  "correct_generation_wrong_choice": 0,
+  "choice_target_joint": 185,
+  "greedy_target_joint": 72,
+  "groups": 192,
+  "exact_replay_rows": 4,
+  "wall_seconds": 113.60275379987434,
+  "scores_sha256": "fbbc845fa6680c02474589f123b01703e1a259391cc6194aa56e09bac9ca9680",
+  "raw_predictions_sha256": "d603e33001e3edc3ca4caefffb4aafec411a1520bce3accec4d5d1d3b9eb9c30",
+  "protocol_sha256": "512822d1b95b8cf011e75cd7f9f873c91ef71e195de71eef2d7817a8bc68c685",
+  "checkpoint_sha256": "5d0a89867532511bf1688f9ebb68ec655a7cb5052b8008ee2afc6fcbd43d2360"
+}

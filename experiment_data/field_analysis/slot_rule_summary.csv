@@ -1,0 +1,17 @@
+arm,seed,step,context,same_row_field_intrusions,follows_rule
+compressed,73,512,0,166,166
+compressed,73,512,1,174,171
+compressed,73,512,2,173,172
+compressed,73,512,3,138,137
+compressed,97,512,0,163,163
+compressed,97,512,1,174,170
+compressed,97,512,2,156,155
+compressed,97,512,3,129,129
+compressed,73,1024,0,166,163
+compressed,73,1024,1,174,170
+compressed,73,1024,2,168,165
+compressed,73,1024,3,142,140
+compressed,97,1024,0,159,157
+compressed,97,1024,1,174,170
+compressed,97,1024,2,163,161
+compressed,97,1024,3,147,146

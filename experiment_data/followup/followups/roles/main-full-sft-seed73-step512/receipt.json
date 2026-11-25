@@ -1,0 +1,49 @@
+{
+  "job": "main-full-sft-seed73-step512",
+  "metrics": {
+    "family": "probe",
+    "counts": {
+      "known_exact": [
+        2291,
+        2304
+      ],
+      "target_joint": [
+        136,
+        144
+      ],
+      "locality_joint": [
+        144,
+        144
+      ],
+      "irrelevant_target_joint": [
+        136,
+        144
+      ],
+      "reorder_target_joint": [
+        136,
+        144
+      ],
+      "candidate_misbinding": [
+        8,
+        1152
+      ]
+    },
+    "rates": {
+      "known_exact": 0.9943576388888888,
+      "target_joint": 0.9444444444444444,
+      "locality_joint": 1.0,
+      "irrelevant_target_joint": 0.9444444444444444,
+      "reorder_target_joint": 0.9444444444444444,
+      "candidate_misbinding": 0.006944444444444444
+    },
+    "known_f1": 0.9943576388888888,
+    "units": 144,
+    "sources": 8,
+    "articles": 8,
+    "rows": 2304
+  },
+  "exact_identity_replay_rows": 128,
+  "predictions_sha256": "a08a3bc08fe0f162f5001b834383a37267367c9c6cee0ba97c63201fa261f8cd",
+  "protocol_sha256": "b01b8bd33be4a5b02d821cd7311b68995d02ef71b1b40e01b1c1b100b642b0de",
+  "wall_seconds": 491.02879139990546
+}
